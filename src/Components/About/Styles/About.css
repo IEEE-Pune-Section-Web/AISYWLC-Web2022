@@ -1,0 +1,29 @@
+.About{
+    background-color: lightgrey;
+}
+
+.About_content{
+    background-color: darkgray;
+    display: flex;
+}
+
+.About_text{
+    display: flex;
+    flex-direction: column;
+    flex: 1.2;
+}
+
+.bold_text{
+    font-size: 6vh;
+}
+
+.About_Theme{
+    font-weight: bold;
+}
+
+.About_video{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
