@@ -1,3 +1,57 @@
 .hero{
-    background-color: grey;
+    background-color: darkgrey;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    
 }
+.hero__content{
+    flex:3
+}
+
+.hero__ticket{
+    flex: 1;
+}
+.hero__branding{
+    height: clamp(1rem,3vw, 4rem);
+    padding: 0;
+}
+.hero__branding img{
+    object-fit: cover;
+    height: 100%;
+    margin-bottom: clamp(-1rem,3vw, 2rem);
+
+}
+.hero__title{
+    font-size:clamp(2rem,3vw, 5rem);
+    line-height: 1;
+    color: white;
+    max-width: 37ch;
+}
+.india{
+    background: linear-gradient(180deg, #FBB458 30%, #FFFFFF 50.77%, #56A991 70%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.hero__info{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    flex: 1;
+}
+.hero__info>div+div::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    width: 2px;
+    border: 2rem;
+    background-color: black;
+    transform: translate(-1rem, -50%);
+}
+.blue{
+    color: #0BA1F9;
+}
+
