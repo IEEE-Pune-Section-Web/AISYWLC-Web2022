@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../Components/Home/Hero'
-import About from '../Components/About/About'
+import About from '../Components/Home/About'
 
 const Home = () => {
   return (
