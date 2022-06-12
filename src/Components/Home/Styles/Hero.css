@@ -1,16 +1,23 @@
 .hero{
-    background-color: darkgrey;
+    background-color: hsl(0, 0%, 40%);
     display: flex;
+    flex-direction: column;
     gap: 2%;
     align-items: center;
-    
+    background-image: url('./Assets/background.jpeg');
+    background-origin: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply ;
+    background-attachment: fixed;
+    justify-content: center;
 }
-.hero__content{
-    flex:3
+.hero *{
+    color: white;
 }
-
 .hero__ticket{
-    flex: 1;
+    display: none;
 }
 .hero__branding{
     height: clamp(1rem,3vw, 4rem);
@@ -36,6 +43,7 @@ background-clip: text;
 text-fill-color: transparent;
 }
 .hero__info{
+    margin: 0.5rem 0;
     display: flex;
     gap: 2rem;
     position: relative;
@@ -45,13 +53,38 @@ text-fill-color: transparent;
     content: "";
     position: absolute;
     top: 50%;
-    height: 50%;
+    height: 75%;
     width: 2px;
     border: 2rem;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     transform: translate(-1rem, -50%);
 }
 .blue{
     color: #0BA1F9;
 }
 
+
+@media (min-width: 55rem) {
+    .hero{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .hero__content{
+        flex:3
+    }
+    
+    .hero__ticket{
+        display: block;
+        flex: 1;
+    }
+    .hero__cta{
+        display: none;
+    }
+}
+
+
+.illus{
+    --sizing:clamp(1.25rem, 6vw, 1.5rem);
+    width: var(--sizing);
+    height: var(--sizing);
+}
