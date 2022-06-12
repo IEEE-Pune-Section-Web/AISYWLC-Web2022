@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import './Styles/Counter.css'
 const Counter = () => {
     const calculateTimeLeft = () => {
         let year = new Date().getFullYear();
@@ -35,20 +35,15 @@ const Counter = () => {
     timerComponents.push(
       <div className="Counter__blockContainer">
           <div className="Counter__block">
-            <div className="Counter__time__block"> <h2>{timeLeft[interval]}</h2></div>
-            <div className="Counter__time__name"> <h4>{interval}</h4> </div>
-          </div>
-          <div className="Counter__separator">  
-              
+            <div className="Counter__time__block"> {timeLeft[interval]}</div>
+            <div className="Counter__time__name"> {interval}</div>
           </div>
       </div>
     );
   });
   return (
     <div className="Counter__container">
-    <div className="Counter__body">
     {timerComponents.length ? timerComponents : <h2 className="Counter__post">Time's up!</h2>}
-    </div>
   </div>
   )
 }
