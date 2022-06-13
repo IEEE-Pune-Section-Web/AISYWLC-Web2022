@@ -13,7 +13,7 @@
 }
 
 .small_title{
-    font-family: 'Poppins', sans-serif;
+    font-weight:450;    
 }
 .About_text{
     display: flex;
@@ -24,8 +24,8 @@
 
 .bold_text{
     font-size: 6vh;
-    font-family: 'Poppins', sans-serif;
-    font-weight:bolder;
+    font-weight: bold;
+    
 }
 
 .About_Theme{
