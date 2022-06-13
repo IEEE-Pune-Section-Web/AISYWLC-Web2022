@@ -1,29 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
 .About{
-    background-color: lightgrey;
+    background-color: white;
 }
 
 .About_content{
-    background-color: darkgray;
     display: flex;
 }
+.About_text_content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
 
+.small_title{
+    font-family: 'Poppins', sans-serif;
+}
 .About_text{
     display: flex;
     flex-direction: column;
-    flex: 1.2;
+    width: 50%;
+
 }
 
 .bold_text{
     font-size: 6vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
 }
 
 .About_Theme{
     font-weight: bold;
 }
 
-.About_video{
-    display: flex;
-    flex: 2;
-    justify-content: center;
-    align-items: center;
-}
