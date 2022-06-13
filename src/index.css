@@ -1,5 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+:root {
+	--gradient-180: linear-gradient(
+		180deg,
+		#a5dbf4 0%,
+		#2bc0ea 44.66%,
+		#00629b 96.46%
+	);
+	--gradient-0: linear-gradient(
+		0deg,
+		#a5dbf4 0%,
+		#2bc0ea 44.66%,
+		#00629b 96.46%
+	);
+	--gradient-270: linear-gradient(
+		270deg,
+		#a5dbf4 0%,
+		#2bc0ea 44.66%,
+		#00629b 96.46%
+	);
+	--shadow: rgb(0 0 0 / 25%);
+	--base-shadow: 5px 5px 5px rgb(0 0 0 / 25%);
+	--active-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+	--transition: all 250ms ease-in-out;
+	--ham-width: 1.25rem;
+	--ham-before: top 100ms ease-in, opacity 0.1s ease-in;
+	--ham-after: bottom 0.1s ease-in 0.25s, transform 0.22s;
+	--ham-before-active: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
+	--ham-after-active: bottom 0.1s ease-out,
+		transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+	--bordercolor: #a5dbf4, #2bc0ea, #00629b;
+	--clr-accent: #00629b;
+	--border-radius: 1rem;
+}
 * {
 	margin: 0;
 	padding: 0;
