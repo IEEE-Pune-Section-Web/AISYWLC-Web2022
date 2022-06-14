@@ -6,6 +6,7 @@ import Counter from "./Hero/Counter";
 import Info from "./Hero/Info";
 import "./Styles/Hero.css";
 import bg from "../../../Assets/background.jpeg";
+import branding from "../../../Assets/IEEE.png";
 const Hero = () => {
 	return (
 		<Container
@@ -14,7 +15,7 @@ const Hero = () => {
 		>
 			<div className="hero__content">
 				<div className="hero__branding">
-					<img src="./Assets/IEEE.png" alt="IEEE Logo" />
+					<img src={branding} alt="IEEE Logo" />
 				</div>
 				<h1 className="hero__title">
 					ALL <span className="india">INDIA</span> STUDENT YOUNG PROFESSIONAL
