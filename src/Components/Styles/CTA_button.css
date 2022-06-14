@@ -29,21 +29,11 @@
 		#00629b 96.46%
 	);
 }
-.cta__primary .cta__content::after {
-	content: "";
-	position: absolute;
-	height: 100%;
-	width: 1px;
-	background-color: white;
-	top: 50%;
-	left: 0;
-	transform: translate(-0.5rem, -50%);
-}
 
 .cta__primary .cta__content::after {
 	content: "";
 	position: absolute;
-	height: 150%;
+	height: 100%;
 	width: 1px;
 	background-color: white;
 	top: 50%;
