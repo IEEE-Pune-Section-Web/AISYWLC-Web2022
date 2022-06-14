@@ -1,0 +1,14 @@
+.comingSoon {
+	background: linear-gradient(
+			343deg,
+			hsla(199, 100%, 95%, 0) -7%,
+			hsla(199, 100%, 75%, 0.5) 7%,
+			hsl(199, 100%, 50%) 54%,
+			hsl(199, 100%, 25%) 100%
+		),
+		rgb(202, 202, 202);
+	background-blend-mode: multiply, normal;
+}
+.comingSoon__title {
+	color: white;
+}
