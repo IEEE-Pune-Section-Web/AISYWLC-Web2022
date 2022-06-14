@@ -5,10 +5,13 @@ import CTA_button from "../CTA_button";
 import Counter from "./Hero/Counter";
 import Info from "./Hero/Info";
 import "./Styles/Hero.css";
-
+import bg from "../../../Assets/background.jpeg";
 const Hero = () => {
 	return (
-		<Container className="hero">
+		<Container
+			className="hero"
+			style={bg && { backgroundImage: `url(.${bg})` }}
+		>
 			<div className="hero__content">
 				<div className="hero__branding">
 					<img src="./Assets/IEEE.png" alt="IEEE Logo" />
