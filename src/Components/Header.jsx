@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "./Header/Navbar";
 import Navmenu from "./Header/Navmenu";
 import "./Styles/Header.css";
-import logo from "../../Assets/Logo.png";
+import logo from "../../Assets/Logo.webp";
 
 const Header = () => {
 	return (
@@ -14,7 +14,7 @@ const Header = () => {
 				</Link>
 
 				<Navbar />
-				<Navmenu />
+				{/* <Navmenu /> */}
 			</div>
 		</header>
 	);
