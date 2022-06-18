@@ -19,13 +19,15 @@ export default function About() {
 							careers to show up together and share a common podium.
 						</p>
 						<p>
-							<span className="About_Theme">*About Theme*</span>Class aptent
-							taciti sociosqu ad litora torquent per conubia nostra, per
-							inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac
-							scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac
-							rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi
-							convallis convallis diam sit amet lacinia. Aliquam in elementum
-							tellus.
+							With its theme “Transforming India for a Better Tomorrow”, AISYWLC
+							'22 aims to kindle a spark in the minds of the attendees with it's
+							diverse and inclusive talks, expert sessions and panel discussions
+							by notable speakers from all walks of life. The Congress not only
+							focuses on highlighting the achievements and accolades of the
+							nation but also primarily aims at bringing about the much needed
+							welcome change in various fields. The Congress is an amalgamation
+							of people all across India coming together and celebrating the
+							beautiful blend of their cultures and vibrant ideas.
 						</p>
 					</div>
 				</div>

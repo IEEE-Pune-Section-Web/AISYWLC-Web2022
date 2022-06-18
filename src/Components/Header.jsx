@@ -13,7 +13,7 @@ const Header = () => {
 					<img src={logo} alt="AISYWLC Logo" srcset="" />
 				</Link>
 
-				<Navbar />
+				{/* <Navbar /> */}
 				{/* <Navmenu /> */}
 			</div>
 		</header>
