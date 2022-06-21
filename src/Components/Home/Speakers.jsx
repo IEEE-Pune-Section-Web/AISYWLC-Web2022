@@ -10,7 +10,11 @@ const SpeakerDetails = [
 			alt: "TEST SPEAKer",
 		},
 		details: "dummy speaker maccha",
-		social: ["a", "b", "c"],
+		social: [
+			{ type: "Linkedin", link: "a" },
+			{ type: "Linkedin", link: "a" },
+			{ type: "Linkedin", link: "a" },
+		],
 	},
 	{
 		name: "dum",
@@ -19,7 +23,11 @@ const SpeakerDetails = [
 			alt: "TEST SPEAKer",
 		},
 		details: "dummy speaker maccha",
-		social: ["a", "b", "c"],
+		social: [
+			{ type: "Linkedin", link: "a" },
+			{ type: "Linkedin", link: "a" },
+			{ type: "Linkedin", link: "a" },
+		],
 	},
 	{
 		name: "dum",
@@ -28,7 +36,11 @@ const SpeakerDetails = [
 			alt: "TEST SPEAKer",
 		},
 		details: "dummy speaker maccha",
-		social: ["a", "b", "c"],
+		social: [
+			{ type: "Linkedin", link: "a" },
+			{ type: "Linkedin", link: "a" },
+			{ type: "Linkedin", link: "a" },
+		],
 	},
 ];
 
