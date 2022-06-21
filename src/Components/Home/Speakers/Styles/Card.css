@@ -7,7 +7,11 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 30%;
+	width: 20%;
+	min-width: 250px;
+	padding: 2rem 2rem;
+	text-align: center;
+	text-transform: capitalize;
 }
 .speaker__card::after {
 	content: "IEEE";
@@ -21,15 +25,55 @@
 }
 
 .card__image {
-	width: 50%;
+	width: 70%;
 	border-radius: 50%;
 	aspect-ratio: 1;
 	overflow: hidden;
 }
 .card__image img {
-    object-fit: cover;
-    object-position: center;
-    /* width: 100%; */
-    height: 100%;
+	object-fit: cover;
+	object-position: center;
+	/* width: 100%; */
+	height: 100%;
+}
 
+.card__content {
+	margin: 2em 0 0.5em;
+}
+.card__name {
+	font-size: clamp(1rem, 2vw, 1.5rem);
+	font-weight: 700;
+}
+
+.card__detail {
+	font-size: clamp(0.5rem, 2vw, 1rem);
+}
+.card__socials {
+	display: flex;
+	gap: 1rem;
+	padding: 1em;
+}
+.social {
+	font-size: 1.5em;
+	background-color: black;
+	padding: 0.15em;
+	aspect-ratio: 1/1;
+	display: flex;
+	border-radius: 0.25em;
+	transition: var(--transition, all 250ms ease);
+}
+.social * {
+	color: white;
+}
+
+.social:hover {
+	transform: scale(1.15);
+	background-color: white;
+	border: 1px solid black;
+}
+.social:hover * {
+	transition: var(--transition, all 150ms ease);
+
+	color: var(--gradient-0);
+	background-color: var(--gradient-0);
 }

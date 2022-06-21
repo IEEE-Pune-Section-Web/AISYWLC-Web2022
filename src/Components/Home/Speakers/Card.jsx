@@ -1,5 +1,6 @@
 import React from "react";
 import "./Styles/Card.css";
+import { TiSocialLinkedin } from "react-icons/ti";
 const Card = ({ image, name, details, socials }) => {
 	return (
 		<div className="speaker__card">
@@ -12,7 +13,11 @@ const Card = ({ image, name, details, socials }) => {
 			</div>
 			<div className="card__socials">
 				{socials[0] &&
-					socials.map((social) => <div className="card__social">og</div>)}
+					socials.map((social) => (
+						<div className="social">
+							{social.type == "Linkedin" ? <TiSocialLinkedin /> : ""}
+						</div>
+					))}
 			</div>
 		</div>
 	);
