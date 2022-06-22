@@ -20,7 +20,7 @@
 
 .header__logo img {
 	object-fit: cover;
-	height: 100%;
+	width: clamp(12rem, 100%, 20vw);
 }
 
 .header__nav {
