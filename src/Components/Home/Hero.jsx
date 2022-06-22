@@ -33,9 +33,9 @@ const Hero = () => {
 				<div className="hero__counter">
 					<Counter />
 				</div>
-				<div className="hero__cta">
+				{/* <div className="hero__cta">
 					<CTA_button icon={ticketIll}>Buy Now</CTA_button>
-				</div>
+				</div> */}
 			</div>
 			<div className="hero__ticket"></div>
 		</Container>
