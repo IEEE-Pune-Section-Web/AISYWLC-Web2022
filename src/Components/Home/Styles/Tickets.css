@@ -1,0 +1,25 @@
+.tickets__header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.tickets__pitches {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding: 0 10%;
+}
+
+.tickets__pitch {
+	font-size: clamp(0.75rem, 1.5vw, 0.95rem);
+	opacity: 0.85;
+}
+
+.tickets__content {
+	display: flex;
+	gap: 2rem;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
