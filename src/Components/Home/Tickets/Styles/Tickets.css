@@ -1,0 +1,104 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	display: grid;
+	
+} */
+
+.ticket {
+  max-height: 100%;
+  margin: auto;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px 7px;
+  
+}
+
+
+.left {
+	display: flex;
+    
+}
+
+
+.ticket-left {
+	width: 250px;
+	opacity: 0.85;
+  background-color: darkblue;
+  border-radius: 10px 0px 0px 10px;
+
+}
+
+.admit-one {
+	padding:  10px;
+  padding-top: 100px;
+  padding-right: 200px;
+	color: white;
+	letter-spacing: 0.15em;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 20px;
+	text-align: center;
+	justify-content: space-around;
+	writing-mode: vertical-lr;
+	transform: rotate(-180deg);
+}
+
+
+
+
+.ticket-info {
+  margin-left: 15px;
+  border-left: 4px dashed black;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+  font-size: 25px;
+  line-height: 40px;
+  
+}
+.btn{
+  
+  font-size: 22px;
+  padding: 15px;
+  padding-left: 35px;
+  padding-right: 35px; 
+  font-weight: 700;
+  color: white;
+  background-color: blue;
+  border-radius: 8px;
+  margin-top: 30px;
+  z-index: 10;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.circle{
+  position:relative;
+        top: 40%;
+        left: -20%;
+        transform: translate(-50%, -50%);
+        height: 100px;
+        width: 200px;
+        border-radius: 150px 150px 0 0;
+        background-color: white;
+        transform: rotate(90deg);
+}
+img{
+  opacity: 0.2;
+  position:relative;
+  width: 350px;
+  top: 10%;
+  left: 10%;
+}
