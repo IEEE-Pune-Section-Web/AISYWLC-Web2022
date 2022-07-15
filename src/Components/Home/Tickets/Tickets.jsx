@@ -15,7 +15,7 @@ export default function Tickets() {
             </div>
             <div className="ticket-info">
               <ul>
-                <li>Lorem Ipsum is simply dummy text of the printing and</li>
+                <li>Lorem Ipsum is simply dummy text of the printing an</li>
                 <li>Lorem Ipsum is simply dummy text of the printing and</li>
                 <li>Lorem Ipsum is simply dummy text of the printing and</li>
                 <li>Lorem Ipsum is simply dummy text of the printing and</li>
