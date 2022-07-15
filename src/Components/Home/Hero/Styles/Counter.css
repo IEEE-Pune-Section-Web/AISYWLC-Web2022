@@ -1,0 +1,29 @@
+.Counter__container{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    margin: 0rem 0 0.5rem;
+}
+
+.Counter__container>div+div::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 80%;
+    width: 1px;
+    border: 2rem;
+    background-color: #eee;
+    transform: translate(-1rem, -50%);
+}
+.Counter__block{
+    text-align: center;
+}
+
+.Counter__time__block{
+    font-size: clamp(1.25rem, 2vw, 1.75rem);
+    font-weight: 700;
+}
+.Counter__time__name{
+    font-size:clamp(0.5rem, 2vw, 1rem);
+    font-weight: 500;
+}

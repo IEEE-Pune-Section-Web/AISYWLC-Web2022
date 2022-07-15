@@ -1,0 +1,21 @@
+.navbar {
+	display: none;
+	gap: 1rem;
+	align-items: center;
+}
+
+.navbar > ul {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+.nav__link > * {
+	font-weight: 700;
+	color: white;
+}
+
+@media (min-width: 55em) {
+	.navbar {
+		display: flex;
+	}
+}

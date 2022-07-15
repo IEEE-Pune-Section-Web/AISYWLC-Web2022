@@ -1,0 +1,11 @@
+.venue {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75em;
+}
+
+.venue__header {
+	color: black;
+}
+
+

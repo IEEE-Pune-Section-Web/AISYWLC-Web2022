@@ -1,0 +1,28 @@
+.header__wrapper {
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2%;
+}
+.header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 10vh;
+	min-height: 3rem;
+}
+
+.header__logo {
+	width: 25%;
+	height: 100%;
+}
+
+.header__logo img {
+	object-fit: cover;
+	width: clamp(12rem, 100%, 20vw);
+}
+
+.header__nav {
+	display: flex;
+}
