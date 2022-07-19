@@ -4,7 +4,7 @@ import About from "../Components/Home/About";
 import Venue from "../Components/Home/Venue";
 import ComingSoon from "../Components/ComingSoon";
 import Ticket from "../Components/Home/Ticket";
-
+import Speakers from "../Components/Home/Speakers";
 
 const Home = () => {
 	return (
@@ -14,7 +14,7 @@ const Home = () => {
 			<Venue />
 			<ComingSoon />
 			<Ticket />
-			
+			<Speakers />
 		</main>
 	);
 };
