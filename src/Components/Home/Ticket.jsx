@@ -34,17 +34,6 @@ export default function Ticket() {
 					</div>
 				</div>
 
-<<<<<<< HEAD
-        <div className="Ticket_Cards">
-            <Tickets/>
-            <Tickets/>
-            
-          
-        </div>
-     </Container>
-   </>
-  )
-=======
 				<div className="Ticket_Cards">
 					<Tickets />
 					<Tickets />
@@ -52,5 +41,4 @@ export default function Ticket() {
 			</Container>
 		</>
 	);
->>>>>>> 4194104826dd353b87685091d3a26cd9cb35ee64
 }

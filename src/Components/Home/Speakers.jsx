@@ -3,50 +3,6 @@ import SpeakerDetails from "../../Data/SpeakersDetails";
 import Container from "../../Layout/Container";
 import Card from "./Speakers/Card";
 import "./Styles/Speakers.css";
-<<<<<<< HEAD
-const SpeakerDetails = [
-	{
-		name: "Major Vandana Sharma",
-		image: {
-			src: "https://drive.google.com/file/d/1BW5IGmYQgXgesadF_Ch5vRXysTiHvxgo/view?usp=sharing/",
-			alt: "TEST SPEAKer",
-		},
-		details: "TEDx Speaker, International Woman Icon, Military Veteran, Adj Faculty IIM Kashipur",
-		social: [
-			{ type: "Linkedin", link: "https://www.linkedin.com/in/majorvansharma/" },
-			// { type: "Linkedin", link: "a" },
-			// { type: "Linkedin", link: "a" },
-		],
-	},
-	{
-		name: "dum",
-		image: {
-			src: "https://images.unsplash.com/photo-1607805074620-5802aee47bdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80",
-			alt: "TEST SPEAKer",
-		},
-		details: "dummy speaker maccha",
-		social: [
-			{ type: "Linkedin", link: "a" },
-			// { type: "Linkedin", link: "a" },
-			// { type: "Linkedin", link: "a" },
-		],
-	},
-	{
-		name: "dum",
-		image: {
-			src: "https://images.unsplash.com/photo-1607805074620-5802aee47bdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80",
-			alt: "TEST SPEAKer",
-		},
-		details: "dummy speaker maccha",
-		social: [
-			{ type: "Linkedin", link: "a" },
-			// { type: "Linkedin", link: "a" },
-			// { type: "Linkedin", link: "a" },
-		],
-	},
-];
-=======
->>>>>>> 4194104826dd353b87685091d3a26cd9cb35ee64
 
 const Speakers = () => {
 	return (
