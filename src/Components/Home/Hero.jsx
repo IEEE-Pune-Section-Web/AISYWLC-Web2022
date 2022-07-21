@@ -5,7 +5,7 @@ import CTA_button from "../CTA_button";
 import Counter from "./Hero/Counter";
 import Info from "./Hero/Info";
 import "./Styles/Hero.css";
-import bg from "../../../Assets/background.jpeg";
+import bg from "../../../Assets/background1.jpeg";
 import branding from "../../../Assets/IEEE.png";
 const Hero = () => {
 	return (

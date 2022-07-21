@@ -24,6 +24,7 @@ export default function Ticket() {
 
         <div className="Ticket_Cards">
             <Tickets/>
+            <Tickets/>
             
           
         </div>
