@@ -1,102 +1,81 @@
-
-.tickets{
-  display: flex;
-}
 .ticket {
-  max-height: 100%;
-  margin: 20px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px 7px;
-  
+	max-height: 100%;
+	background: white;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px 7px;
+	flex: 1;
+	min-width: 250px;
 }
-
 
 .left {
 	display: flex;
 }
 
-
 .ticket-left {
 	max-width: 130px;
 	opacity: 0.85;
-  background-color: #182a54;
-  border-radius: 10px 0px 0px 10px;
-
+	background-color: #182a54;
+	border-radius: 10px 0px 0px 10px;
 }
 
 .admit-one {
-  position: absolute;
-  margin-top: 40px;
+	position: absolute;
+	margin-top: 30px;
 	transform: rotate(-90deg);
 }
-.admit-one span{
-
-  color: white;
-  font-family: Arial;
-  font-weight: 700;
-  font-size: 20px;	
+.admit-one span {
+	color: white;
+	font-family: Arial;
+	font-weight: 700;
+	font-size: 20px;
 }
 
-
-
-
 .ticket-info {
-  margin-left: 8px;
-  border-left: 3px dashed black;
+	border-left: 3px dashed black;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	justify-content: space-between;
 	align-items: center;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: left;
-  line-height: 30px;
-  
+	font-size: clamp(0.75rem, 2vw, 1rem);
+	font-weight: 500;
+	text-align: left;
+	line-height: 30px;
 }
-.price{
-  padding-top: 10px;
-  text-align: center;
+.price {
+	padding-top: 10px;
+	text-align: center;
 }
-.button{
-  text-align: center;
+.button {
+	text-align: center;
 }
-.btn{
-
-  font-size: 18px;
-  padding: 7px;
-  padding-left: 30px;
-  padding-right: 30px; 
-  font-weight: 600;
-  color: white;
-  background-color: #00629b;
-  border-radius: 8px;
-  margin-top: 10px;
-  z-index: 10;
-  border: none;
+.btn {
+	font-size: 18px;
+	padding: 7px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: 600;
+	color: white;
+	background-color: #00629b;
+	border-radius: 8px;
+	margin-top: 10px;
+	z-index: 10;
+	border: none;
 }
-a{
-  text-decoration: none;
-  color: white;
+a {
+	text-decoration: none;
+	color: white;
 }
 
-.circle{
-  position:relative;
-        top: 35%;
-        left: -30%;
-        transform: translate(-50%, -50%);
-        height: 75px;
-        width: 150px;
-        border-radius: 150px 150px 0 0;
-        background-color: white;
-        transform: rotate(90deg);
-}
-img{
-  opacity: 0.2;
-  position:relative;
-  width: 350px;
-  top: 10%;
-  left: 10%;
+.circle {
+	position: relative;
+	top: 35%;
+	left: -30%;
+	transform: translate(-50%, -50%);
+	height: 75px;
+	width: 150px;
+	border-radius: 150px 150px 0 0;
+	background-color: white;
+	transform: rotate(90deg);
 }

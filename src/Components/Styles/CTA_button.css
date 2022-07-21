@@ -30,7 +30,7 @@
 	);
 }
 
-.cta__primary .cta__content::after {
+.cta__primary * + .cta__content::after {
 	content: "";
 	position: absolute;
 	height: 100%;
@@ -45,7 +45,7 @@
 		linear-gradient(0deg, #a5dbf4 0%, #2bc0ea 44.66%, #00629b 96.46%);
 }
 .cta__secondary .cta__content {
-	background: linear-gradient(0deg, #a5dbf4 0%, #2bc0ea 44.66%, #00629b 96.46%);
+	background: linear-gradient(0deg, #a5dbf4 0%, #2bc0ea 44.66%, #3d4347 96.46%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;

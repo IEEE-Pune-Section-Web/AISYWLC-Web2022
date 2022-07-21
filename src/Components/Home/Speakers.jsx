@@ -1,7 +1,9 @@
 import React from "react";
+import SpeakerDetails from "../../Data/SpeakersDetails";
 import Container from "../../Layout/Container";
 import Card from "./Speakers/Card";
 import "./Styles/Speakers.css";
+<<<<<<< HEAD
 const SpeakerDetails = [
 	{
 		name: "Major Vandana Sharma",
@@ -43,6 +45,8 @@ const SpeakerDetails = [
 		],
 	},
 ];
+=======
+>>>>>>> 4194104826dd353b87685091d3a26cd9cb35ee64
 
 const Speakers = () => {
 	return (
