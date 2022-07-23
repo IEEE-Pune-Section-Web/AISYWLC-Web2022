@@ -3,7 +3,7 @@ import Hero from "../Components/Home/Hero";
 import About from "../Components/Home/About";
 import Venue from "../Components/Home/Venue";
 import ComingSoon from "../Components/ComingSoon";
-// import Ticket from "../Components/Home/Ticket";
+import Ticket from "../Components/Home/Ticket";
 import Speakers from "../Components/Home/Speakers";
 import Track from "../Components/Home/Track";
 
@@ -18,7 +18,7 @@ const Home = () => {
 			<Venue />
 			<ComingSoon />
 			
-			{/* <Ticket /> */}
+			<Ticket />
 			
 
 		</main>
