@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "./Header/Navbar";
 import Navmenu from "./Header/Navmenu";
 import "./Styles/Header.css";
-import logo from "../../Assets/Logo.webp";
+import logo from "../../Assets/Logo1.webp";
 
 const Header = () => {
 	return (
@@ -13,8 +13,8 @@ const Header = () => {
 					<img src={logo} alt="AISYWLC Logo" srcset="" />
 				</Link>
 
-				{/* <Navbar /> */}
-				{/* <Navmenu /> */}
+				<Navbar /> 
+				<Navmenu /> 
 			</div>
 		</header>
 	);
