@@ -1,4 +1,6 @@
 .ticket {
+	margin-left: 40px;
+	margin-right: 40px;
 	max-height: 100%;
 	background: white;
 	border-radius: 10px;
@@ -32,6 +34,7 @@
 
 .ticket-info {
 	border-left: 3px dashed black;
+	margin-left: 6px;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;

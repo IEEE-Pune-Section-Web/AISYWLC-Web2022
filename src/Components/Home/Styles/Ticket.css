@@ -15,25 +15,27 @@
 	display: flex;
 }
 
-.Ticket_Info {
-	display: flex;
-	flex-direction: row;
-	word-wrap: break-word;
-	width: 100%;
+.Ticket_Info_text {
+	float: left;
+	width: 50%;
+	padding: 0 10px;
 }
 
-.Ticket_Info_Left {
-	display: flex;
-	/* background-color: blue; */
-	word-wrap: break-word;
-	padding-right: 25px;
-	width: 35%;
+
+.Ticket_Info :after {
+	content: "";
+	display: table;
+	clear: both;
 }
-.Ticket_Info_Right {
-	display: flex;
-	/* background-color: red; */
-	width: 35%;
+
+@media screen and (max-width: 600px) {
+	.Ticket_Info_text {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
 }
+
 .Ticket_Cards {
 	display: flex;
 	flex-direction: row;
