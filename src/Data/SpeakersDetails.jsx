@@ -30,16 +30,6 @@ const SpeakerDetails = [
 		social: "https://www.linkedin.com/in/rohit-mishra-6981aa108/",
 	},
 	{
-		name: "Dr. Sudeendra Koushik",
-		image: {
-			src: "",
-			alt: "Dr. Sudeendra Koushik",
-		},
-		details:
-			"Innovation Director, Volvo Group India & Head of CampX by Volvo Group, India; VP Conferences IEEE TEMS, Member Board of Governors(MaL) at IEEE Entrepreneurship",
-		social: "https://www.linkedin.com/in/sudeendrakoushik/",
-	},
-	{
 		name: "CA Rachana Ranade",
 		image: {
 			src: "https://drive.google.com/uc?export=view&id=1bqG_SP-zxLuEXxfyYu6s_2AFEcQw4zQl",
