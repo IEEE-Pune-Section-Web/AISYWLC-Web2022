@@ -19,21 +19,15 @@ const Footer = () => {
 				</div>
 				<nav className="footer__nav">
 					<ul className="footer__links">
-						<NavLink to="Home">
+						<a href="#hero">
 							<li>Home</li>
-						</NavLink>
-						<NavLink to={"About"}>
-							<li>About</li>
-						</NavLink>
-						<NavLink to={"Speaker"}>
+						</a>
+						<a href={"#speakers"}>
 							<li>Speaker</li>
-						</NavLink>
-						<NavLink to={"Tracks"}>
+						</a>
+						<a href={"#track"}>
 							<li>Tracks</li>
-						</NavLink>
-						<NavLink to={"Schedule"}>
-							<li>Schedule</li>
-						</NavLink>
+						</a>
 					</ul>
 				</nav>
 				<div className="footer__social">
