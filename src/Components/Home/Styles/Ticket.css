@@ -4,6 +4,19 @@
 	flex-direction: column;
 }
 
+.Coming_Content{
+	display: flex;
+	justify-content: center;
+	transform: translate(0,155%);
+	
+	
+}
+
+.Contenttext{
+	
+	font-size:70px;
+}
+
 .Ticket_title {
 	color: black;
 	text-align: center;

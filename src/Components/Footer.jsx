@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../Assets/greylogo.png";
+import logo from "../../Assets/Logo1.webp";
 import "./Styles/Footer.css";
 const Footer = () => {
 	return (
