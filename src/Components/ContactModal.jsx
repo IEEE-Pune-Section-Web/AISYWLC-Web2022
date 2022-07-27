@@ -6,10 +6,8 @@ const ContactModal = ({ isOpen, setOpen }) => {
 	const [Email, setEmail] = useState("");
 	const [Msage, setMsage] = useState("");
 	return (
-		<div
-			className={isOpen ? "modal__wrapper" : "modal__wrapper closed"}
-			onClick={() => setOpen(false)}
-		>
+		<div className={isOpen ? "modal__wrapper" : "modal__wrapper closed"}>
+			<div className="modal__backdrop" onClick={() => setOpen(false)}></div>
 			<div className="modal">
 				<div className="modal__details">
 					<div className="modal__input">
@@ -44,7 +42,9 @@ const ContactModal = ({ isOpen, setOpen }) => {
 						onChange={(e) => setMsage(e.target.value)}
 					></textarea>
 				</div>
-				<CTA_button>Submit</CTA_button>
+				<div className="modal__button">
+					<CTA_button>Submit</CTA_button>
+				</div>
 			</div>
 		</div>
 	);
