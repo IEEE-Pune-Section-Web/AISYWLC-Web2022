@@ -12,7 +12,7 @@ export default function Ticket() {
 				</div>
 
 				<div className="Ticket_Info">
-					<div className="Ticket_Info_Left">
+					<div className="Ticket_Info_text">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
 						temporibus. Sed alias rem quae molestiae eum blanditiis iusto
 						quaerat beatae, veniam, esse hic, dignissimos neque. Quisquam, earum
@@ -22,7 +22,7 @@ export default function Ticket() {
 						voluptates, iste doloribus porro saepe exercitationem voluptatibus
 						perspiciatis beatae quisquam harum nisi? Minus?
 					</div>
-					<div className="Ticket_Info_Right">
+					<div className="Ticket_Info_text">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
 						corrupti nam laudantium praesentium omnis recusandae, est facilis
 						voluptas quis architecto deleniti fuga et, obcaecati pariatur illo
@@ -35,7 +35,6 @@ export default function Ticket() {
 				</div>
 
 				<div className="Ticket_Cards">
-					<Tickets />
 					<Tickets />
 				</div>
 			</Container>
