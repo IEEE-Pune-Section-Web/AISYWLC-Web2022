@@ -54,7 +54,7 @@ const SpeakerDetails = [
 			alt: "Ms.Nirali Bhatia",
 		},
 		details:
-			"Cyber Psychologist, Director @ V4WEB Technologies, TEDx Speaker & Corporate Trainer, Founder of CyberBAAP (An anti Cyberbullying organisation)",
+			"Cyber Psychologist, Director @ V4WEB Technologies, TEDx Speaker,Founder of CyberBAAP",
 		social: "https://www.linkedin.com/in/nirali-bhatia/",
 	},
 ];

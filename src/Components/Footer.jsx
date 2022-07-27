@@ -18,7 +18,7 @@ const Footer = () => {
 					</p>
 				</div>
 				<nav className="footer__nav">
-					{/* <ul className="footer__links">
+					<ul className="footer__links">
 						<NavLink to="Home">
 							<li>Home</li>
 						</NavLink>
@@ -34,7 +34,7 @@ const Footer = () => {
 						<NavLink to={"Schedule"}>
 							<li>Schedule</li>
 						</NavLink>
-					</ul> */}
+					</ul>
 				</nav>
 				<div className="footer__social">
 					<div className="social__media">

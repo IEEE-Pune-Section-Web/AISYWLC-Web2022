@@ -1,51 +1,46 @@
-.track_card{
-	background-color: lightgray;
-	float: left;
-	margin: 7px;
-	padding: 10px;
-	width: 24%;	
+.track_card {
+	background-color: #f5f5f5;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 0.5em;
 }
 
 @media screen and (max-width: 650px) {
 	.track_card {
-	  width: 100%;
-	  display: block;
-	  margin-bottom: 20px;
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
 	}
-  }
+}
 
-
-.track_content{
+.track_content {
 	padding: 0.8em;
 }
-.track_image{
+.track_image {
 	display: flex;
-	align-items: center ;
+	align-items: center;
 	justify-content: center;
 	padding-top: 20px;
 }
-.track_image img{
+.track_image img {
 	max-height: 50px;
 }
 
-.track_head{
+.track_head {
 	font-size: clamp(1rem, 2vw, 1.5rem);
 	font-weight: 700;
 }
 
-.track_info{
+.track_info {
 	font-size: clamp(0.5rem, 2vw, 1rem);
 }
-.track_btn{
+.track_btn {
 	display: flex;
-	align-items: center ;
+	align-items: center;
 	justify-content: center;
 }
-.track_btn button{
-	background-color: darkblue;
-	color: white;
-	padding: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-radius: 15px;
+.track_btn button {
+	background-color: white;
 }
