@@ -54,10 +54,20 @@ const SpeakerDetails = [
 			alt: "Ms.Nirali Bhatia",
 		},
 		details:
-			"Cyber Psychologist, Director @ V4WEB Technologies, TEDx Speaker,Founder of CyberBAAP",
+			"Director @ V4WEB Technologies, TEDx Speaker,Founder of CyberBAAP",
 		social: "https://www.linkedin.com/in/nirali-bhatia/",
 	},
 	//HERE
+	{
+		name: "Dr. Mini Ulanat",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1ZqWmucr7Et__ka1j3cfy8RLSVZZT9VLn",
+			alt: "Dr. Mini Ulanat",
+		},
+		details:
+			"Systems Manager at Cochin University of Science and Technology,Vice Chair,WIE,IEEE India Council",
+		social: "https://www.linkedin.com/in/mini-ulanat/",
+	},
 	{
 		name: "Dr. Mini Ulanat",
 		image: {
