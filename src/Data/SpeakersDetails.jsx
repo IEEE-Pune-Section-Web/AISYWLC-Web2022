@@ -64,9 +64,60 @@ const SpeakerDetails = [
 			alt: "Dr. Mini Ulanat",
 		},
 		details:
-			"Systems Manager at Cochin University of Science and Technology,Vice Chair,WIE,IEEE India Council",
+			"Chair, IEEE Kerala Section Vice- Chair, WIE, India Council - 2021-22",
 		social: "https://www.linkedin.com/in/mini-ulanat/",
 	},
+	{
+		name: "Prof. Kshitij Patukale",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1lVn28uemPxqgk-G9Fx8u7WUd1wajNJjj",
+			alt: "Prof. Kshitij Patukale",
+		},
+		details:
+			"Founder-Director, Bhishma School of Indic Studies, Pune",
+		social: "https://www.linkedin.com",
+	},
+	{
+		name: "Mr. Dinanath Kholkar",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=16yJ88RmVPKXzwrzmlmMl6aEFpNGVS9su",
+			alt: "Mr. Dinanath Kholkar",
+		},
+		details:
+			"",
+		social: "https://www.linkedin.com/in/dinanathkholkar/",
+	},
+	{
+		name: "Ms. Ishika Nirula",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1DmK0TyHhnLxa3UejJD8PlKWwu_iCnVME",
+			alt: "Ms. Ishika Nirula",
+		},
+		details:
+			"Founder & CEO of Women In Business Network Organization",
+		social: "https://www.linkedin.com/in/ishika-nirula-546b34191/",
+	},
+	{
+		name: "Dr. Ravindra Dey",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1LJvLHrkZAleSBgpCYWOtMJLiuzZfb838",
+			alt: "Dr. Ravindra Dey",
+		},
+		details:
+			"Professor (Head of OB and HR) at Xavier Institute of Management and Research, Mumbai",
+		social: "https://www.linkedin.com/in/dr-ravindra-dey-4702625/",
+	},
+	{
+		name: "Mr. Suraj Chaurasiya",
+		image: {
+			src: "",
+			alt: "Mr. Suraj Chaurasiya",
+		},
+		details:
+			"",
+		social: "https://www.linkedin.com/in/suraj-mani-chaurasiya-2056a51a/",
+	},
+	
 	
 ];
 
