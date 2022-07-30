@@ -5,6 +5,7 @@
 	flex-direction: column;
 	justify-content: space-around;
 	padding: 0.5em;
+	border-radius: 1rem;
 }
 
 @media screen and (max-width: 650px) {
@@ -34,7 +35,7 @@
 }
 
 .track_info {
-	font-size: clamp(0.5rem, 2vw, 1rem);
+	font-size: clamp(0.75rem, 2vw, 1rem);
 }
 .track_btn {
 	display: flex;

@@ -4,17 +4,19 @@
 	flex-direction: column;
 }
 
-.Coming_Content{
+.Coming_Content {
 	display: flex;
 	justify-content: center;
-	transform: translate(0,155%);
-	
-	
+	transform: translate(0, 55%);
+}
+@media (min-width: 55em) {
+	.Coming_Content {
+		transform: translate(0, 155%);
+	}
 }
 
-.Contenttext{
-	
-	font-size:70px;
+.Contenttext {
+	font-size: 5rem;
 }
 
 .Ticket_title {
@@ -33,7 +35,6 @@
 	width: 50%;
 	padding: 0 10px;
 }
-
 
 .Ticket_Info :after {
 	content: "";
