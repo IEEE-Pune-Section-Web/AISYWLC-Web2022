@@ -6,6 +6,7 @@
 	justify-content: space-around;
 	padding: 0.5em;
 	border-radius: 1rem;
+	min-width: 250px;
 }
 
 @media screen and (max-width: 650px) {
@@ -27,6 +28,8 @@
 }
 .track_image img {
 	max-height: 50px;
+	object-fit: contain;
+	width: 100%;
 }
 
 .track_head {
