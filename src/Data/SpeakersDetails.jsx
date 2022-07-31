@@ -84,7 +84,7 @@ const SpeakerDetails = [
 			alt: "Mr. Dinanath Kholkar",
 		},
 		details:
-			"",
+			"Senior Vice President and Global Head of Partner Ecosystems & Alliances at TCS",
 		social: "https://www.linkedin.com/in/dinanathkholkar/",
 	},
 	{
@@ -110,11 +110,11 @@ const SpeakerDetails = [
 	{
 		name: "Mr. Suraj Chaurasiya",
 		image: {
-			src: "",
+			src: "https://drive.google.com/uc?export=view&id=16cG7_wfv0xVWB6exk2bXgKlni0dKMn9B",
 			alt: "Mr. Suraj Chaurasiya",
 		},
 		details:
-			"",
+			"M-Tech - Materials & Manufacturing, MS. -Production Engineering",
 		social: "https://www.linkedin.com/in/suraj-mani-chaurasiya-2056a51a/",
 	},
 	

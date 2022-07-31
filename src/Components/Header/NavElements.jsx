@@ -23,7 +23,7 @@ const NavElements = () => {
 					<a href="#speakers">Speakers</a>
 				</li>
 			</ul>
-			<CTA_button type={"secondary"}>Buy Tickets</CTA_button>
+			{/*<CTA_button type={"secondary"}>Buy Tickets</CTA_button>*/}
 		</>
 	);
 };
