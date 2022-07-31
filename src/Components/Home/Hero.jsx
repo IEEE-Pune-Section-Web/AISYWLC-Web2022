@@ -24,7 +24,7 @@ const Hero = () => {
 					<span className="blue"> CONGRESS '22</span>
 				</h1>
 				<div className="hero__info">
-					<Info icon={calenderIll} key="date" text={"October 7th, 2022"} />
+					<Info icon={calenderIll} key="date" text={"October 7th-9th, 2022"} />
 					{/* <Info
 						icon={mapIll}
 						key="venue"
