@@ -1,0 +1,61 @@
+.Ticket {
+	display: flex;
+	/* background-color: red; */
+	flex-direction: column;
+}
+
+.Coming_Content {
+	display: flex;
+	justify-content: center;
+	transform: translate(0, 55%);
+}
+@media (min-width: 55em) {
+	.Coming_Content {
+		transform: translate(0, 155%);
+	}
+}
+
+.Contenttext {
+	font-size: 5rem;
+}
+
+.Ticket_title {
+	color: black;
+	text-align: center;
+	font-size: clamp(2rem, 3vw, 4rem);
+	padding-bottom: 20px;
+}
+
+.Ticket_Header {
+	display: flex;
+}
+
+.Ticket_Info_text {
+	float: left;
+	width: 50%;
+	padding: 0 10px;
+}
+
+.Ticket_Info :after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.Ticket_Info_text {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+.Ticket_Cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2em;
+	margin: 2em 0;
+}

@@ -8,19 +8,19 @@ const NavElements = () => {
 		<>
 			<ul className="nav__links">
 				<li className="nav__link">
-					<NavLink to="/">Home</NavLink>
+					<a href="#hero">Home</a>
 				</li>
+				{/* <li className="nav__link">
+					<a href="About">About</a>
+				</li> */}
+				{/* <li className="nav__link">
+					<a href="Venue">Venue</a>
+				</li> */}
+				{/* <li className="nav__link">
+					<a href="Sponsor">Sponsor</a>
+				</li> */}
 				<li className="nav__link">
-					<NavLink to="About">About</NavLink>
-				</li>
-				<li className="nav__link">
-					<NavLink to="Venue">Venue</NavLink>
-				</li>
-				<li className="nav__link">
-					<NavLink to="Sponsor">Sponsor</NavLink>
-				</li>
-				<li className="nav__link">
-					<NavLink to="Speaker">Speakers</NavLink>
+					<a href="#speakers">Speakers</a>
 				</li>
 			</ul>
 			<CTA_button type={"secondary"}>Buy Tickets</CTA_button>

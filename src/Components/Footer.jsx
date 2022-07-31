@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../Assets/Logo.webp";
+import logo from "../../Assets/Logo1.webp";
 import "./Styles/Footer.css";
 const Footer = () => {
 	return (
@@ -18,23 +18,17 @@ const Footer = () => {
 					</p>
 				</div>
 				<nav className="footer__nav">
-					{/* <ul className="footer__links">
-						<NavLink to="Home">
+					<ul className="footer__links">
+						<a href="#hero">
 							<li>Home</li>
-						</NavLink>
-						<NavLink to={"About"}>
-							<li>About</li>
-						</NavLink>
-						<NavLink to={"Speaker"}>
+						</a>
+						<a href={"#speakers"}>
 							<li>Speaker</li>
-						</NavLink>
-						<NavLink to={"Tracks"}>
+						</a>
+						<a href={"#track"}>
 							<li>Tracks</li>
-						</NavLink>
-						<NavLink to={"Schedule"}>
-							<li>Schedule</li>
-						</NavLink>
-					</ul> */}
+						</a>
+					</ul>
 				</nav>
 				<div className="footer__social">
 					<div className="social__media">

@@ -35,8 +35,23 @@
 }
 
 .About__video {
-	order: 2;
+	order: 0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
+
+.About__video iframe{
+	width:75%;
+    height: 50%;
+	min-height:315px;
+	min-width: 320px;
+
+	
+}
+
 
 @media (min-width: 55em) {
 	.About {
@@ -48,5 +63,6 @@
 	}
 	.About__video {
 		flex: 4;
+		order:1;
 	}
 }
