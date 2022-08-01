@@ -37,7 +37,7 @@ const Footer = () => {
 					</div>
 					<div className="social__contactus">
 						<h4>Contact Us</h4>
-						<p>Email us: eventsaisywlc1@gmail.com</p>
+						<p>Email us: aisywlc22@ieee.org</p>
 						{/* <p>Call us</p>
 						<p>Name</p>
 						<p>Name</p> */}
