@@ -14,7 +14,7 @@ const SpeakerDetails = [
 	{
 		name: "Dr. Ramalatha Marimuthu",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=19ehdI-UiaK0nZ6n37FK9b4JnRnjYzPJU",
+			src: "https://drive.google.com/uc?export=view&id=1Ka44ngayxT05viSMvezq_VE0Pu1b73B_",
 			alt: "Dr. Ramalatha Marimuthu",
 		},
 		details: "Director at iExplore Foundation for Sustainability Development",
@@ -50,7 +50,7 @@ const SpeakerDetails = [
 	{
 		name: "Ms.Nirali Bhatia",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=117cin-Gd_Lk_y4c4gaahh6h68z-DRQqx",
+			src: "https://drive.google.com/uc?export=view&id=1YqrqPdi6aUT6O_VpC93T643QEExEknYg",
 			alt: "Ms.Nirali Bhatia",
 		},
 		details:
@@ -60,7 +60,7 @@ const SpeakerDetails = [
 	{
 		name: "Dr. Mini Ulanat",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=1ZqWmucr7Et__ka1j3cfy8RLSVZZT9VLn",
+			src: "https://drive.google.com/uc?export=view&id=1b22XQn5leFvg-5T06rQ5f02uo8Im7NFf",
 			alt: "Dr. Mini Ulanat",
 		},
 		details:
@@ -70,7 +70,7 @@ const SpeakerDetails = [
 	{
 		name: "Prof. Kshitij Patukale",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=1lVn28uemPxqgk-G9Fx8u7WUd1wajNJjj",
+			src: "https://drive.google.com/uc?export=view&id=1KV_cXSKlqWDzryTcKP3fmlWHdI14e7_f",
 			alt: "Prof. Kshitij Patukale",
 		},
 		details:
@@ -90,7 +90,7 @@ const SpeakerDetails = [
 	{
 		name: "Ms. Ishika Nirula",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=1DmK0TyHhnLxa3UejJD8PlKWwu_iCnVME",
+			src: "https://drive.google.com/uc?export=view&id=1Xw9bR92rbRva4FaVsMDSkhozJ9c9v03h",
 			alt: "Ms. Ishika Nirula",
 		},
 		details:
@@ -100,7 +100,7 @@ const SpeakerDetails = [
 	{
 		name: "Dr. Ravindra Dey",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=1LJvLHrkZAleSBgpCYWOtMJLiuzZfb838",
+			src: "https://drive.google.com/uc?export=view&id=1ImcvSez-j6W7PBMETINm1e0rGiq4646d",
 			alt: "Dr. Ravindra Dey",
 		},
 		details:
