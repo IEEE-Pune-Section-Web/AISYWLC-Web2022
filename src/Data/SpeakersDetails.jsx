@@ -60,7 +60,7 @@ const SpeakerDetails = [
 	{
 		name: "Dr. Mini Ulanat",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=14gNSvgRSqir5lsoegOJxhYcLQxajuIki",
+			src: "https://drive.google.com/uc?export=view&id=1b22XQn5leFvg-5T06rQ5f02uo8Im7NFf",
 			alt: "Dr. Mini Ulanat",
 		},
 		details:
