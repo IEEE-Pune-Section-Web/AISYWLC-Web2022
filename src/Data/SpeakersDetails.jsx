@@ -90,7 +90,7 @@ const SpeakerDetails = [
 	{
 		name: "Ms. Ishika Nirula",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=1DmK0TyHhnLxa3UejJD8PlKWwu_iCnVME",
+			src: "https://drive.google.com/uc?export=view&id=1LR__yWN2XfMgOKTZqKqwfggnrCJxKCc5",
 			alt: "Ms. Ishika Nirula",
 		},
 		details:
@@ -100,7 +100,7 @@ const SpeakerDetails = [
 	{
 		name: "Dr. Ravindra Dey",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=1LJvLHrkZAleSBgpCYWOtMJLiuzZfb838",
+			src: "https://drive.google.com/uc?export=view&id=1ImcvSez-j6W7PBMETINm1e0rGiq4646d",
 			alt: "Dr. Ravindra Dey",
 		},
 		details:
