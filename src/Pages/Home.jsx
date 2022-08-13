@@ -9,6 +9,7 @@ import Contact from "../Components/Home/Contact";
 import ContactModal from "../Components/ContactModal";
 import Track from "../Components/Home/Track";
 import TicketComing from "../Components/Home/TicketComing";
+import AboutUs from "./AboutUs/AboutUs";
 
 const Home = () => {
 	const [isModal, setModal] = useState(false);
@@ -18,6 +19,7 @@ const Home = () => {
 			<About />
 			<Track />
 			<Speakers />
+			<AboutUs />
 			{/* <Venue />
 			<ComingSoon /> */}
 			{/* <Ticket/> */}

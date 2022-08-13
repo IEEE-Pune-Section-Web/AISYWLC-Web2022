@@ -1,0 +1,40 @@
+.AboutUs_title{
+   
+        color: black;
+        text-align: center;
+        font-size: clamp(2rem, 3vw, 4rem);
+        padding-bottom: 20px;
+   
+}
+
+.about_card{
+    display: flex;
+    /* background-color: red; */
+    padding: 1em;
+    padding-bottom: 3em;
+}
+
+.content a{
+
+     color:blue;
+      
+}
+
+.content a:hover{
+    color: darkblue;
+}
+
+.image{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    display: flex;
+    line-height:1.8;
+    flex: 1;
+    justify-content: center;
+}
+
