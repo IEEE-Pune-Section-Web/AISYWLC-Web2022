@@ -20,9 +20,9 @@ const Home = () => {
 			<Track />
 			<Speakers />
 			<AboutUs />
-			{/* <Venue />
-			<ComingSoon /> */}
-			<Ticket/>
+			<Venue />
+			{/*<ComingSoon /> */}
+			{/*<Ticket/>*/}
 			<TicketComing/>
 			<Contact isModal={isModal} setModal={setModal} />
 			<ContactModal isOpen={isModal} setOpen={setModal} />
