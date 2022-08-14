@@ -11,12 +11,12 @@ const about = {
 
 const venue = [
 	{
-		name: "COLLEGE OF ENGINEERING PUNE",
+		name: "MANALI RESORT, PUNE",
 		pitch:
-			"College of Engineering Pune popularly known as CoEP is situated in the heart of the city. CoEP is a prestigious engineering college in Pune. CoEP, founded in 1854, is a nationally recognized leader in technical education. The institute is distinguished by its commitment to using advanced technology to solve today's major problems. The institute has a long history of striving for excellence. With a firm foundation in truth and humanity, the institute provides you with an understanding of both technical developments and the ethics that accompany them. The institute is consistently ranked among the top 20 technical colleges in India.",
+			"A setting spun amidst the ethereal beauty of nature with shimmering water bodies, water fountains, flowerbeds, lawns and paving sculptures adorning the topography.",
 		key: "CoEP",
 		bg: { coep },
-		link: "https://goo.gl/maps/LQzzaLtvjHbw8KuXA",
+		link: "https://goo.gl/maps/yXL3jhH14RcWbJt28",
 	},
 ];
 
