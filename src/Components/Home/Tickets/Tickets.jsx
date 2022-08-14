@@ -25,7 +25,7 @@ export default function Tickets({ type, benefits, price, link }) {
 						<div className="price">
 							<h2>{price ?? "₹4000"}</h2>
 						</div>
-						<CTA_button type={"primary"}>Register Now!</CTA_button>
+						<CTA_button type={"primary"}><a href="https://www.townscript.com/e/aisywlc22-340012">Register Now!</a></CTA_button>
 					</div>
 				</div>
 			</div>
