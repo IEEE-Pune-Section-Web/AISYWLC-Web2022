@@ -22,7 +22,7 @@ const Home = () => {
 			<AboutUs />
 			{/* <Venue />
 			<ComingSoon /> */}
-			{/* <Ticket/> */}
+			<Ticket/>
 			<TicketComing/>
 			<Contact isModal={isModal} setModal={setModal} />
 			<ContactModal isOpen={isModal} setOpen={setModal} />
