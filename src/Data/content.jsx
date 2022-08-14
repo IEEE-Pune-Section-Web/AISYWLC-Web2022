@@ -1,4 +1,4 @@
-import coep from "../../Assets/COEP.jpeg";
+import manali_resort from "../../Assets/services_gallery_party_lawns_and_banquet_halls_1.webp";
 
 const about = {
 	branding: "What we are about",
@@ -14,8 +14,8 @@ const venue = [
 		name: "MANALI RESORT, PUNE",
 		pitch:
 			"A setting spun amidst the ethereal beauty of nature with shimmering water bodies, water fountains, flowerbeds, lawns and paving sculptures adorning the topography.",
-		key: "CoEP",
-		bg: { coep },
+		key: "Manali Resort",
+		bg: { manali_resort },
 		link: "https://goo.gl/maps/yXL3jhH14RcWbJt28",
 	},
 ];
