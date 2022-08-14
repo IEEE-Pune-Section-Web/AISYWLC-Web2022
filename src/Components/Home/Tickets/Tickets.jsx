@@ -16,10 +16,11 @@ export default function Tickets({ type, benefits, price, link }) {
 					<div className="ticket-info">
 						<ul>
 							{/* {benefits & benefits.map((benefit) => <li>{benefit}</li>)} */}
-							<li>Lorem Ipsum is simply dummy text of the printing an</li>
-							<li>Lorem Ipsum is simply dummy text of the printing and</li>
-							<li>Lorem Ipsum is simply dummy text of the printing and</li>
-							<li>Lorem Ipsum is simply dummy text of the printing and</li>
+							<li>Offline Session from October 7th to 9th</li>
+							<li>Accomodation and food</li>
+							<li>Delegate kits</li>
+							<li>Chance to win amazing  prizes</li>
+							<li>Increase your connect with like-minded individuals</li>
 						</ul>
 						<div className="price">
 							<h2>{price ?? "price"}</h2>
@@ -39,10 +40,11 @@ export default function Tickets({ type, benefits, price, link }) {
 					<div className="ticket-info">
 						<ul>
 							{/* {benefits & benefits.map((benefit) => <li>{benefit}</li>)} */}
-							<li>Lorem Ipsum is simply dummy text of the printing an</li>
-							<li>Lorem Ipsum is simply dummy text of the printing and</li>
-							<li>Lorem Ipsum is simply dummy text of the printing and</li>
-							<li>Lorem Ipsum is simply dummy text of the printing and</li>
+							<li>Offline Session from October 7th to 9th</li>
+							<li>Accomodation and food</li>
+							<li>Delegate kits</li>
+							<li>Chance to win amazing  prizes</li>
+							<li>Increase your connect with like-minded individuals</li>
 						</ul>
 						<div className="price">
 							<h2>{price ?? "price"}</h2>
