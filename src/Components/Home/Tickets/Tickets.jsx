@@ -10,7 +10,7 @@ export default function Tickets({ type, benefits, price, link }) {
 					<div className="ticket-left">
 						<div className="circle"></div>
 						<div className="admit-one">
-							<span>{type ?? "IEEE Members"}</span>
+							<span>{type ?? "/nIEEE Members"}</span>
 						</div>
 					</div>
 					<div className="ticket-info">
@@ -34,7 +34,7 @@ export default function Tickets({ type, benefits, price, link }) {
 					<div className="ticket-left">
 						<div className="circle"></div>
 						<div className="admit-one">
-							<span>{type ?? "IEEE Members"}</span>
+							<span>{type ?? "Non-IEEE Members"}</span>
 						</div>
 					</div>
 					<div className="ticket-info">
