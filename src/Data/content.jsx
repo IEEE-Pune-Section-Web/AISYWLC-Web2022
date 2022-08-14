@@ -13,7 +13,7 @@ const venue = [
 	{
 		name: "MANALI RESORT, PUNE",
 		pitch:
-			"A setting spun amidst the ethereal beauty of nature with shimmering water bodies, water fountains, flowerbeds, lawns and paving sculptures adorning the topography."<br>"Kavadi Pat, Post Manjari Farm, Loni Kalbhor,Pune – Solapur highway, Pune, India",
+			"A setting spun amidst the ethereal beauty of nature with shimmering water bodies, water fountains, flowerbeds, lawns and paving sculptures adorning the topography.",
 		key: "CoEP",
 		bg: { coep },
 		link: "https://goo.gl/maps/yXL3jhH14RcWbJt28",
