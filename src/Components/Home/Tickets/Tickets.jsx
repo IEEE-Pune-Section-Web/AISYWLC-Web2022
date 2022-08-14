@@ -10,7 +10,7 @@ export default function Tickets({ type, benefits, price, link }) {
 					<div className="ticket-left">
 						<div className="circle"></div>
 						<div className="admit-one">
-							<span>{type ?? "IEEE Student Members"}</span>
+							<span>{type ?? "IEEE Members"}</span>
 						</div>
 					</div>
 					<div className="ticket-info">
@@ -23,9 +23,9 @@ export default function Tickets({ type, benefits, price, link }) {
 							<li>• Increase your connect with like-minded individuals</li>
 						</ul>
 						<div className="price">
-							<h2>{price ?? "price"}</h2>
+							<h2>{price ?? "₹4000"}</h2>
 						</div>
-						<CTA_button type={"primary"}>Buy Now</CTA_button>
+						<CTA_button type={"primary"}>Register Now!</CTA_button>
 					</div>
 				</div>
 			</div>
@@ -34,7 +34,7 @@ export default function Tickets({ type, benefits, price, link }) {
 					<div className="ticket-left">
 						<div className="circle"></div>
 						<div className="admit-one">
-							<span>{type ?? "IEEE Student Members"}</span>
+							<span>{type ?? "Non-IEEE Members"}</span>
 						</div>
 					</div>
 					<div className="ticket-info">
@@ -47,9 +47,9 @@ export default function Tickets({ type, benefits, price, link }) {
 							<li>• Increase your connect with like-minded individuals</li>
 						</ul>
 						<div className="price">
-							<h2>{price ?? "price"}</h2>
+							<h2>{price ?? "₹5000"}</h2>
 						</div>
-						<CTA_button type={"primary"}>Buy Now</CTA_button>
+						<CTA_button type={"primary"}><a href="https://www.townscript.com/e/aisywlc22-340012">Register Now!</a></CTA_button>
 					</div>
 				</div>
 			</div>
