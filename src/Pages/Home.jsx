@@ -10,6 +10,7 @@ import ContactModal from "../Components/ContactModal";
 import Track from "../Components/Home/Track";
 import TicketComing from "../Components/Home/TicketComing";
 import AboutUs from "./AboutUs/AboutUs";
+import Schedule from "../Components/Home/Schedule";
 
 const Home = () => {
 	const [isModal, setModal] = useState(false);
@@ -19,10 +20,11 @@ const Home = () => {
 			<About />
 			<Track />
 			<Speakers />
-			{/*<AboutUs />*/}
+			{/* <AboutUs /> */}
 			<Venue />
 			{/*<ComingSoon /> */}
 			<Ticket/>
+			<Schedule/>
 			{/*<TicketComing/>*/}
 			<Contact isModal={isModal} setModal={setModal} />
 			<ContactModal isOpen={isModal} setOpen={setModal} />

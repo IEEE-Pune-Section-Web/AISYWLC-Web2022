@@ -1,0 +1,83 @@
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* .schedule{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+} */
+
+.Schedule_title{
+    color: black;
+	text-align: center;
+	font-size: clamp(2rem, 3vw, 4rem);
+	/* padding-bottom: 20px; */
+    margin-bottom: 12px;
+}
+table{
+    background-color: white;
+}
+th, td{
+    padding: 15px;
+    border: 0px;
+}
+tr:nth-child(odd) {
+    background-color: rgba(216, 216, 216, 0.47);
+}
+.tab-action{
+    margin-bottom: 25px;
+}
+tr:nth-child(event) {
+    background-color: white;
+}
+th{
+    background-color: hsla(222,56%,21%,1);
+    color: white;
+    text-align: left;
+}
+table{
+    width: 100%;
+}
+.break{
+    text-align: center;
+}
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+.toggle-table {
+    display: none;
+    overflow: hidden;
+}
+.toggle-table-heading:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
+.action-button{
+    color: hsla(222,56%,21%,1);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid hsla(222,56%,21%,1);
+    background-color: white;
+}
+.tabs{
+    display: none;
+}
+.table-title{
+    text-align: center;
+    padding: 2px;
+    color: white;
+    background-color: rgba(39, 53, 85, 0.821);
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
