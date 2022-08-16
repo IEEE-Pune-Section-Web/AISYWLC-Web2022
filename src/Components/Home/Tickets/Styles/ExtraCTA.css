@@ -1,0 +1,23 @@
+.ExtraCTA {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.ExtraCTA__title {
+	margin: 0 0.75rem;
+	font-size: clamp(0.82rem, 1.5vw, 0.85rem);
+	text-decoration: underline;
+}
+
+.ExtraCTA button {
+	font-size: clamp(0.82rem, 1.5vw, 0.85rem);
+}
+
+@media (max-width: 55em) {
+	.ExtraCTA {
+		justify-content: center;
+	}
+	.ExtraCTA__title {
+		text-decoration: none;
+	}
+}

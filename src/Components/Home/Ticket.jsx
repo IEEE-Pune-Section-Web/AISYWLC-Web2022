@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../../Layout/Container";
 import Tickets from "./Tickets/Tickets";
+import ExtraCTA from "./Tickets/ExtraCTA";
 import "./Styles/Ticket.css";
 
 const commonbenefits = [
@@ -29,6 +30,17 @@ export default function Ticket() {
 					benefits={commonbenefits}
 					price={5000}
 					link={"https://www.townscript.com/e/aisywlc22-340012"}
+				/>
+			</div>
+
+			<div className="extraCTAs">
+				<ExtraCTA
+					title="National Integrity exhibition registration"
+					link="https://forms.gle/kNh7qX4xZ65XQhx59"
+				/>
+				<ExtraCTA
+					title="Cultural night registration"
+					link=" https://forms.gle/Bds1o8WU5fzwCQ9v9"
 				/>
 			</div>
 		</Container>
