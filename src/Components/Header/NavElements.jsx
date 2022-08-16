@@ -16,12 +16,12 @@ const NavElements = () => {
 				{/* <li className="nav__link">
 					<Link to="About">About</Link>
 				</li> */}
-				{/* <li className="nav__link">
-					<a href="Venue">Venue</a>
-				</li> */}
-				{/* <li className="nav__link">
-					<a href="Sponsor">Sponsor</a>
-				</li> */}
+				<li className="nav__link">
+					<a href="/#Venue">Venue</a>
+				</li>
+				<li className="nav__link">
+					<a href="/#Schedule">Schedule</a>
+				</li>
 				<li className="nav__link">
 					<a href="/#speakers">Speakers</a>
 				</li>
@@ -29,7 +29,7 @@ const NavElements = () => {
 
 			<a href="#Ticket">
 				<CTA_button onClick={openLink} type={"secondary"}>
-					Buy Tickets
+					Register Now
 				</CTA_button>
 			</a>
 		</>
