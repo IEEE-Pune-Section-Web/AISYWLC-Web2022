@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import CTA_button from "../CTA_button";
 import "./Styles/index.css";
 
@@ -8,10 +8,10 @@ const NavElements = () => {
 		<>
 			<ul className="nav__links">
 				<li className="nav__link">
-					<a href="#hero">Home</a>
+					<a href="/#hero">Home</a>
 				</li>
 				{/* <li className="nav__link">
-					<a href="About">About</a>
+					<Link to="About">About</Link>
 				</li> */}
 				{/* <li className="nav__link">
 					<a href="Venue">Venue</a>
@@ -20,12 +20,13 @@ const NavElements = () => {
 					<a href="Sponsor">Sponsor</a>
 				</li> */}
 				<li className="nav__link">
-					<a href="#speakers">Speakers</a>
+					<a href="/#speakers">Speakers</a>
 				</li>
 			</ul>
 
-			<a href="#Ticket"><CTA_button type={"secondary"}>Buy Tickets</CTA_button></a>
-			
+			<a href="#Ticket">
+				<CTA_button type={"secondary"}>Buy Tickets</CTA_button>
+			</a>
 		</>
 	);
 };
