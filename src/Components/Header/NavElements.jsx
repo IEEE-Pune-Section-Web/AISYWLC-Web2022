@@ -27,11 +27,10 @@ const NavElements = () => {
 				</li>
 			</ul>
 
-			<a href="#Ticket">
 				<CTA_button onClick={openLink} type={"secondary"}>
 					Register Now
 				</CTA_button>
-			</a>
+
 		</>
 	);
 };
