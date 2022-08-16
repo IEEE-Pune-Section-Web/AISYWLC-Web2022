@@ -339,7 +339,7 @@ export default function Schedule() {
 	}, [day]);
 
 	return (
-		<Container className="schedule " id="Schedule">
+		<Container className="schedule"  >
 			<div>
 				<h1 className="Schedule_title">Event Schedule</h1>
 			</div>

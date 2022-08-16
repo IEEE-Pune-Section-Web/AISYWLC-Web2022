@@ -20,10 +20,10 @@ const NavElements = () => {
 					<a href="/#Venue">Venue</a>
 				</li>
 				<li className="nav__link">
-					<a href="/#Schedule">Schedule</a>
+					<a href="/#speakers">Speakers</a>
 				</li>
 				<li className="nav__link">
-					<a href="/#speakers">Speakers</a>
+					<a href="/#schedule">Schedule</a>
 				</li>
 			</ul>
 
