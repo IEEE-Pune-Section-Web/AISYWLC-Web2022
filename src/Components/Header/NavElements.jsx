@@ -4,6 +4,9 @@ import CTA_button from "../CTA_button";
 import "./Styles/index.css";
 
 const NavElements = () => {
+	const openLink = () => {
+		window.open("https://www.townscript.com/e/aisywlc22-340012", "_blank");
+	};
 	return (
 		<>
 			<ul className="nav__links">
@@ -25,7 +28,9 @@ const NavElements = () => {
 			</ul>
 
 			<a href="#Ticket">
-				<CTA_button type={"secondary"}>Buy Tickets</CTA_button>
+				<CTA_button onClick={openLink} type={"secondary"}>
+					Buy Tickets
+				</CTA_button>
 			</a>
 		</>
 	);
