@@ -4,7 +4,7 @@ import CTA_button from "../../CTA_button";
 import "./Styles/Location.css";
 const Location = ({ name, pitch, link, bg }) => {
 	const openMaps = () => {
-		console.log(link);
+		window.open(link, "_blank");
 	};
 	return (
 		<div
