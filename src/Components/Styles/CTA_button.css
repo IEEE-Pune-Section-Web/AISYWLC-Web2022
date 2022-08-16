@@ -51,3 +51,13 @@
 	background-clip: text;
 	text-fill-color: transparent;
 }
+
+.cta__ternary {
+	background: none;
+	box-shadow: none;
+	text-shadow: 5px 5px 5px rgb(0 0 0 / 10%);
+	transition: all 500ms cubic-bezier(0.67, 0.34, 0.53, 0.91);
+}
+.cta:hover {
+	text-shadow: 0 0 0 rgb(0 0 0 / 0);
+}
