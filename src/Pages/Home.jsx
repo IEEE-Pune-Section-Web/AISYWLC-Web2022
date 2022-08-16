@@ -8,8 +8,7 @@ import Speakers from "../Components/Home/Speakers";
 import Contact from "../Components/Home/Contact";
 import ContactModal from "../Components/ContactModal";
 import Track from "../Components/Home/Track";
-import TicketComing from "../Components/Home/TicketComing";
-import AboutUs from "./AboutUs/AboutUs";
+
 import Schedule from "../Components/Home/Schedule";
 
 const Home = () => {
@@ -20,12 +19,9 @@ const Home = () => {
 			<About />
 			<Track />
 			<Speakers />
-			{/* <AboutUs /> */}
 			<Venue />
-			{/*<ComingSoon /> */}
-			<Ticket/>
-			<Schedule/>
-			{/*<TicketComing/>*/}
+			<Ticket />
+			<Schedule />
 			<Contact isModal={isModal} setModal={setModal} />
 			<ContactModal isOpen={isModal} setOpen={setModal} />
 		</main>
