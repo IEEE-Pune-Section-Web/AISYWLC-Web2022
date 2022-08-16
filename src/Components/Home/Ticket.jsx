@@ -1,43 +1,48 @@
 import React from "react";
 import Container from "../../Layout/Container";
 import Tickets from "./Tickets/Tickets";
+import ExtraCTA from "./Tickets/ExtraCTA";
 import "./Styles/Ticket.css";
 
+const commonbenefits = [
+	"• Offline Session from October 7th to 9th",
+	"• Accomodation and food",
+	"• Delegate kits",
+	"• Chance to win amazing  prizes",
+	"• Increase your connect with like-minded individuals",
+];
 export default function Ticket() {
 	return (
-		<>
-			<Container className="Ticket">
-				<div className="Ticket_Header">
-					<h1 className="Ticket_title">GRAB A TICKET</h1>
-				</div>
+		<Container className="Ticket">
+			<div className="Ticket_Header">
+				<h1 className="Ticket_title">GRAB A TICKET</h1>
+			</div>
 
-				<div className="Ticket_Info">
-					<div className="Ticket_Info_text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-						temporibus. Sed alias rem quae molestiae eum blanditiis iusto
-						quaerat beatae, veniam, esse hic, dignissimos neque. Quisquam, earum
-						hic distinctio eos repudiandae quos voluptatum veritatis ex iusto
-						consectetur necessitatibus odit sapiente nisi voluptates asperiores
-						adipisci. Illum consequuntur repudiandae ut corporis sit, vitae
-						voluptates, iste doloribus porro saepe exercitationem voluptatibus
-						perspiciatis beatae quisquam harum nisi? Minus?
-					</div>
-					<div className="Ticket_Info_text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-						corrupti nam laudantium praesentium omnis recusandae, est facilis
-						voluptas quis architecto deleniti fuga et, obcaecati pariatur illo
-						maiores illum accusantium. Quidem non saepe sed pariatur tempore
-						nobis quisquam asperiores maiores facere ad ipsam odio assumenda
-						cumque laborum soluta, blanditiis reiciendis doloremque amet cum
-						ullam. Velit facere rerum impedit nostrum ab adipisci dolores
-						repellendus, doloribus totam!
-					</div>
-				</div>
+			<div className="Ticket_Cards">
+				<Tickets
+					type="IEEE Members"
+					benefits={commonbenefits}
+					price={4000}
+					link={"https://www.townscript.com/e/aisywlc22-340012"}
+				/>
+				<Tickets
+					type="Non-IEEE Members"
+					benefits={commonbenefits}
+					price={5000}
+					link={"https://www.townscript.com/e/aisywlc22-340012"}
+				/>
+			</div>
 
-				<div className="Ticket_Cards">
-					<Tickets />
-				</div>
-			</Container>
-		</>
+			<div className="extraCTAs">
+				<ExtraCTA
+					title="National Integrity exhibition registration"
+					link="https://forms.gle/kNh7qX4xZ65XQhx59"
+				/>
+				<ExtraCTA
+					title="Cultural night registration"
+					link=" https://forms.gle/Bds1o8WU5fzwCQ9v9"
+				/>
+			</div>
+		</Container>
 	);
 }

@@ -1,5 +1,8 @@
 .navmenu {
 	display: block;
+	position: fixed;
+	right: 2.5%;
+	z-index: 99999;
 }
 
 @media (min-width: 55em) {

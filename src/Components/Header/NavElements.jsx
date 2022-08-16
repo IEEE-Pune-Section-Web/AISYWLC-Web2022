@@ -1,29 +1,36 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import CTA_button from "../CTA_button";
 import "./Styles/index.css";
 
 const NavElements = () => {
+	const openLink = () => {
+		window.open("https://www.townscript.com/e/aisywlc22-340012", "_blank");
+	};
 	return (
 		<>
 			<ul className="nav__links">
 				<li className="nav__link">
-					<a href="#hero">Home</a>
+					<a href="/#hero">Home</a>
 				</li>
 				{/* <li className="nav__link">
-					<a href="About">About</a>
-				</li> */}
-				{/* <li className="nav__link">
-					<a href="Venue">Venue</a>
-				</li> */}
-				{/* <li className="nav__link">
-					<a href="Sponsor">Sponsor</a>
+					<Link to="About">About</Link>
 				</li> */}
 				<li className="nav__link">
-					<a href="#speakers">Speakers</a>
+					<a href="/#Venue">Venue</a>
+				</li>
+				<li className="nav__link">
+					<a href="/#speakers">Speakers</a>
+				</li>
+				<li className="nav__link">
+					<a href="/#schedule">Schedule</a>
 				</li>
 			</ul>
-			{/*<CTA_button type={"secondary"}>Register Now!</CTA_button>*/}
+
+				<CTA_button onClick={openLink} type={"secondary"}>
+					Register Now
+				</CTA_button>
+
 		</>
 	);
 };

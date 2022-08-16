@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import NavElements from "./NavElements";
 import "./Styles/NavMenu.css";
@@ -6,12 +6,15 @@ const Navmenu = () => {
 	const [istoggled, setToggle] = useState(false);
 	const Toggle = () => {
 		setToggle(!istoggled);
-		if (!istoggled) {
+	};
+	useEffect(() => {
+		if (istoggled) {
 			document.body.style.overflow = "hidden";
 		} else {
 			document.body.style.overflow = "unset";
 		}
-	};
+	}, [istoggled]);
+
 	return (
 		<div className="navmenu">
 			<div
