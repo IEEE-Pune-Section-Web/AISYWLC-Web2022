@@ -52,7 +52,7 @@ table {
 	margin-left: 5px;
 }
 
-.active:after {
+.toggle-table .active:after {
 	content: "\2796";
 }
 .action-button {
