@@ -11,6 +11,7 @@
 
 .ExtraCTA button {
 	font-size: clamp(0.82rem, 1.5vw, 0.85rem);
+    
 }
 
 @media (max-width: 55em) {
