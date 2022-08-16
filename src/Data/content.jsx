@@ -16,7 +16,7 @@ const venue = [
 			"A setting spun amidst the ethereal beauty of nature with shimmering water bodies, water fountains, flowerbeds, lawns and paving sculptures adorning the topography.",
 		key: "Manali Resort",
 		bg: { manali_resort },
-		link: "https://goo.gl/maps/yXL3jhH14RcWbJt28",
+		link: "https://goo.gl/maps/w5u5LJVnwiEhHqnn7",
 	},
 ];
 
