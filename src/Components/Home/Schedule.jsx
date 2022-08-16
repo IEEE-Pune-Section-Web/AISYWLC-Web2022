@@ -102,7 +102,7 @@ export default function Schedule() {
 								className="toggle-table-heading"
 								onClick={(e) => tableToggle(e.target)}
 							>
-								Paralle Session: <strong>IEEE Students</strong>
+								Parallel Session: <strong>IEEE Students</strong>
 							</div>
 							<div className="toggle-table" id="SAC">
 								<table cellspacing="0px">
@@ -131,7 +131,7 @@ export default function Schedule() {
 								className="toggle-table-heading"
 								onClick={(e) => tableToggle(e.target)}
 							>
-								Paralle Session: <strong>IEEE Young Professionals</strong>
+								Parallel Session: <strong>IEEE Young Professionals</strong>
 							</div>
 							<div className="toggle-table" id="YP">
 								<table cellspacing="0px">
@@ -141,7 +141,7 @@ export default function Schedule() {
 										<th>Speaker</th>
 									</tr>
 									<tr>
-										<td>10:30-11:45p\am</td>
+										<td>10:30-11:45am</td>
 										<td>The Skill Drill</td>
 										<td>Dr. Ravindra Dey</td>
 									</tr>
@@ -164,7 +164,7 @@ export default function Schedule() {
 								className="toggle-table-heading"
 								onClick={(e) => tableToggle(e.target)}
 							>
-								Paralle Session: <strong>IEEE Women in Engineering</strong>
+								Parallel Session: <strong>IEEE Women in Engineering</strong>
 							</div>
 							<div className="toggle-table" id="WIE">
 								<table cellspacing="0px">
@@ -208,7 +208,7 @@ export default function Schedule() {
 									className="toggle-table-heading"
 									onClick={(e) => tableToggle(e.target)}
 								>
-									Paralle Session: <strong>IEEE Life Members</strong>
+									Parallel Session: <strong>IEEE Life Members</strong>
 								</div>
 								<div className="toggle-table" id="LM">
 									<table cellspacing="0px">
