@@ -1,0 +1,9 @@
+
+
+.Sponsor{
+    
+    background-color: lightgray;
+	display: flex;
+	padding: 5%;
+	gap: 0.2em;
+}

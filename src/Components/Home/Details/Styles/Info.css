@@ -1,0 +1,54 @@
+.Info{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.IndiaCouncil{
+    display: flex;
+    padding: 3.5em;
+}
+
+.IC_image{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.IC_info{
+    display: flex;
+    flex: 1;
+    line-height: 175%;
+    
+}
+
+a{
+    color: blue;
+    
+}
+a:hover{
+    color: rgb(5, 5, 55);
+}
+
+.PuneSection{
+    display: flex;
+    padding: 3.5em;
+}
+
+.PS_image{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.PS_info{
+    display: flex;
+    flex: 1;
+    line-height: 175%;
+    
+}
