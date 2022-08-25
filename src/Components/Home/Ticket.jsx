@@ -24,17 +24,13 @@ export default function Ticket() {
 					type="IEEE Members"
 					benefits={commonbenefits}
 					price={4000}
-					link={
-						"https://www.townscript.com/v2/e/aisywlc22-340012/booking/tickets"
-					}
+					link={"https://www.townscript.com/e/aisywlc22-340012"}
 				/>
 				<Tickets
 					type="Non-IEEE Members"
 					benefits={commonbenefits}
 					price={5000}
-					link={
-						"https://www.townscript.com/v2/e/aisywlc22-340012/booking/tickets"
-					}
+					link={"https://www.townscript.com/e/aisywlc22-340012"}
 				/>
 			</div>
 
