@@ -1,4 +1,4 @@
-import coep from "../../Assets/COEP 1.webp";
+import coep from "../../Assets/COEP.webp";
 
 const about = {
 	branding: "What we are about",
