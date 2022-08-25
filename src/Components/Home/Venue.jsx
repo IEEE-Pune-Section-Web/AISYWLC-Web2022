@@ -15,7 +15,7 @@ const Venue = () => {
 						name={name}
 						pitch={pitch}
 						key={key}
-						bg={bg.manali_resort}
+						bg={bg.coep}
 						link={link}
 					/>
 				))}

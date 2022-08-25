@@ -10,6 +10,7 @@ const commonbenefits = [
 	"• Delegate kits",
 	"• Chance to win amazing  prizes",
 	"• Increase your connect with like-minded individuals",
+	"• GFG Discount Coupons worth Rs. 500",
 ];
 export default function Ticket() {
 	return (
@@ -23,13 +24,17 @@ export default function Ticket() {
 					type="IEEE Members"
 					benefits={commonbenefits}
 					price={4000}
-					link={"https://www.townscript.com/e/aisywlc22-340012"}
+					link={
+						"https://www.townscript.com/v2/e/aisywlc22-340012/booking/tickets"
+					}
 				/>
 				<Tickets
 					type="Non-IEEE Members"
 					benefits={commonbenefits}
 					price={5000}
-					link={"https://www.townscript.com/e/aisywlc22-340012"}
+					link={
+						"https://www.townscript.com/v2/e/aisywlc22-340012/booking/tickets"
+					}
 				/>
 			</div>
 
