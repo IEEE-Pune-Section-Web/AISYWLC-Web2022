@@ -23,7 +23,7 @@
 }
 .location__pitch {
 	font-size: clamp(1rem, 1vw, 2rem);
-
+	text-align: justify;
 	margin: 1em 0 1.5em;
 }
 @media (min-width: 55em) {
