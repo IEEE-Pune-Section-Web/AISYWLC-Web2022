@@ -6,7 +6,7 @@ export default function Tickets({ type, benefits, price, link }) {
   const openLink = () => {
     window.open(link, "_blank");
   };
-  function popup(a) {
+  {/*function popup(a) {
     var b = "https://www.townscript.com/v2/widget/" + a + "/booking";
     invokeInframe(b);
   }
@@ -62,7 +62,8 @@ export default function Tickets({ type, benefits, price, link }) {
     },
     !1
   );
-
+*/}
+  
   return (
     <div className="ticket">
       <div className="left">
@@ -79,10 +80,9 @@ export default function Tickets({ type, benefits, price, link }) {
           <div className="price">
             <h2>₹{price}</h2>
           </div>
-          <CTA_button
-            onClick={() => popup("aisywlc22-340012")}
-            type={"primary"}
-          >
+
+          <CTA_button onClick={openLink} type={"primary"}>
+            
             Register Now!
           </CTA_button>
         </div>
