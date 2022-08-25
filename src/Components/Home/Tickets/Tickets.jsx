@@ -1,6 +1,7 @@
 import React from "react";
 import CTA_button from "../../CTA_button";
 import "./Styles/Tickets.css";
+import logo from "../../../../Assets/Logo1.webp"
 
 export default function Tickets({ type, benefits, price, link }) {
   const openLink = () => {
@@ -69,7 +70,7 @@ export default function Tickets({ type, benefits, price, link }) {
         <div className="ticket-left">
           <img
             className="ticket_logo"
-            src="../../../../Assets/Logo1.webp"
+            src={logo}
             alt=""
           />
         </div>
