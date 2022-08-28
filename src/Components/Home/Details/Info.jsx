@@ -33,11 +33,7 @@ export default function Info() {
               formation. At present, the Pune section has more than 300
               professional members and over 1100 other members, including
               student members. There are 19 IEEE Student Branches in different
-              Engineering Colleges in and around Pune City.<br></br>Visit:​
-              <a href="ieeepunesection.org" target="blank">
-                {" "}
-                ieeepunesection.org
-              </a>
+              Engineering Colleges in and around Pune City.
             </p>
           </div>
         </div>
