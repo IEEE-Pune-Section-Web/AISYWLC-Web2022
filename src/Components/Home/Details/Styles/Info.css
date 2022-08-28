@@ -38,10 +38,12 @@
 	);
 	--align: flex-end;
 	justify-content: flex-end;
+	background-size: cover;
+	background-position-y: center;
 }
 .info__location:nth-child(odd) {
     background: hsla(0, 0%, 0%, 0.211);
-    background-image: url("../../../../../Assets/background.jpeg"); 
+    background-image: url("../../../../../Assets/India-Gate.webp"); 
 	--v-gradient: linear-gradient(
 		278.14deg,
 		rgba(24, 42, 84, 0) 15.17%,
@@ -49,6 +51,8 @@
 		#000338 105.32%
 	);
 	--align: flex-start;
+	background-size: cover;
+	background-position-y: center;
 }
 .info__location {
 	background-blend-mode: multiply;
