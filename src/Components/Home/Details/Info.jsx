@@ -22,7 +22,7 @@ export default function Info() {
         </div>
         <div className="info__location">
           <div className="info__content">
-            <h1 className="info__name">IEEE India Council</h1>
+            <h1 className="info__name">IEEE Pune Section</h1>
 
             <p className="info__pitch">
               IEEE Pune Section was established on June 26, 2010 with
