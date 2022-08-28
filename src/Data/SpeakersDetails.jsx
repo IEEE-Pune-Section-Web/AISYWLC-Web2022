@@ -121,7 +121,7 @@ const SpeakerDetails = [
 	{
 		name: "Mr. Shahim Baker",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=1Ufc_Rr10_OclEtsIrC1VbZ4WDgssGaKJ",
+			src: "https://drive.google.com/uc?export=view&id=1qVPiA9qoFeYUr01H9YKtYbhxvfhzAR2O",
 			alt: "Mr. Shahim Baker",
 		},
 		details:
