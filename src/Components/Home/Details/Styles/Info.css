@@ -39,7 +39,7 @@
 	--align: flex-end;
 	justify-content: flex-end;
 	background-size: cover;
-	background-position-y: center;
+	background-position: center;
 }
 .info__location:nth-child(odd) {
     background: hsla(0, 0%, 0%, 0.211);
@@ -52,7 +52,7 @@
 	);
 	--align: flex-start;
 	background-size: cover;
-	background-position-y: center;
+	background-position: center;
 }
 .info__location {
 	background-blend-mode: multiply;
@@ -93,16 +93,20 @@
 	);
 	--align: flex-end;
 	justify-content: flex-end;
+	background-size: cover;
+	background-position: center;
     }
     .info__location:nth-child(odd) {
         background: hsla(0, 0%, 0%, 0.211);
-        background-image: url("../../../../../Assets/background.jpeg"); 
+        background-image: url("../../../../../Assets/India-Gate.webp"); 
         --v-gradient: linear-gradient(
 		278.14deg,
-		rgba(90, 39, 39, 0.681) 15.17%,
-		#0000009a 71.07%,
-		#000000 105.45%
+		rgba(24, 42, 84, 0.412) 15.17%,
+		#182a5497 71.07%,
+		#000338 105.32%
 	);
 	--align: flex-start;
+	background-size: cover;
+	background-position: center;
     }
 }
