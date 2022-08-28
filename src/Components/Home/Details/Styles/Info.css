@@ -67,6 +67,10 @@
 	z-index: 1;
 }
 
+.container Detail{
+	padding: 0;
+}
+
 @media (min-width: 55em) {
 	.info__content {
 		align-items: var(--align);
