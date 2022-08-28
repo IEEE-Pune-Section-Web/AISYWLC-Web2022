@@ -118,6 +118,17 @@ const SpeakerDetails = [
 		social: "https://www.linkedin.com/in/suraj-mani-chaurasiya-2056a51a/",
 	},
 	
+	{
+		name: "Mr. Shahim Baker",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1Ufc_Rr10_OclEtsIrC1VbZ4WDgssGaKJ",
+			alt: "Mr. Shahim Baker",
+		},
+		details:
+			"CEO at Baker & Grey, Vice Chair(YP), IEEE India Council",
+		social: "https://www.linkedin.com/in/shahimbaker/",
+	},
+	
 	
 ];
 
