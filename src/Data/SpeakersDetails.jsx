@@ -114,7 +114,7 @@ const SpeakerDetails = [
 			alt: "Mr. Suraj Chaurasiya",
 		},
 		details:
-			"M-Tech - Materials & Manufacturing, MS. -Production Engineering",
+			"SCM at Bayer AG, Ex. Co-founder EcoBugy (TU Berlin Alumni)",
 		social: "https://www.linkedin.com/in/suraj-mani-chaurasiya-2056a51a/",
 	},
 	

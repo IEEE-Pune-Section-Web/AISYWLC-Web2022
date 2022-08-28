@@ -1,0 +1,112 @@
+.info__location * {
+	color: white;
+	z-index: 100;
+	position: relative;
+}
+.info__location {
+	padding: 5% 2% 7.5%;
+    min-height: 28em;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	position: relative;
+}
+.info__content {
+    padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.info__name {
+	text-align: center;
+	font-size: clamp(2rem, 3vw, 4rem);
+}
+.info__pitch {
+	font-size: clamp(1rem, 1vw, 2rem);
+	text-align: justify;
+	margin: 1em 0 1.5em;
+}
+.info__location:nth-child(even) {
+    background: hsla(225, 69%, 62%, 0.325);
+    background-image: url("../../../../../Assets/background.jpeg"); 
+	--v-gradient: linear-gradient(
+		98.05deg,
+		rgba(24, 42, 84, 0) 15.17%,
+		#182a54 71.07%,
+		#000338 105.32%
+	);
+	--align: flex-end;
+	justify-content: flex-end;
+	background-size: cover;
+	background-position: center;
+}
+.info__location:nth-child(odd) {
+    background: hsla(0, 0%, 0%, 0.211);
+    background-image: url("../../../../../Assets/India-Gate.webp"); 
+	--v-gradient: linear-gradient(
+		278.14deg,
+		rgba(24, 42, 84, 0) 15.17%,
+		#182a54 71.07%,
+		#000338 105.32%
+	);
+	--align: flex-start;
+	background-size: cover;
+	background-position: center;
+}
+.info__location {
+	background-blend-mode: multiply;
+	background-color: none;
+	display: flex;
+	align-items: center;
+}
+.info__location::after {
+	content: "";
+	background: var(--v-gradient);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.Detail{
+	padding: 0;
+}
+
+@media (min-width: 55em) {
+	.info__content {
+		align-items: var(--align);
+		width: 45%;
+	}
+}
+@media (max-width: 600px) {
+	.info__location:nth-child(even) {
+        background: hsla(225, 69%, 62%, 0.325);
+        background-image: url("../../../../../Assets/background.jpeg"); 
+        --v-gradient: linear-gradient(
+		98.05deg,
+		rgba(24, 42, 84, 0.412) 15.17%,
+		#182a5497 71.07%,
+		#000338 105.32%
+	);
+	--align: flex-end;
+	justify-content: flex-end;
+	background-size: cover;
+	background-position: center;
+    }
+    .info__location:nth-child(odd) {
+        background: hsla(0, 0%, 0%, 0.211);
+        background-image: url("../../../../../Assets/India-Gate.webp"); 
+        --v-gradient: linear-gradient(
+		278.14deg,
+		rgba(24, 42, 84, 0.412) 15.17%,
+		#182a5497 71.07%,
+		#000338 105.32%
+	);
+	--align: flex-start;
+	background-size: cover;
+	background-position: center;
+    }
+}
