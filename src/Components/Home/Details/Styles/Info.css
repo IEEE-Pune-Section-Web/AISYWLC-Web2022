@@ -44,9 +44,9 @@
     background-image: url("../../../../../Assets/background.jpeg"); 
 	--v-gradient: linear-gradient(
 		278.14deg,
-		rgba(255, 255, 255, 0.1) 15.17%,
-		#000000d8 71.07%,
-		#000000 105.45%
+		rgba(24, 42, 84, 0) 15.17%,
+		#182a54 71.07%,
+		#000338 105.32%
 	);
 	--align: flex-start;
 }
