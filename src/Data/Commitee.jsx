@@ -179,7 +179,7 @@ const CommiteeDetails = [
 			},
 			{
 				name: "Parv Gupta",
-				img: "https://drive.google.com/uc?export=1YS4FDe1pt4pz7ea2q_RnCVwfvdEbKSGn",
+				img: "https://drive.google.com/uc?export=view&id=1YS4FDe1pt4pz7ea2q_RnCVwfvdEbKSGn",
 			},
 			{
 				name: "Akarsh Ashok",
@@ -195,7 +195,7 @@ const CommiteeDetails = [
 			},
 			{
 				name: "Aniketh Shenoy",
-				img: "https://drive.google.com/uc?export=1VhoN43paEOJ9ZO5VOPlScVkG4SEVn_le",
+				img: "https://drive.google.com/uc?export=view&id=1VhoN43paEOJ9ZO5VOPlScVkG4SEVn_le",
 			},
 			{
 				name: "Shatakshi Vishwakarma",
@@ -211,7 +211,7 @@ const CommiteeDetails = [
 			},
 			{
 				name: "Shivraj Patil",
-				img: "https://drive.google.com/uc?export=1YHXoGWBoDhcBHgimLe7ImL0KeZoZ_fLN",
+				img: "https://drive.google.com/uc?export=view&id=1YHXoGWBoDhcBHgimLe7ImL0KeZoZ_fLN",
 			},
 			{
 				name: "Gaurav Nanak Duhlani",
