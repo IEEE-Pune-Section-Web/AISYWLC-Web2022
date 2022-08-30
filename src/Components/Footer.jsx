@@ -19,13 +19,13 @@ const Footer = () => {
 				</div>
 				<nav className="footer__nav">
 					<ul className="footer__links">
-						<a href="#hero">
+						<a href="/#hero">
 							<li>Home</li>
 						</a>
-						<a href={"#speakers"}>
+						<a href={"/#speakers"}>
 							<li>Speaker</li>
 						</a>
-						<a href={"#track"}>
+						<a href={"/#track"}>
 							<li>Tracks</li>
 						</a>
 					</ul>

@@ -6,8 +6,7 @@
 	gap: 1em;
 }
 
-.committe:nth-child(1) {
-	padding-top: 12vh;
+.committe:nth-child(0) {
 	background: rgb(7, 108, 131);
 	background: -moz-linear-gradient(
 		180deg,
