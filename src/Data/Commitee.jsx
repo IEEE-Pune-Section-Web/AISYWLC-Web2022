@@ -113,20 +113,24 @@ const CommiteeDetails = [
 		name: "IEEE Pune Section Committee",
 		members: [
 			{
-				name: "Dr Pradeep Mane",
-				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
+				name: "Dr. Pradeep Mane",
+				img: "https://drive.google.com/uc?export=view&id=1eFXaC7hTSBovHNZJsRERIWJnNVlxZyTh",
 			},
 			{
-				name: "Dr Pradeep Mane",
-				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
+				name: "Dr. Neha Sharma",
+				img: "https://drive.google.com/uc?export=view&id=1PDpZvRYE29OxAAHS6EhCjpovpIspK8yl",
 			},
 			{
-				name: "Dr Pradeep Mane",
-				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
+				name: "Dr. Amar Buchade",
+				img: "https://drive.google.com/uc?export=view&id=1iOPVEzPgpsHD4tA7zu3UUGT3xtBUc8Id",
 			},
 			{
-				name: "Dr Pradeep Mane",
-				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
+				name: "Dr. Archana Thosar",
+				img: "https://drive.google.com/uc?export=view&id=1SLFxRrSe0g61ahiq0IK5BSiAAu0SRuaa",
+			},
+			{
+				name: "Dr. Virendra Shete",
+				img: "https://drive.google.com/uc?export=view&id=1M9crXC1rXQj2yJlQchdtFFeDnhmUoo9N",
 			},
 		],
 	},
