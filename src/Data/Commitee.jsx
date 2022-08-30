@@ -22,7 +22,7 @@ const CommiteeDetails = [
 			},
 			{
 				name: "Dr. Rajesh Ingle",
-				img: "https://drive.google.com/uc?export=view&id=13Slvau_Xpa_xP9sRNiMVWHeHXYssOOFi",
+				img: "https://drive.google.com/uc?export=view&id=1eOpJuIoNrh6h5o70DoYJT06YI8jTjZCP",
 				title: "",
 			},
 			{
