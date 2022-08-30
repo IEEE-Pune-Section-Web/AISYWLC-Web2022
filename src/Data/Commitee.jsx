@@ -89,7 +89,7 @@ const CommiteeDetails = [
 						img: "https://drive.google.com/uc?export=view&id=1suPXeJLk40oYSadQkc_-azx0bnNGJHgj",
 					},
 					{
-						name: "Dr. Shailaja",
+						name: "Dr. Shailaja Patil",
 						img: "https://drive.google.com/uc?export=view&id=1laJFhkjlkp5Dlg4Xux6DnGD97WbBNaua",
 					},
 				],
@@ -138,20 +138,103 @@ const CommiteeDetails = [
 		name: "Event Management Leads",
 		members: [
 			{
-				name: "Parv Gupta",
-				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
+				name: "Vaishnavi Nair",
+				img: "https://drive.google.com/uc?export=view&id=1_Xi1k8LI0kCwxT2VZK3KsW3OXeFBzyJB",
+			},
+			{
+				name: "Mohd. Athar Rangila",
+				img: "https://drive.google.com/uc?export=view&id=1SU2XfQwNjI6oUYQSEHf0pjIx_G54iFzl",
+			},
+			{
+				name: "Nupur Kulkarni",
+				img: "https://drive.google.com/uc?export=view&id=1-OEMPWDDsXsm8Qgk4awGAL2XDd77FMWn",
+			},
+			{
+				name: "Shalini Satapathy",
+				img: "https://drive.google.com/uc?export=view&id=1vlFd5UCGH-kdjOa3svWdtJucSARmjSPv",
+			},
+			{
+				name: "Gokul CM",
+				img: "https://drive.google.com/uc?export=view&id=1wnnYirte900nPBdPN9SBBffGEwEYZOct",
+			},
+			{
+				name: "Saraja Rambole",
+				img: "https://drive.google.com/uc?export=view&id=1MPWQJQwl1qTQEoWcKaqspCqMX1JYHDIo",
+			},
+			{
+				name: "Meghna Das",
+				img: "https://drive.google.com/uc?export=view&id=1Z_yOS4jAHrfhFIV4jMzzlcXtESZas3t8",
+			},
+			{
+				name: "Akalbir Singh Chadda",
+				img: "https://drive.google.com/uc?export=view&id=1-T8cdmMG04XS4UHVivWqx8-F9qXLT6wP",
+			},
+			{
+				name: "Shreya Ekande",
+				img: "https://drive.google.com/uc?export=view&id=19JD-0YeCUePIqp4wcW-N2qeEiL6ZSgcj",
+			},
+			{
+				name: "Abirami Chandramouli",
+				img: "https://drive.google.com/uc?export=view&id=1dFWY-tzoSRB2Xmg5gELsOn8rIJjdjyBb",
 			},
 			{
 				name: "Parv Gupta",
-				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
+				img: "https://drive.google.com/uc?export=1YS4FDe1pt4pz7ea2q_RnCVwfvdEbKSGn",
 			},
 			{
-				name: "Parv Gupta",
-				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
+				name: "Akarsh Ashok",
+				img: "https://drive.google.com/uc?export=view&id=1iDrAI6iWIOXmIiNZh87ARH7b0wgFeraI",
 			},
 			{
-				name: "Parv Gupta",
-				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
+				name: "Vaishnavi Gurav",
+				img: "https://drive.google.com/uc?export=view&id=1RAxd-uZ_yuu1sCVkp7VsNXcQBnFCYmXK",
+			},
+			{
+				name: "Yash Pisey",
+				img: "https://drive.google.com/uc?export=view&id=1Rf-WqD2QxPUCQO_Ul2YjGMvVna-Q51JM",
+			},
+			{
+				name: "Aniketh Shenoy",
+				img: "https://drive.google.com/uc?export=1VhoN43paEOJ9ZO5VOPlScVkG4SEVn_le",
+			},
+			{
+				name: "Shatakshi Vishwakarma",
+				img: "https://drive.google.com/uc?export=view&id=1kZF3S4ZPYn_6At13B2ykfPSufeV9AxNU",
+			},
+			{
+				name: "Joel John Kandathil",
+				img: "https://drive.google.com/uc?export=view&id=1ZAvH_GMEfRAK6Zw5NOwj3RzUIIGjHDgw",
+			},
+			{
+				name: "Krishna Varshney",
+				img: "https://drive.google.com/uc?export=view&id=1mciX28QKZHxfpvvdCeGb5ezJBmrbrl28",
+			},
+			{
+				name: "Shivraj Patil",
+				img: "https://drive.google.com/uc?export=1YHXoGWBoDhcBHgimLe7ImL0KeZoZ_fLN",
+			},
+			{
+				name: "Gaurav Nanak Duhlani",
+				img: "https://drive.google.com/uc?export=view&id=1VrK1GpxPqlmdclUP1MFXAKd7KqrsmK09",
+			},
+			{
+				name: "Nishita Pali",
+				img: "https://drive.google.com/uc?export=view&id=1iM6MlP2mLZRlJFI7AtEbi5DNIeKtT88D",
+			},
+			
+			{
+				name: "Isha Dasharathe",
+				img: "https://drive.google.com/uc?export=view&id=1vXUXVmpWNhwBAZFIXaCHeHJerSV5HZlq",
+			},
+			
+			{
+				name: "Priya Sirsat",
+				img: "https://drive.google.com/uc?export=view&id=1huLz9BqKesqR01gqTZK8MOpbe8VW6DHb",
+			},
+			
+			{
+				name: "Mohammed Khalid",
+				img: "https://drive.google.com/uc?export=view&id=1kTk06B-QR6utfcX3ch5gnJOXbYsOrs0J",
 			},
 		],
 	},
