@@ -5,19 +5,34 @@ const CommiteeDetails = [
 		name: "Advisory Commitee",
 		members: [
 			{
-				name: "Dr Rajashree Jain",
-				img: "",
+				name: "Mr. Deepak Mathur",
+				img: "https://drive.google.com/uc?export=view&id=1A1FBO_mP0G6n0t_J0oh6iH6LWU_zdv1z",
 				title: "",
 			},
 			{
 				name: "Dr Rajashree Jain",
-				img: "",
+				img: "https://drive.google.com/uc?export=view&id=1Ycu0REqEkGOyyI5kOvr48Bo428IevOH-",
 				title: "",
 			},
 
 			{
-				name: "Dr Rajashree Jain",
-				img: "",
+				name: "Prof. G.S. Mani",
+				img: "https://drive.google.com/uc?export=view&id=1aVCCdLm58zqNxONyQPzsdSgjZeYzZW6c",
+				title: "",
+			},
+			{
+				name: "Dr. Rajesh Ingle",
+				img: "https://drive.google.com/uc?export=view&id=182_9qGJ05fdXOGCEjTRs8za_Tlyp76tF",
+				title: "",
+			},
+			{
+				name: "Prof. Prerna Gaur",
+				img: "https://drive.google.com/uc?export=view&id=1QIiZvt74hlyJhjUirxJDf94dK2ntOa9K",
+				title: "",
+			},
+			{
+				name: "Mr. Puneet Mishra",
+				img: "https://drive.google.com/uc?export=view&id=1TnAeGWUcw1F5GzSE2OY_qbJO35hGva_z",
 				title: "",
 			},
 		],
