@@ -7,7 +7,7 @@
 }
 
 .committe:nth-child(1) {
-	padding-top: 7.5%;
+	padding-top: 12vh;
 	background: rgb(7, 108, 131);
 	background: -moz-linear-gradient(
 		180deg,
@@ -66,12 +66,15 @@
 	justify-content: space-around;
 	width: 100vw;
 	flex-wrap: wrap;
+	gap: 1em;
 }
 
 .track__members {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	display: grid;
+	gap: 1em;
+	display: grid;
+	align-items: center;
+	justify-items: center;
 }
 
 .Track {
@@ -86,15 +89,15 @@
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	width: 100%;
+	gap: 1em;
 }
-@media (min-width: 75em) {
+@media (min-width: 70em) {
 	.tracks {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, minmax(500px, 1fr));
 	}
 }
-
-.track {
-	flex: 1;
-	padding: 1em;
-	min-width: 550px;
+@media (min-width: 35em) {
+	.track__members {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }

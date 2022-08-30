@@ -4,7 +4,7 @@ import CommiteeDetails from "../Data/Commitee";
 import SingleCommitee from "../Components/Committee/SingleCommitee";
 const Commitee = () => {
 	return (
-		<main className={"commitee"}>
+		<main className={"commitees"}>
 			{CommiteeDetails &&
 				CommiteeDetails.map((committee) => (
 					<SingleCommitee committee={committee} />

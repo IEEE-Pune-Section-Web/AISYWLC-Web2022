@@ -17,7 +17,6 @@
 	content: url(https://drive.google.com/uc?export=view&id=17Ud0AfwmaOCkaYAy9-qmtEnK9DBxhsYh);
 	font-weight: 900;
 	position: absolute;
-	top: -1rem;
 	left: -6rem;
 	transform: rotate(-90deg) scale(0.08);
 	mix-blend-mode: multiply;
