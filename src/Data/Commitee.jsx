@@ -6,7 +6,7 @@ const CommiteeDetails = [
 		members: [
 			{
 				name: "Mr. Deepak Mathur",
-				img: "https://drive.google.com/uc?export=view&id=1A1FBO_mP0G6n0t_J0oh6iH6LWU_zdv1z",
+				img: "https://drive.google.com/uc?export=view&id=1nMOnX2sfmxijR6fWrZj4MhXy2qTQrdrs",
 				title: "",
 			},
 			{
@@ -17,22 +17,22 @@ const CommiteeDetails = [
 
 			{
 				name: "Prof. G.S. Mani",
-				img: "https://drive.google.com/uc?export=view&id=1aVCCdLm58zqNxONyQPzsdSgjZeYzZW6c",
+				img: "https://drive.google.com/uc?export=view&id=13Slvau_Xpa_xP9sRNiMVWHeHXYssOOFi",
 				title: "",
 			},
 			{
 				name: "Dr. Rajesh Ingle",
-				img: "https://drive.google.com/uc?export=view&id=182_9qGJ05fdXOGCEjTRs8za_Tlyp76tF",
+				img: "https://drive.google.com/uc?export=view&id=13Slvau_Xpa_xP9sRNiMVWHeHXYssOOFi",
 				title: "",
 			},
 			{
 				name: "Prof. Prerna Gaur",
-				img: "https://drive.google.com/uc?export=view&id=1QIiZvt74hlyJhjUirxJDf94dK2ntOa9K",
+				img: "https://drive.google.com/uc?export=view&id=1YvW-yatdOGaVSgsllEqeyNiAV0O4wuIi",
 				title: "",
 			},
 			{
 				name: "Mr. Puneet Mishra",
-				img: "https://drive.google.com/uc?export=view&id=1TnAeGWUcw1F5GzSE2OY_qbJO35hGva_z",
+				img: "https://drive.google.com/uc?export=view&id=1uaBhCFReYmX1W6ykEXZjxZkxN5dAFZbK",
 				title: "",
 			},
 		],
@@ -42,12 +42,12 @@ const CommiteeDetails = [
 		members: [
 			{
 				name: "Dr Suresh Nair",
-				img: "https://drive.google.com/uc?export=view&id=1ABuzz8Z9vt8hzCPf-4cO0Ero6tkIlhzv",
+				img: "https://drive.google.com/uc?export=view&id=1R9FSn8TAku5seiG--lpx8N0WwiJuWAxJ",
 				title: "",
 			},
 			{
 				name: "Mr. Girish Khilari",
-				img: "https://drive.google.com/uc?export=view&id=1Lb1SDL65Z19nRknSDYQ6UMRKubub-m-4",
+				img: "https://drive.google.com/uc?export=view&id=1Q0SLZ3RfSVLMpOL5O_hujlpuU_OhZlH-",
 				title: "",
 			},
 		],
