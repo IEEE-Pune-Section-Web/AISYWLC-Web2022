@@ -41,13 +41,13 @@ const CommiteeDetails = [
 		name: "General Chairs",
 		members: [
 			{
-				name: "Dr Rajashree Jain",
-				img: "",
+				name: "Dr Suresh Nair",
+				img: "https://drive.google.com/uc?export=view&id=1ABuzz8Z9vt8hzCPf-4cO0Ero6tkIlhzv",
 				title: "",
 			},
 			{
-				name: "Dr Rajashree Jain",
-				img: "",
+				name: "Mr. Girish Khilari",
+				img: "https://drive.google.com/uc?export=view&id=1Lb1SDL65Z19nRknSDYQ6UMRKubub-m-4",
 				title: "",
 			},
 		],
@@ -59,12 +59,12 @@ const CommiteeDetails = [
 				name: "Student Activities Commitee",
 				members: [
 					{
-						name: "Dr Vijayalatha Reddy",
-						img: "",
+						name: "Dr. Vijayalatha Reddy",
+						img: "https://drive.google.com/uc?export=view&id=1l76AJMQCXyUBCeOgP-Q1M1KRiJdLHuBI",
 					},
 					{
-						name: "Dr Vijayalatha Reddy",
-						img: "",
+						name: "Dr. Sunil Somani",
+						img: "https://drive.google.com/uc?export=view&id=1TlPNCGJBTcPLGtAXqB2ghnK7Scs16k5q",
 					},
 				],
 			},
@@ -72,12 +72,12 @@ const CommiteeDetails = [
 				name: "Young Professional",
 				members: [
 					{
-						name: "Dr Vijayalatha Reddy",
-						img: "",
+						name: "Mr. Shahim Baker",
+						img: "https://drive.google.com/uc?export=view&id=1n9cctcdetWBxgM-GCXtomv-z1ZquKCV1",
 					},
 					{
-						name: "Dr Vijayalatha Reddy",
-						img: "",
+						name: "Mr. Dhiraj Chaurasia",
+						img: "https://drive.google.com/uc?export=view&id=1suPXeJLk40oYSadQkc_-azx0bnNGJHgj",
 					},
 				],
 			},
@@ -85,12 +85,12 @@ const CommiteeDetails = [
 				name: "Women in Engineering",
 				members: [
 					{
-						name: "Dr Vijayalatha Reddy",
-						img: "",
+						name: "Dr. Mini Ulanat",
+						img: "https://drive.google.com/uc?export=view&id=1suPXeJLk40oYSadQkc_-azx0bnNGJHgj",
 					},
 					{
-						name: "Dr Vijayalatha Reddy",
-						img: "",
+						name: "Dr. Shailaja",
+						img: "https://drive.google.com/uc?export=view&id=1laJFhkjlkp5Dlg4Xux6DnGD97WbBNaua",
 					},
 				],
 			},
@@ -98,12 +98,12 @@ const CommiteeDetails = [
 				name: "Life Member",
 				members: [
 					{
-						name: "Dr Vijayalatha Reddy",
-						img: "",
+						name: "Dr. R.K. Asthana",
+						img: "https://drive.google.com/uc?export=view&id=1EKVjsJFX3SG_hvInPZ5JAv9TiGusUh78",
 					},
 					{
-						name: "Dr Vijayalatha Reddy",
-						img: "",
+						name: "Prof. Mandar Khujekar",
+						img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
 					},
 				],
 			},
@@ -114,19 +114,19 @@ const CommiteeDetails = [
 		members: [
 			{
 				name: "Dr Pradeep Mane",
-				img: "",
+				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
 			},
 			{
 				name: "Dr Pradeep Mane",
-				img: "",
+				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
 			},
 			{
 				name: "Dr Pradeep Mane",
-				img: "",
+				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
 			},
 			{
 				name: "Dr Pradeep Mane",
-				img: "",
+				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
 			},
 		],
 	},
@@ -135,19 +135,19 @@ const CommiteeDetails = [
 		members: [
 			{
 				name: "Parv Gupta",
-				img: "",
+				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
 			},
 			{
 				name: "Parv Gupta",
-				img: "",
+				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
 			},
 			{
 				name: "Parv Gupta",
-				img: "",
+				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
 			},
 			{
 				name: "Parv Gupta",
-				img: "",
+				img: "https://drive.google.com/uc?export=view&id=1MHifhrnlVpJlY8cSdvRky5MHgQDKw_2D",
 			},
 		],
 	},
