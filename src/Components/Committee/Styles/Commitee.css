@@ -9,7 +9,7 @@
 .committe:nth-child(1) {
 	padding-top: 12vh;
 	background: rgb(7, 108, 131);
-	background: -moz-linear-gradient(
+	/*background: -moz-linear-gradient(
 		180deg,
 		hsla(222, 56%, 21%, 1) 0%,
 		rgba(0, 212, 255, 1) 25%,
@@ -26,14 +26,14 @@
 		hsla(222, 56%, 21%, 1) 0%,
 		rgba(0, 212, 255, 1) 25%,
 		rgba(0, 212, 255, 0) 100%
-	);
+	);*/
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#076c83",endColorstr="#00d4ff",GradientType=1);
 
 	color: white;
 }
 .committe:last-child {
 	background: rgb(7, 108, 131);
-	background: -moz-linear-gradient(
+	/*background: -moz-linear-gradient(
 		0deg,
 		hsla(222, 56%, 21%, 1) 0%,
 		rgba(0, 212, 255, 1) 50%,
@@ -50,7 +50,7 @@
 		hsla(222, 56%, 21%, 1) 0%,
 		rgba(0, 212, 255, 1) 50%,
 		rgba(0, 212, 255, 0) 100%
-	);
+	);*/
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#076c83",endColorstr="#00d4ff",GradientType=1);
 
 	color: white;
