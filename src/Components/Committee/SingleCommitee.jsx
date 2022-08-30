@@ -16,8 +16,7 @@ const Members = ({ members }) =>
 	members.map((member) => (
 		<Card
 			image={
-				// member.img ??
-				"https://drive.google.com/uc?export=view&id=1qVPiA9qoFeYUr01H9YKtYbhxvfhzAR2O"
+				member.img
 			}
 			name={member.name}
 		/>
