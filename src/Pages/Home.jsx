@@ -12,6 +12,7 @@ import Track from "../Components/Home/Track";
 import Info from "../Components/Home/Details/Info";
 import Sponsors from "../Components/Home/Sponsors";
 import Schedule from "../Components/Home/Schedule";
+import FAQ from "../Components/Home/FAQ";
 
 
 const Home = () => {
@@ -28,7 +29,7 @@ const Home = () => {
 			<Ticket />
 			<Schedule />
 			<Sponsors />
-
+			< FAQ />
 			<Contact isModal={isModal} setModal={setModal} />
 			<ContactModal isOpen={isModal} setOpen={setModal} />
 		</main>
