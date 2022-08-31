@@ -19,6 +19,7 @@ const Members = ({ members }) =>
 				member.img
 			}
 			name={member.name}
+			title={member.title}
 		/>
 	));
 
