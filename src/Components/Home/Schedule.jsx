@@ -147,7 +147,8 @@ export default function Schedule() {
 									</tr>
 									<tr>
 										<td>11:45-12:15pm</td>
-										<td colspan="2">A Young Professional's Perspective</td>
+										<td>Benefits of being a YP</td>
+										<td>Mr. Shahim Baker</td>
 									</tr>
 									<tr>
 										<td>12:15-1:00pm</td>
@@ -180,7 +181,7 @@ export default function Schedule() {
 									</tr>
 									<tr>
 										<td>11:15-12:00pm</td>
-										<td>Cyber Security in Daily Life</td>
+										<td>Introduction to Cyber Psychology</td>
 										<td>Ms. Nirali Bhatia</td>
 									</tr>
 									<tr>
@@ -242,7 +243,7 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td>2:00-2:45pm</td>
-						<td colspan="2">Eu-Reka</td>
+						<td colspan="2">Chronicles of Eu-reka</td>
 					</tr>
 					<tr>
 						<td>2:45-4:00pm</td>
@@ -301,7 +302,8 @@ export default function Schedule() {
 				</tr>
 				<tr>
 					<td>10:45-11:30am</td>
-					<td colspan="2">Music Performance</td>
+					<td>Music Performance</td>
+					<td>Nishad Mahagaonkar</td>
 				</tr>
 				<tr>
 					<td>11:30-12:15pm</td>
