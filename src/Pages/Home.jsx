@@ -26,7 +26,7 @@ const Home = () => {
 			<Venue />
 			<Ticket />
 			<Schedule />
-			{/*<Sponsors/>*/}
+			<Sponsors/>
 			<Contact isModal={isModal} setModal={setModal} />
 			<ContactModal isOpen={isModal} setOpen={setModal} />
 		</main>
