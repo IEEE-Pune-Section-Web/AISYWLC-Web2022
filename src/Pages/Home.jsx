@@ -28,7 +28,7 @@ const Home = () => {
 			<Ticket />
 			<Schedule />
 			<Sponsors />
-			<FAQ />
+// 			<FAQ />
 			<Contact isModal={isModal} setModal={setModal} />
 			<ContactModal isOpen={isModal} setOpen={setModal} />
 		</main>
