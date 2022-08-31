@@ -41,8 +41,8 @@ const data = {
 export default function App() {
 
     return (
-        <section className="FAQs">
-            <h1 className="title">FAQ</h1>
+        <section className="FAQ">
+            <h1 className="title">FAQs</h1>
                 <div className="faq-toggle">
                     <Faq
                         data={data}
