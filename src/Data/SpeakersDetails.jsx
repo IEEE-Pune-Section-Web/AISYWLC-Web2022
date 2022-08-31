@@ -17,7 +17,7 @@ const SpeakerDetails = [
 			src: "https://drive.google.com/uc?export=view&id=1Ka44ngayxT05viSMvezq_VE0Pu1b73B_",
 			alt: "Dr. Ramalatha Marimuthu",
 		},
-		details: "Director at iExplore Foundation for Sustainability Development",
+		details: "Director at iExplore Foundation for Sustainable Development",
 		social: "https://www.linkedin.com/in/ramalatha-marimuthu-995b4a15/",
 	},
 	{

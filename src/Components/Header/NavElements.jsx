@@ -25,12 +25,14 @@ const NavElements = () => {
 				<li className="nav__link">
 					<a href="/#schedule">Schedule</a>
 				</li>
+				<li className="nav__link">
+					<Link to="Committee">Committee </Link>
+				</li>
 			</ul>
 
-				<CTA_button onClick={openLink} type={"secondary"}>
-					Register Now
-				</CTA_button>
-
+			<CTA_button onClick={openLink} type={"secondary"}>
+				Register Now
+			</CTA_button>
 		</>
 	);
 };

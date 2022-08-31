@@ -1,9 +1,43 @@
-
-
 .Sponsor{
-    
-    background-color: lightgray;
+    background-color:  hsla(222,56%,21%,1);
+    flex-direction: column;
 	display: flex;
 	padding: 5%;
-	gap: 0.2em;
+	padding-top: 2%;
+	gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.Sponsor h1{
+	color: white;
+}
+
+.sponsor_logo{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sponsor_title{
+    color: white;
+}
+
+.sponsor_subtitle{
+    color: white;
+    align-self: center;
+    text-align: center;
+	margin-top: 2%;
+}
+
+.Track-Sponsors{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Track-Sponsors img{
+    width: 250px;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
 }
