@@ -44,7 +44,8 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td>6:15- 7:15pm</td>
-						<td colspan="2">Instill a Growth Mindset</td>
+						<td>Indian Knowledge System</td>
+						<td>Prof. Kshitij Patukale</td>
 					</tr>
 					<tr>
 						<td>7:15-8:30pm</td>
@@ -293,8 +294,7 @@ export default function Schedule() {
 				</tr>
 				<tr>
 					<td>09:30-10:15am</td>
-					<td>Indian Knowledge System</td>
-					<td>Prof. Kshitij Patukale</td>
+					<td colspan="2">Instill a Growth Mindset</td>
 				</tr>
 				<tr>
 					<td>10:15- 10:45am</td>
