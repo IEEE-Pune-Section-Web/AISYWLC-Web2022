@@ -22,7 +22,7 @@ const data = {
             content: <p>AISYWLC'22 theme is: "Transforming India for a Better Tomorrow"</p>,
         },
         {
-            title: <h3>Where can i find out what is happening at the congress?</h3>,
+            title: <h3>Where can I find out what is happening at the congress?</h3>,
             content: <p>See the Schedule section on the AISYWLC'22 website "http://aisywlc.in". A schedule of events will also be shared with you.</p>,
         },
         {
