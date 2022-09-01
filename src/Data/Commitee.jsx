@@ -60,7 +60,7 @@ const CommiteeDetails = [
 				members: [
 					{
 						name: "Dr. Vijayalatha Reddy",
-						img: "https://drive.google.com/uc?export=view&id=1l76AJMQCXyUBCeOgP-Q1M1KRiJdLHuBI",
+						img: "https://drive.google.com/uc?export=view&id=1w-SHhxlc8mfiCPl_yq6vD3V3q_tUjMHq",
 						title: "Student Activity Committee Chair, IEEE India Council",
 					},
 					{
