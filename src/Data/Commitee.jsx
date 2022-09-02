@@ -33,7 +33,8 @@ const CommiteeDetails = [
 			{
 				name: "Mr. Puneet Mishra",
 				img: "https://drive.google.com/uc?export=view&id=1uaBhCFReYmX1W6ykEXZjxZkxN5dAFZbK",
-				title: "Chair, IEEE APS and MTT-S Joint Chapter, IEEE Bangalore Section",
+				title:
+					"Chair, IEEE APS and MTT-S Joint Chapter, IEEE Bangalore Section",
 			},
 		],
 	},
@@ -264,13 +265,12 @@ const CommiteeDetails = [
 				name: "Nishita Pali",
 				img: "https://drive.google.com/uc?export=view&id=1iM6MlP2mLZRlJFI7AtEbi5DNIeKtT88D",
 				title: "Registration Team Lead",
-			},	
+			},
 			{
 				name: "Priya Sirsat",
 				img: "https://drive.google.com/uc?export=view&id=1huLz9BqKesqR01gqTZK8MOpbe8VW6DHb",
 				title: "Anchoring Team Lead",
 			},
-			
 		],
 	},
 ];

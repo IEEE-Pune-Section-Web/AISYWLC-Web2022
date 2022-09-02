@@ -26,6 +26,9 @@ const NavElements = () => {
 					<a href="/#schedule">Schedule</a>
 				</li>
 				<li className="nav__link">
+					<a href="/#FAQ">FAQ</a>
+				</li>
+				<li className="nav__link">
 					<Link to="Committee">Committee </Link>
 				</li>
 			</ul>
