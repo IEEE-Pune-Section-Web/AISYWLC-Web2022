@@ -45,7 +45,7 @@ export default function Info() {
 							Engineering Colleges in and around Pune City.
 						</p>
 						<CTA_button
-							onClick={() => openLink("https://https://ieeepunesection.org/")}
+							onClick={() => openLink("https://ieeepunesection.org/")}
 						>
 							Visit
 						</CTA_button>
