@@ -220,16 +220,26 @@ export default function Schedule() {
 											<th>Speaker</th>
 										</tr>
 										<tr>
-											<td>10:30-11:30am</td>
-											<td colspan="2">EKAM Session</td>
+											<td>10:30 - 11:00am</td>
+											<td>Climate Change</td>
+											<td>Mr. Harbans L Bajaj</td>
 										</tr>
 										<tr>
-											<td>11:30-12:30pm</td>
-											<td colspan="2">Age is just a number</td>
-										</tr>
-										<tr>
-											<td>12:30-1:00pm</td>
+											<td>11:00 - 11:30am</td>
 											<td colspan="2">Networking Session</td>
+										</tr>
+										<tr>
+											<td>11:30-12:00pm</td>
+											<td>Age is just a number</td>
+											<td>Mr. G. S. Mani</td>
+										</tr>
+										<tr>
+											<td>12:00 - 12:30pm</td>
+											<td colspan="2">V Tools session</td>
+										</tr>
+										<tr>
+											<td>03:00pm onwards</td>
+											<td colspan="2">Kelkar Museum Visit</td>
 										</tr>
 									</table>
 								</div>
