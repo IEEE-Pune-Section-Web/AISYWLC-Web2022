@@ -225,8 +225,8 @@ export default function Schedule() {
 											<td>Mr. Harbans L Bajaj</td>
 										</tr>
 										<tr>
-											<td colspan="2">11:00 - 11:30am</td>
-											<td>Networking Session</td>
+											<td>11:00 - 11:30am</td>
+											<td colspan="2">Networking Session</td>
 										</tr>
 										<tr>
 											<td>11:30-12:00pm</td>
