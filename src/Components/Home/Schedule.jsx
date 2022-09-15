@@ -263,7 +263,7 @@ export default function Schedule() {
 						</td>
 					</tr>
 					<tr>
-						<td>1:00-2:00pm</td>
+						<td>01:00-02:00pm</td>
 						<td className="break" colspan="2">
 							<strong>LUNCH</strong>
 						</td>
