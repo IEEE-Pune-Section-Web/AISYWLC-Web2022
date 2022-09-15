@@ -5,7 +5,7 @@ import content from "../../Data/content";
 
 const Venue = () => {
 	return (
-		<section className={"venue"}>
+		<section className={"venue"} id="Venue">
 			<div className="venue__header">
 				<h1 className="title">Venue</h1>
 			</div>

@@ -5,8 +5,9 @@ import CTA_button from "../CTA_button";
 import Counter from "./Hero/Counter";
 import Info from "./Hero/Info";
 import "./Styles/Hero.css";
-import bg from "../../../Assets/background.jpeg";
+import bg from "../../../Assets/background1.jpeg";
 import branding from "../../../Assets/IEEE.png";
+
 const Hero = () => {
 	return (
 		<Container
@@ -18,17 +19,17 @@ const Hero = () => {
 					<img src={branding} alt="IEEE Logo" />
 				</div>
 				<h1 className="hero__title">
-					ALL <span className="india">INDIA</span> STUDENT YOUNG PROFESSIONAL
-					WOMEN IN ENGINEERING AND LIFE MEMBER
+					ALL <span className="india">INDIA</span> STUDENTS YOUNG PROFESSIONALS
+					WOMEN IN ENGINEERING AND LIFE MEMBERS
 					<span className="blue"> CONGRESS '22</span>
 				</h1>
 				<div className="hero__info">
-					<Info icon={calenderIll} key="date" text={"October 8th, 2022"} />
-					<Info
+					<Info icon={calenderIll} key="date" text={"October 7th-9th, 2022"} />
+					{/* <Info
 						icon={mapIll}
 						key="venue"
 						text={"College of Engineering Pune, Pune"}
-					/>
+					/> */}
 				</div>
 				<div className="hero__counter">
 					<Counter />

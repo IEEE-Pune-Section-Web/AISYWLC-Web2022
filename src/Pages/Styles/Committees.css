@@ -1,0 +1,14 @@
+.committees {
+}
+
+.committess__header {
+	background-color: hsla(222, 56%, 21%, 1);
+	text-align: center;
+	padding: 12vh 2% 5%;
+	border-bottom: 1px solid;
+}
+
+.committess__header h1 {
+	color: white;
+	text-decoration: underline;
+}

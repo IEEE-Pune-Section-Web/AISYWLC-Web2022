@@ -1,0 +1,16 @@
+.contact {
+	background-color: #94a1b8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5%;
+	gap: 0.5em;
+}
+.contact * {
+	color: white;
+	font-size: clamp(1rem, 3vw, 2.25rem);
+}
+
+.contact button {
+	font-size: clamp(0.75rem, 2vw, 1.5rem);
+}

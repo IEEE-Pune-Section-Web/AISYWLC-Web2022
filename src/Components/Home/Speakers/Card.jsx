@@ -2,6 +2,10 @@ import React from "react";
 import "./Styles/Card.css";
 import { TiSocialLinkedin } from "react-icons/ti";
 const Card = ({ image, name, details, socials }) => {
+
+	const openLink = () =>{
+		window.open(socials, '_blank');
+	}
 	return (
 		<div className="speaker__card">
 			<div className="card__image">
@@ -12,12 +16,11 @@ const Card = ({ image, name, details, socials }) => {
 				<div className="card__detail">{details}</div>
 			</div>
 			<div className="card__socials">
-				{socials[0] &&
-					socials.map((social) => (
-						<div className="social">
-							{social.type == "Linkedin" ? <TiSocialLinkedin /> : ""}
-						</div>
-					))}
+				{socials && (
+					<div className="social" onClick={openLink}>
+						<TiSocialLinkedin />
+					</div>
+				)}
 			</div>
 		</div>
 	);

@@ -5,25 +5,32 @@
 	border-radius: 1rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	width: 20%;
 	min-width: 250px;
-	padding: 2rem 2rem;
+	padding: 1rem;
 	text-align: center;
 	text-transform: capitalize;
 }
 .speaker__card::after {
-	content: "IEEE";
+	content: url(https://drive.google.com/uc?export=view&id=17Ud0AfwmaOCkaYAy9-qmtEnK9DBxhsYh);
 	font-weight: 900;
 	position: absolute;
-	top: 2rem;
-	left: 0;
-	transform: rotate(-90deg);
-	mix-blend-mode: overlay;
+	top: -1rem;
+	left: -6rem;
+	transform: rotate(-90deg) scale(0.08);
+	mix-blend-mode: multiply;
 	font-size: 3em;
+	width: 100%;
+	height: 100%;
 }
 
+@media (min-width: 55em) {
+	.speaker__card::after {
+		top: -15%;
+	}
+}
 .card__image {
 	width: 70%;
 	border-radius: 50%;
@@ -38,7 +45,7 @@
 }
 
 .card__content {
-	margin: 2em 0 0.5em;
+	margin: 0.5em;
 }
 .card__name {
 	font-size: clamp(1rem, 2vw, 1.5rem);
@@ -46,7 +53,7 @@
 }
 
 .card__detail {
-	font-size: clamp(0.5rem, 2vw, 1rem);
+	font-size: clamp(0.75rem, 2vw, 1rem);
 }
 .card__socials {
 	display: flex;

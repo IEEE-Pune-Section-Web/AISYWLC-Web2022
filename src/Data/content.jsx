@@ -1,4 +1,4 @@
-import coep from "../../Assets/COEP.jpeg";
+import coep from "../../Assets/COEP.webp";
 
 const about = {
 	branding: "What we are about",
@@ -13,10 +13,10 @@ const venue = [
 	{
 		name: "COLLEGE OF ENGINEERING PUNE",
 		pitch:
-			"College of Engineering Pune popularly known as CoEP is situated in the heart of the city. CoEP is a prestigious engineering college in Pune. CoEP, founded in 1854, is a nationally recognized leader in technical education. The institute is distinguished by its commitment to using advanced technology to solve today's major problems. The institute has a long history of striving for excellence. With a firm foundation in truth and humanity, the institute provides you with an understanding of both technical developments and the ethics that accompany them. The institute is consistently ranked among the top 20 technical colleges in India.",
-		key: "CoEP",
+			"College of Engineering Pune popularly known as CoEP is situated in the heart of the city. CoEP is a prestigious engineering college in Pune. CoEP, founded in 1854, is a nationally recognized leader in technical education. The institute is distinguished by its commitment to using advanced technology to solve today's major problems. The institute has a long history of striving for excellence. With a firm foundation in truth and humanity, the institute provides you with an understanding of both technical developments and the ethics that accompany them. The institute is consistently ranked among the top 20 technical colleges in India. It will be a delight to host the AISYWLC'22 at CoEP. It will offer attendees numerous opportunities for learning, networking, and growth",
+		key: "COEP",
 		bg: { coep },
-		link: "https://goo.gl/maps/LQzzaLtvjHbw8KuXA",
+		link: "https://goo.gl/maps/fYxZWtRs6EWiC31Y7",
 	},
 ];
 
