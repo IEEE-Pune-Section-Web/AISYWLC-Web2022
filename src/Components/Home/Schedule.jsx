@@ -28,22 +28,26 @@ export default function Schedule() {
 						<th>Speaker</th>
 					</tr>
 					<tr>
-						<td>04:00-05:00pm</td>
+						<td>02:00-4:00pm</td>
+						<td colspan="2">Developing technical projects for humanity</td>
+					</tr>
+					<tr>
+						<td>04:00-05:30pm</td>
 						<td colspan="2">Opening Ceremony</td>
 					</tr>
 					<tr>
-						<td>5:00-5:45 pm</td>
+						<td>05:30-06:00pm</td>
 						<td>Investing the Right Way</td>
 						<td>CA Rachana Ranade</td>
 					</tr>
 					<tr>
-						<td>5:45-6:15pm</td>
+						<td>06:00-06:30pm</td>
 						<td className="break" colspan="2">
 							<strong>COFFEE BREAK</strong>
 						</td>
 					</tr>
 					<tr>
-						<td>6:15- 7:15pm</td>
+						<td>06:30- 7:15pm</td>
 						<td>Indian Knowledge System</td>
 						<td>Prof. Kshitij Patukale</td>
 					</tr>
@@ -230,15 +234,27 @@ export default function Schedule() {
 										</tr>
 										<tr>
 											<td>11:30-12:00pm</td>
-											<td>Age is just a number</td>
+											<td>Age is just a Number</td>
 											<td>Mr. G. S. Mani</td>
 										</tr>
 										<tr>
 											<td>12:00 - 12:30pm</td>
-											<td colspan="2">V Tools session</td>
+											<td>Benefits of being LM</td>
+											<td>Mr. Rajendra K. Asthana</td>
 										</tr>
 										<tr>
-											<td>03:00pm onwards</td>
+											<td rowspan="3">12:30 - 01:30pm</td>
+											<td rowspan="3">Panel Discussion</td>
+											<td>Mr. Rajendra K. Asthana (Moderator)</td>
+										</tr>
+										<tr>
+											<td>Mr. G. S. Mani</td>
+										</tr>
+										<tr>
+											<td>Mr. Harbans L Bajaj</td>
+										</tr>
+										<tr>
+											<td>03:00 - 07:00pm</td>
 											<td colspan="2">Kelkar Museum Visit</td>
 										</tr>
 									</table>
@@ -253,27 +269,35 @@ export default function Schedule() {
 						</td>
 					</tr>
 					<tr>
-						<td>2:00-2:45pm</td>
-						<td colspan="2">Chronicles of Eu-reka</td>
+						<td>02:00-02:45pm</td>
+						<td colspan="2">Chronicles of Eu-Reka</td>
 					</tr>
 					<tr>
-						<td>2:45-4:00pm</td>
-						<td colspan="2">Networking Session</td>
+						<td>02:45-03:15pm</td>
+						<td colspan="2">GMRT Session</td>
 					</tr>
 					<tr>
-						<td>4:00-5:30pm</td>
+						<td>03:15-03:45pm</td>
 						<td colspan="2">Inspiration Station with IEEE Volunteers</td>
 					</tr>
 					<tr>
-						<td>5:30-7:00pm</td>
-						<td colspan="2">National Integrity (Exhibition)</td>
+						<td>03:45-05:15pm</td>
+						<td colspan="2">Networking Session</td>
 					</tr>
 					<tr>
-						<td>7:00-8:00pm</td>
-						<td colspan="2">Musical Night</td>
+						<td>05:15-07:00pm</td>
+						<td colspan="2">Tea Break and National Integrity Exhibition</td>
 					</tr>
 					<tr>
-						<td>8:00pm onwards</td>
+						<td>07:00-08:00pm</td>
+						<td colspan="2">Cultural Performance</td>
+					</tr>
+					<tr>
+						<td>08:00-08:30pm</td>
+						<td colspan="2">Cultural Performance</td>
+					</tr>
+					<tr>
+						<td>08:30pm onwards</td>
 						<td className="break" colspan="2">
 							<strong>DINNER</strong>
 						</td>
@@ -304,7 +328,8 @@ export default function Schedule() {
 				</tr>
 				<tr>
 					<td>09:30-10:15am</td>
-					<td colspan="2">Instill a Growth Mindset</td>
+					<td>Instill a Growth Mindset</td>
+					<td>Dr. Dasmit Singh</td>
 				</tr>
 				<tr>
 					<td>10:15- 10:45am</td>
