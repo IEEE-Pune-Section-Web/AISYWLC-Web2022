@@ -29,7 +29,7 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td>02:00-4:00pm</td>
-						<td colspan="2">Developing technical projects for humanity</td>
+						<td colspan="2">Developing Technical projects for humanity- HTA Workshop</td>
 					</tr>
 					<tr>
 						<td>04:00-05:30pm</td>
@@ -333,7 +333,9 @@ export default function Schedule() {
 				</tr>
 				<tr>
 					<td>10:15- 10:45am</td>
-					<td colspan="2">Celebrating 25 Years of WIE Formation</td>
+					<td className="break" colspan="2">
+						<strong>BREAK</strong>
+					</td>
 				</tr>
 				<tr>
 					<td>10:45-11:30am</td>
