@@ -294,7 +294,7 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td>08:00-08:30pm</td>
-						<td colspan="2">Cultural Performance</td>
+						<td colspan="2">Musical Night</td>
 					</tr>
 					<tr>
 						<td>08:30pm onwards</td>
