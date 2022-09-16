@@ -4,17 +4,9 @@ import Tickets from "./Tickets/Tickets";
 import ExtraCTA from "./Tickets/ExtraCTA";
 import "./Styles/Ticket.css";
 
-const accbenefits = [
+const commonbenefits = [
 	"• Offline Session from October 7th to 9th",
 	"• Accomodation and food",
-	"• Delegate kits",
-	"• Chance to win amazing  prizes",
-	"• Increase your connect with like-minded individuals",
-	"• GFG Discount Coupons worth Rs. 500",
-];
-const noaccbenefits = [
-	"• Offline Session from October 7th to 9th",
-	"• Lunch and Dinner",
 	"• Delegate kits",
 	"• Chance to win amazing  prizes",
 	"• Increase your connect with like-minded individuals",
@@ -30,26 +22,14 @@ export default function Ticket() {
 			<div className="Ticket_Cards">
 				<Tickets
 					type="IEEE Members"
-					benefits={accbenefits}
+					benefits={commonbenefits}
 					price={4000}
 					link={"https://www.townscript.com/e/aisywlc22-340012"}
 				/>
 				<Tickets
 					type="Non-IEEE Members"
-					benefits={accbenefits}
+					benefits={commonbenefits}
 					price={5000}
-					link={"https://www.townscript.com/e/aisywlc22-340012"}
-				/>
-				<Tickets
-					type="IEEE Members (No Accomodation)"
-					benefits={noaccbenefits}
-					price={2500}
-					link={"https://www.townscript.com/e/aisywlc22-340012"}
-				/>
-				<Tickets
-					type="Non-IEEE Members (No Accomodation)"
-					benefits={noaccbenefits}
-					price={3500}
 					link={"https://www.townscript.com/e/aisywlc22-340012"}
 				/>
 			</div>
