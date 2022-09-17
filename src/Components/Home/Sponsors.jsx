@@ -26,8 +26,7 @@ export default function Sponsors() {
         <div className="sponsors_logo">
           <h2 className="sponsor_subtitle">Section Sponsors</h2>
           <div className="Section-Sponsors">
-            <img src="https://drive.google.com/uc?export=view&id=1hxUdKIwDIxC1TPMKAdx_zX6ywHYqagdF" alt="IEEE Bangalore" className="Sponsor-img" />
-            <img src="https://drive.google.com/uc?export=view&id=1yQiV79pPymTJLIi54I6ebksYKWkEB4lc" alt="IEEE Hydrabad" className="Sponsor-img" />
+            <img src="https://drive.google.com/uc?export=view&id=1kw7J-KIbmHOcSj-HLyDcKUP-CiW7TmbO" alt="IEEE Bangalore" className="Sponsor-img" />
             <img src="https://drive.google.com/uc?export=view&id=1lLITohAAjrInsgllY45JPG6dsa3TUeMJ" alt="IEEE Kerala" className="Sponsor-img" />
             <img src="https://drive.google.com/uc?export=view&id=1NOelnzQFPJLQNP21stkReEpzzEQ2Mrvc" alt="IEEE Madras" className="Sponsor-img" />
             <img src="https://drive.google.com/uc?export=view&id=1RTf_SLAxpZck04wLiQPae2OWqZpzA3Wf" alt="IEEE UP" className="Sponsor-img" />
