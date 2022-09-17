@@ -1,4 +1,4 @@
-.Sponsor{
+.Sponsor-Section{
     background-color:  hsla(222,56%,21%,1);
     flex-direction: column;
 	display: flex;
@@ -8,16 +8,12 @@
     flex-wrap: wrap;
 }
 
-.Sponsor h1{
-	color: white;
-}
-
 .sponsor_logo{
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.sponsor_title{
+.title{
     color: white;
 }
 
@@ -36,7 +32,19 @@
     justify-content: center;
 }
 
-.Track-Sponsors img{
+.Section-Sponsors{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners{
+    text-align: center;
+}
+
+.Sponsor-img{
     width: 250px;
     margin-left: 0.7em;
     margin-right: 0.7em;

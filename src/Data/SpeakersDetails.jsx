@@ -117,7 +117,6 @@ const SpeakerDetails = [
 			"SCM at Bayer AG, Ex. Co-founder EcoBugy (TU Berlin Alumni)",
 		social: "https://www.linkedin.com/in/suraj-mani-chaurasiya-2056a51a/",
 	},
-	
 	{
 		name: "Mr. Shahim Baker",
 		image: {
@@ -128,7 +127,16 @@ const SpeakerDetails = [
 			"CEO at Baker & Grey, Vice Chair(YP), IEEE India Council",
 		social: "https://www.linkedin.com/in/shahimbaker/",
 	},
-	
+	{
+		name: "Dr. Dasmit Singh",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1Kvt9WVWJ_UN74jdL0MHpOOxzkAl0cBMy",
+			alt: "Dr. Dasmit Singh",
+		},
+		details:
+			"Professor and Head, Dept. of Paediatric Surgery, B.J. Govt. Medical College and Sassoon Hospital",
+		social: "https://www.linkedin.com",
+	},
 	
 ];
 
