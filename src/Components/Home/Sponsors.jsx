@@ -4,7 +4,7 @@ export default function Sponsors() {
   return (
     <>
     <section className="Sponsor-Section">
-        <h1 className="title">Sponsors</h1>
+        <h1 className="title" id="sponsors">Sponsors</h1>
         <div className="sponsors_logo">
           <h2 className="sponsor_subtitle">Track Sponsors</h2>
           <div className="Track-Sponsors">
