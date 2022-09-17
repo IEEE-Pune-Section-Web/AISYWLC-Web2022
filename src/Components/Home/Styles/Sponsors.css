@@ -8,16 +8,12 @@
     flex-wrap: wrap;
 }
 
-.Sponsor h1{
-	color: white;
-}
-
 .sponsor_logo{
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.sponsor_title{
+.title{
     color: white;
 }
 
@@ -45,7 +41,7 @@
 }
 
 .partners{
-    justify-content: center;
+    text-align: center;
 }
 
 .Sponsor-img{
