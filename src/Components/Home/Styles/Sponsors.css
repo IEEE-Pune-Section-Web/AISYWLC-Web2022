@@ -1,74 +1,84 @@
-.Sponsor-Section{
-    background-color:  hsla(222,56%,21%,1);
-    flex-direction: column;
+.Sponsor-Section {
+	background-color: hsla(222, 56%, 21%, 1);
+	flex-direction: column;
 	display: flex;
 	padding: 5%;
 	padding-top: 2%;
 	gap: 1.5em;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
-.sponsor_logo{
-    flex-direction: column;
-    flex-wrap: wrap;
+.sponsors_logo {
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: relative;
 }
 
-#sponsor{
-    color: white;
+.sponsors_logo + .sponsors_logo::before {
+	content: " ";
+	background-color: white;
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	top: 0;
+	border-radius: 50%;
+}
+#sponsor {
+	color: white;
 }
 
-.sponsor_subtitle{
-    color: white;
-    align-self: center;
-    text-align: center;
+.sponsor_subtitle {
+	color: white;
+	align-self: center;
+	text-align: center;
 	margin-top: 2%;
 }
 
-.Track-Sponsors{
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-    flex-wrap: wrap;
-    justify-content: center;
+.Track-Sponsors {
+	display: flex;
+	flex-direction: row;
+	gap: 0.5em;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.Section-Sponsors{
-    display: flex;
-    flex-direction: row;
-    gap: 3em;
-    flex-wrap: wrap;
-    justify-content: center;
+.Section-Sponsors {
+	display: flex;
+	flex-direction: row;
+	gap: 3em;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.partners{
-    text-align: center;
+.partners {
+	text-align: center;
 }
 
-.Sponsor-img{
-    height: 80px;
-    margin-left: 0.7em;
-    margin-right: 0.7em;
-    margin-top: 5em;
-    margin-bottom: 3em;
+.Sponsor-img {
+	height: 80px;
+	margin-left: 0.7em;
+	margin-right: 0.7em;
+	margin-top: 5em;
+	margin-bottom: 3em;
 }
 
-.Knowledge-Partner{
-    height: 200px;
-    margin-left: 0.7em;
-    margin-right: 0.7em;
-    margin-top: 5em;
-    margin-bottom: 3em;
+.Knowledge-Partner {
+	height: 200px;
+	margin-left: 0.7em;
+	margin-right: 0.7em;
+	margin-top: 5em;
+	margin-bottom: 3em;
 }
 
 @media (max-width: 600px) {
-    .Sponsor-img{
-        height: 60px;
-        margin-left: none;
-        margin-right: none;
-    }
-    .Knowledge-Partner{
-        height: 100px;
-        margin-left: none;
-        margin-right: none;
-    }
+	.Sponsor-img {
+		height: 60px;
+		margin-left: none;
+		margin-right: none;
+	}
+	.Knowledge-Partner {
+		height: 100px;
+		margin-left: none;
+		margin-right: none;
+	}
 }
