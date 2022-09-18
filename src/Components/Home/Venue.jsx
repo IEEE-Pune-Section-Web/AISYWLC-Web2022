@@ -10,13 +10,14 @@ const Venue = () => {
 				<h1 className="title">Venue</h1>
 			</div>
 			<div className="venue__contents">
-				{content.venue.map(({ name, pitch, key, bg, link }) => (
+				{content.venue.map(({ name, pitch, key, bg, link, pdflink }) => (
 					<Location
 						name={name}
 						pitch={pitch}
 						key={key}
 						bg={bg.coep}
 						link={link}
+						pdflink={pdflink}
 					/>
 				))}
 			</div>
