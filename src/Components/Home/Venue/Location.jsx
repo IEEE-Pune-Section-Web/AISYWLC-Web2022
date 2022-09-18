@@ -2,7 +2,7 @@ import React from "react";
 import { mapIll } from "../../../Data/Illustration";
 import CTA_button from "../../CTA_button";
 import "./Styles/Location.css";
-const Location = ({ name, pitch, link, link1pdflink, bg }) => {
+const Location = ({ name, pitch, link, pdflink, bg }) => {
 	const openMaps = () => {
 		window.open(link, "_blank");
 	};
