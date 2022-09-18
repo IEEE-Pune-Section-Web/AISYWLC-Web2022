@@ -1,5 +1,6 @@
 import coep from "../../Assets/COEP.webp";
 
+
 const about = {
 	branding: "What we are about",
 	title: "Transforming India for a Better Tomorrow",
@@ -17,6 +18,7 @@ const venue = [
 		key: "COEP",
 		bg: { coep },
 		link: "https://goo.gl/maps/fYxZWtRs6EWiC31Y7",
+		pdflink: "https://drive.google.com/file/d/1yvmScWw97KgWz99sm12NvAhQyPDRh9P5/view?usp=sharing"
 	},
 ];
 
