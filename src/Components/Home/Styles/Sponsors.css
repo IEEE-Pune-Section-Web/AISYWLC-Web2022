@@ -59,3 +59,16 @@
     margin-top: 5em;
     margin-bottom: 3em;
 }
+
+@media (max-width: 600px) {
+    .Sponsor-img{
+        height: 60px;
+        margin-left: none;
+        margin-right: none;
+    }
+    .Knowledge-Partner{
+        height: 100px;
+        margin-left: none;
+        margin-right: none;
+    }
+}
