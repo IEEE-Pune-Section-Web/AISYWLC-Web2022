@@ -130,7 +130,7 @@ const SpeakerDetails = [
 	{
 		name: "Dr. Dasmit Singh",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=1Kvt9WVWJ_UN74jdL0MHpOOxzkAl0cBMy",
+			src: "https://drive.google.com/uc?export=view&id=1DLjfLfZDpuJWq5EnrLvSTsN4bcno4C1r",
 			alt: "Dr. Dasmit Singh",
 		},
 		details:
