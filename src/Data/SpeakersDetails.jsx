@@ -137,6 +137,16 @@ const SpeakerDetails = [
 			"Professor and Head, Dept. of Paediatric Surgery, B.J. Govt. Medical College and Sassoon Hospital",
 		social: "https://www.linkedin.com",
 	},
+	{
+		name: "Mr. Harbans L Bajaj",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1LG29Veng2N4vZgHQOayQe2MRaA4q9hAN",
+			alt: "Mr. Harbans L Bajaj",
+		},
+		details:
+			"Advisory Board of and Indian Energy Exchange & Joint Electricity Regulatory Commission",
+		social: "https://www.linkedin.com",
+	},
 	
 ];
 
