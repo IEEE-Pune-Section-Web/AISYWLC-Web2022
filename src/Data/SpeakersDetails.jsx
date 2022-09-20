@@ -147,6 +147,36 @@ const SpeakerDetails = [
 			"Advisory Board of and Indian Energy Exchange & Joint Electricity Regulatory Commission",
 		social: "https://www.linkedin.com",
 	},
+	{
+		name: "Mr. R Muralidharan",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1OZ4psp2Rzvl4Z9ulIGtrEFsNpb2uLdQ0",
+			alt: "Mr. R Muralidharan",
+		},
+		details:
+			"FNAE, LSMIEEE, CTO, Tata Advanced Systems Chair LMAG, Bombay Section, Past Chair IEEE India council & Bombay Section",
+		social: "https://www.linkedin.com",
+	},
+	{
+		name: "Mr.G.S. Mani",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=13Slvau_Xpa_xP9sRNiMVWHeHXYssOOFi",
+			alt: "Mr. G.S. Mani",
+		},
+		details:
+			"Former Chair, IEEE Pune Section",
+		social: "https://www.linkedin.com",
+	},
+	{
+		name: "Er. R.K. Asthana",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1rv_AiL3i_p2f87xv_17DgZU19vH_DnjM",
+			alt: "Er. R.K. Asthana",
+		},
+		details:
+			"Chair, IEEE Region 10 Life Members Committee",
+		social: "https://www.linkedin.com",
+	},
 	
 ];
 
