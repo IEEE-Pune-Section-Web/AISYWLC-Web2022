@@ -154,7 +154,7 @@ const SpeakerDetails = [
 			alt: "Mr. R Muralidharan",
 		},
 		details:
-			"FNAE, LSMIEEE, CTO, Tata Advanced Systems Chair LMAG, Bombay Section, Past Chair IEEE India council & Bombay Section",
+			"Chair, LMAG, Bombay Section, CTO at Tata Advanced Systems, Mumbai, INDIA",
 		social: "https://www.linkedin.com",
 	},
 	{
