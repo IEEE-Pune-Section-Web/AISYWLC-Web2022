@@ -137,6 +137,46 @@ const SpeakerDetails = [
 			"Professor and Head, Dept. of Paediatric Surgery, B.J. Govt. Medical College and Sassoon Hospital",
 		social: "https://www.linkedin.com",
 	},
+	{
+		name: "Mr. Harbans L Bajaj",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1LG29Veng2N4vZgHQOayQe2MRaA4q9hAN",
+			alt: "Mr. Harbans L Bajaj",
+		},
+		details:
+			"Advisory Board of and Indian Energy Exchange & Joint Electricity Regulatory Commission",
+		social: "https://www.linkedin.com",
+	},
+	{
+		name: "Mr. R Muralidharan",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1OZ4psp2Rzvl4Z9ulIGtrEFsNpb2uLdQ0",
+			alt: "Mr. R Muralidharan",
+		},
+		details:
+			"Chair, LMAG, Bombay Section, CTO at Tata Advanced Systems, Mumbai, INDIA",
+		social: "https://www.linkedin.com",
+	},
+	{
+		name: "Mr.G.S. Mani",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=13Slvau_Xpa_xP9sRNiMVWHeHXYssOOFi",
+			alt: "Mr. G.S. Mani",
+		},
+		details:
+			"Former Chair, IEEE Pune Section",
+		social: "https://www.linkedin.com",
+	},
+	{
+		name: "Er. R.K. Asthana",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1rv_AiL3i_p2f87xv_17DgZU19vH_DnjM",
+			alt: "Er. R.K. Asthana",
+		},
+		details:
+			"Chair, IEEE Region 10 Life Members Committee",
+		social: "https://www.linkedin.com",
+	},
 	
 ];
 
