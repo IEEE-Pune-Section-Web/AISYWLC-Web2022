@@ -1,13 +1,14 @@
 import React from "react";
 import CTA_button from "../../CTA_button";
 import "./Styles/Tickets.css";
-import logo from "../../../../Assets/Logo1.webp"
+import logo from "../../../../Assets/Logo1.webp";
 
-export default function Tickets({ type, benefits, price, link }) {
-  const openLink = () => {
-    window.open(link, "_blank");
-  };
-  {/*  function popup(a) {
+export default function Tickets({ type, benefits, price, link, isdisabled }) {
+	const openLink = () => {
+		window.open(link, "_blank");
+	};
+	{
+		/*  function popup(a) {
     var b = "https://www.townscript.com/v2/widget/" + a + "/booking";
     invokeInframe(b);
   }
@@ -63,29 +64,30 @@ export default function Tickets({ type, benefits, price, link }) {
     },
     !1
   );
-  */}
+  */
+	}
 
-  return (
-    <div className="ticket">
-      <div className="left">
-        <div className="ticket-left">
-          <img
-            className="ticket_logo"
-            src={logo}
-            alt=""
-          />
-        </div>
-        <div className="ticket-info">
-          <h1>{type ?? "IEEE Members"}</h1>
-          <ul>{benefits && benefits.map((benefit) => <li>{benefit}</li>)}</ul>
-          <div className="price">
-            <h2>₹{price}</h2>
-          </div>
-          <CTA_button onClick={openLink} type={"primary"}>
-            Register Now!
-          </CTA_button>
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<div className="ticket">
+			<div className="left">
+				<div className="ticket-left">
+					<img className="ticket_logo" src={logo} alt="" />
+				</div>
+				<div className="ticket-info">
+					<h1>{type ?? "IEEE Members"}</h1>
+					<ul>{benefits && benefits.map((benefit) => <li>{benefit}</li>)}</ul>
+					<div className="price">
+						<h2>₹{price}</h2>
+					</div>
+					<CTA_button
+						isdisabled={isdisabled}
+						onClick={openLink}
+						type={"primary"}
+					>
+						{isdisabled ? "Sold Out" : "Register Now!"}
+					</CTA_button>
+				</div>
+			</div>
+		</div>
+	);
 }

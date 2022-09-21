@@ -33,24 +33,28 @@ export default function Ticket() {
 					benefits={accbenefits}
 					price={4000}
 					link={"https://www.townscript.com/e/aisywlc22-340012"}
+					isdisabled={true}
 				/>
 				<Tickets
 					type="Non-IEEE Members"
 					benefits={accbenefits}
 					price={5000}
 					link={"https://www.townscript.com/e/aisywlc22-340012"}
+					isdisabled={true}
 				/>
 				<Tickets
 					type="IEEE Members (No Accomodation)"
 					benefits={noaccbenefits}
 					price={2500}
 					link={"https://www.townscript.com/e/aisywlc22-340012"}
+					isdisabled={true}
 				/>
 				<Tickets
 					type="Non-IEEE Members (No Accomodation)"
 					benefits={noaccbenefits}
 					price={3500}
 					link={"https://www.townscript.com/e/aisywlc22-340012"}
+					isdisabled={true}
 				/>
 			</div>
 
