@@ -225,8 +225,8 @@ export default function Schedule() {
 										</tr>
 										<tr>
 											<td>10:30 - 11:00am</td>
-											<td>Climate Change</td>
-											<td>Mr. Harbans L Bajaj</td>
+											<td>Engineering in Medicine Transforming Health Care</td>
+											<td>Mr. Koruthu Varughese</td>
 										</tr>
 										<tr>
 											<td>11:00 - 11:30am</td>
@@ -239,8 +239,8 @@ export default function Schedule() {
 										</tr>
 										<tr>
 											<td>12:00 - 12:30pm</td>
-											<td>Benefits of being LM</td>
-											<td>Mr. Rajendra K. Asthana</td>
+											<td>Climate Change</td>
+											<td>Mr. Harbans L Bajaj</td>
 										</tr>
 										<tr>
 											<td rowspan="3">12:30 - 01:30pm</td>
