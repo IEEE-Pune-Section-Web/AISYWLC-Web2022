@@ -18,7 +18,7 @@ const venue = [
 		key: "COEP",
 		bg: { coep },
 		link: "https://goo.gl/maps/fYxZWtRs6EWiC31Y7",
-		pdflink: "https://drive.google.com/file/d/1iTnmZNofBF0PKS9NJObbGxA7y9jkkdWw/view?usp=sharing",
+		pdflink: "https://drive.google.com/file/d/1PU-yD8hNjFPXBQrd9mHcL2PXutqDXnAy/view?usp=sharing",
 	},
 ];
 
