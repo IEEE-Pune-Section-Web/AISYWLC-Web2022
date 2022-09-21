@@ -18,7 +18,7 @@ export default function Sponsors() {
           </div>
         </div>
         <div className="sponsors_logo">
-          <h2 className="sponsor_subtitle">Knowlegde Partner</h2>
+          <h2 className="sponsor_subtitle">Knowledge Partner</h2>
           <div className="partners">
             <img src="https://drive.google.com/uc?export=view&id=1XSjSxGgd9LXazU94meGhDJz2J1jUYaIo" alt="ncra" className="Knowledge-Partner" />
           </div>
