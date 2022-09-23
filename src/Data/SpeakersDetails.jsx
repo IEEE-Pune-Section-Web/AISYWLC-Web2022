@@ -177,6 +177,16 @@ const SpeakerDetails = [
 			"Chair, IEEE Region 10 Life Members Committee",
 		social: "https://www.linkedin.com",
 	},
+	{
+		name: "Mr. Koruthu Varughese",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1m69Ek-S3a1Yy21ghSAhig6F9ycoNpT4X",
+			alt: "Mr. Koruthu Varughese",
+		},
+		details:
+			"Chair of IEEE LMAG Kerala, Immediate past Chair of IEEE EMBS Kerala Chapter",
+		social: "https://www.linkedin.com",
+	},
 	
 ];
 
