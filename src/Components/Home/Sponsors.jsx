@@ -48,6 +48,16 @@ export default function Sponsors() {
 					</div>
 				</div>
 				<div className="sponsors_logo">
+					<h2 className="sponsor_subtitle">Society Sponsors</h2>
+					<div className="Society_sopnsor">
+						<img
+							src="https://drive.google.com/uc?export=view&id=1oxNrIgGUYoNq2dJ_HqwTb57yC9Txd84A"
+							alt="AESS-India"
+							className="Society"
+						/>
+					</div>
+				</div>
+				<div className="sponsors_logo">
 					<h2 className="sponsor_subtitle">Knowledge Partner</h2>
 					<div className="partners">
 						<img
