@@ -187,6 +187,16 @@ const SpeakerDetails = [
 			"Chair of IEEE LMAG Kerala, Immediate past Chair of IEEE EMBS Kerala Chapter",
 		social: "https://www.linkedin.com",
 	},
+	{
+		name: "Mr. Puneet Mishra",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1W0mgHQSHLavQKxKy5U_qhL8aMW2zatka",
+			alt: "Mr. Puneet Mishra",
+		},
+		details:
+			"Chair, IEEE APS And MTT-S Joint Chapter, IEEE Bangalore Section",
+		social: "https://www.linkedin.com/in/puneet-kumar-mishra-252aba5",
+	},
 	
 ];
 
