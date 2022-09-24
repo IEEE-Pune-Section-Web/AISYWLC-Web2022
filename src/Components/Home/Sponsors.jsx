@@ -51,9 +51,14 @@ export default function Sponsors() {
 					<h2 className="sponsor_subtitle">Society Sponsors</h2>
 					<div className="Society_sopnsor">
 						<img
-							src="https://drive.google.com/uc?export=view&id=1oxNrIgGUYoNq2dJ_HqwTb57yC9Txd84A"
+							src="https://drive.google.com/uc?export=view&id=1xz3hS2U13ImQGeJukLb6jn7epht0UW4V"
 							alt="AESS-India"
-							className="Society"
+							className="Sponsor-img"
+						/>
+						<img
+							src="https://drive.google.com/uc?export=view&id=1zG1TlJs2YQ3NWlehPJu_6m2AFpG7tMJl"
+							alt="Professional Communication Society"
+							className="Sponsor-img"
 						/>
 					</div>
 				</div>
