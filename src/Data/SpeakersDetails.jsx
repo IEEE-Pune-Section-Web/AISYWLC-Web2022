@@ -210,7 +210,7 @@ const SpeakerDetails = [
 	{
 		name: "Ms. Ramya Narendra",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=12nKVXziMM7zKfoO1_gQZhoL_FU8jErin",
+			src: "https://drive.google.com/uc?export=view&id=1EEObVsjRnqVO0W2i0U01TSewF2ictcwo",
 			alt: "Ms. Ramya Narendra",
 		},
 		details:
