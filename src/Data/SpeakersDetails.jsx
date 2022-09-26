@@ -214,7 +214,7 @@ const SpeakerDetails = [
 			alt: "Ms. Ramya Narendra",
 		},
 		details:
-			"Chair Young Professionals AG IEEE Hyderabad Section, Lead Ambassdor of IEEE Collabratec",
+			"Chair YP AG IEEE Hyderabad Section, Lead Ambassdor of IEEE Collabratec",
 		social: "https://www.linkedin.com/in/narendra-ramya/",
 	},
 	
