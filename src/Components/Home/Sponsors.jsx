@@ -53,7 +53,13 @@ export default function Sponsors() {
 						<img
 							src="https://drive.google.com/uc?export=view&id=1oxNrIgGUYoNq2dJ_HqwTb57yC9Txd84A"
 							alt="AESS-India"
-							className="Society"
+							className="AESS"
+						/>
+						<img
+							src="https://drive.google.com/uc?export=view&id=1zG1TlJs2YQ3NWlehPJu_6m2AFpG7tMJl"
+							alt="Professional Communication Society"
+							className="Sponsor-img"
+
 						/>
 					</div>
 				</div>
