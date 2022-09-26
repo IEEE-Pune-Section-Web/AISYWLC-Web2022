@@ -11,37 +11,37 @@ export default function Sponsors() {
 					<h2 className="sponsor_subtitle">Track Sponsors</h2>
 					<div className="Track-Sponsors">
 						<img
-							src="https://drive.google.com/uc?export=view&id=11HgXl8X8J7D1PZUbZsLgp0SNZHVQqLb3"
+							src="../../../../Assets/Sponsors/IEEE R10.webp"
 							alt="R10"
 							className="Sponsor-img"
 						/>
 						<img
-							src="https://drive.google.com/uc?export=view&id=1s_ct3qQuWm-uQfM2rGXj5SGgxnnzsQEr"
+							src="../../../../Assets/Sponsors/R10 SAC.webp"
 							alt="R10-Student"
 							className="Sponsor-img"
 						/>
 						<img
-							src="https://drive.google.com/uc?export=view&id=10YuLT6EwhF9xrlXq3OfUUj8tCVG_CPWu"
+							src="../../../../Assets/Sponsors/R10 WIE.webp"
 							alt="R10-WIE"
 							className="Sponsor-img"
 						/>
 						<img
-							src="https://drive.google.com/uc?export=view&id=1NLEmycqFDuGye6Tu_OYsgdGvtg75Jqyv"
+							src="../../../../Assets/Sponsors/R10 YP.webp"
 							alt="R10-YP"
 							className="Sponsor-img"
 						/>
 						<img
-							src="https://drive.google.com/uc?export=view&id=1K2KzYqmMgKzuxgjGVghPKdkpwXsBDP6N"
+							src="../../../../Assets/Sponsors/SAC.webp"
 							alt="Student"
 							className="Sponsor-img"
 						/>
 						<img
-							src="https://drive.google.com/uc?export=view&id=153GpP9gpLhTeX3-ybZCWdwtUN8nc7OXz"
+							src="../../../../Assets/Sponsors/WIE.webp"
 							alt="WIE"
 							className="Sponsor-img"
 						/>
 						<img
-							src="https://drive.google.com/uc?export=view&id=16vsFPFTffyPjyknQwJehmt9hXGbYjoGD"
+							src="../../../../Assets/Sponsors/YP.webp"
 							alt="YP"
 							className="Sponsor-img"
 						/>
@@ -51,12 +51,12 @@ export default function Sponsors() {
 					<h2 className="sponsor_subtitle">Society Sponsors</h2>
 					<div className="Society_sopnsor">
 						<img
-							src="https://drive.google.com/uc?export=view&id=1xz3hS2U13ImQGeJukLb6jn7epht0UW4V"
+							src="../../../../Assets/Sponsors/AESS.png"
 							alt="AESS-India"
-							className="Sponsor-img"
+							className="AESS"
 						/>
 						<img
-							src="https://drive.google.com/uc?export=view&id=1zG1TlJs2YQ3NWlehPJu_6m2AFpG7tMJl"
+							src="../../../../Assets/Sponsors/IEEE PCS Logo White-01.png"
 							alt="Professional Communication Society"
 							className="Sponsor-img"
 						/>
@@ -66,7 +66,7 @@ export default function Sponsors() {
 					<h2 className="sponsor_subtitle">Knowledge Partner</h2>
 					<div className="partners">
 						<img
-							src="https://drive.google.com/uc?export=view&id=1XSjSxGgd9LXazU94meGhDJz2J1jUYaIo"
+							src="../../../../Assets/Sponsors/NCRA.png"
 							alt="ncra"
 							className="Knowledge-Partner"
 						/>
@@ -76,29 +76,37 @@ export default function Sponsors() {
 					<h2 className="sponsor_subtitle">Section Sponsors</h2>
 					<div className="Section-Sponsors">
 						<img
-							src="https://drive.google.com/uc?export=view&id=1kxt53LVosNl4HNnH1YhHgnzgYMAJx59g"
+							src="../../../../Assets/Sponsors/pune.png"
 							alt="IEEE Pune"
 							className="Sponsor-img"
 						/>
 						<img
-							src="https://drive.google.com/uc?export=view&id=11597KrUxfnCetslgohew_lXLoNTcSXHa"
+							src="../../../../Assets/Sponsors/IEEE Hydrabad.png"
 							alt="IEEE Hydrabad"
 							className="Sponsor-img"
 						/>
 						<img
-							src="https://drive.google.com/uc?export=view&id=1lLITohAAjrInsgllY45JPG6dsa3TUeMJ"
+							src="../../../../Assets/Sponsors/IEEE Kerala.png"
 							alt="IEEE Kerala"
 							className="Sponsor-img"
 						/>
-						{/*<img src="https://drive.google.com/uc?export=view&id=1NOelnzQFPJLQNP21stkReEpzzEQ2Mrvc" alt="IEEE Madras" className="Sponsor-img" />
-            <img src="https://drive.google.com/uc?export=view&id=1RTf_SLAxpZck04wLiQPae2OWqZpzA3Wf" alt="IEEE UP" className="Sponsor-img" />*/}
+						{/*<img
+							src="../../../../Assets/Sponsors/IEEE Madras.png"
+							alt="IEEE Madras"
+							className="Sponsor-img"
+						/>
+            			<img
+							src="../../../../Assets/Sponsors/IEEE UP.png"
+							alt="IEEE UP"
+							className="Sponsor-img"
+						/>*/}
 					</div>
 				</div>
 				<div className="sponsors_logo">
 					<h2 className="sponsor_subtitle">Coding Partner</h2>
 					<div className="partners">
 						<img
-							src="https://drive.google.com/uc?export=view&id=1joIoUlThwNDPRGQi6OTiw9owJ4HJHDfP"
+							src="../../../../Assets/Sponsors/GFG.png"
 							alt="GeeksforGeeks"
 							className="Sponsor-img"
 						/>
