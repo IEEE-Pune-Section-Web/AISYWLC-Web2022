@@ -1,81 +1,101 @@
-.schedule {
-	padding-top: 0;
-}
-
-.Schedule_title {
-	color: black;
-	text-align: center;
-	font-size: clamp(2rem, 3vw, 4rem);
-	/* padding-bottom: 20px; */
-	margin-bottom: 12px;
-}
-table {
-	background-color: white;
-}
-th,
-td {
-	padding: 15px;
-	border: 0px;
-}
-tr:nth-child(odd) {
-	background-color: rgba(216, 216, 216, 0.47);
-}
-.tab-action {
-	margin-bottom: 25px;
-}
-sup {
-	color: white;
-}
-tr:nth-child(even) {
-	background-color: white;
-}
-th {
+.Sponsor-Section {
 	background-color: hsla(222, 56%, 21%, 1);
-	color: white;
-	text-align: left;
-}
-table {
-	width: 100%;
-}
-.break {
-	text-align: center;
-}
-.active,
-.faq-page:hover {
-	background-color: #f9f9f9;
-}
-.toggle-table {
-	display: none;
-	overflow: hidden;
-}
-.toggle-table-heading:after {
-	content: "\02795";
-	font-size: 13px;
-	color: #777;
-	float: right;
-	margin-left: 5px;
+	flex-direction: column;
+	display: flex;
+	padding: 5%;
+	padding-top: 2%;
+	gap: 1.5em;
+	flex-wrap: wrap;
 }
 
-.toggle-table .active:after {
-	content: "\2796";
+.sponsors_logo {
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: relative;
 }
-.action-button {
-	color: hsla(222, 56%, 21%, 1);
-	padding: 5px;
-	margin: 5px;
-	border-radius: 5px;
-	border: 2px solid hsla(222, 56%, 21%, 1);
+
+.sponsors_logo + .sponsors_logo::before {
+	content: " ";
 	background-color: white;
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	top: 0;
+	border-radius: 50%;
 }
-.tabs {
-}
-.table-title {
-	text-align: center;
-	padding: 2px;
+#sponsor {
 	color: white;
-	background-color: rgba(39, 53, 85, 0.821);
 }
-.Schedule_title {
+
+.sponsor_subtitle {
+	color: white;
+	align-self: center;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-top: 2%;
+}
+
+.Track-Sponsors {
+	display: flex;
+	flex-direction: row;
+	gap: 0.5em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.Section-Sponsors {
+	display: flex;
+	flex-direction: row;
+	gap: 3em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.partners {
+	text-align: center;
+}
+
+.Society_sopnsor {
+	text-align: center;
+}
+
+.Sponsor-img {
+	height: 80px;
+	margin-left: 0.7em;
+	margin-right: 0.7em;
+	margin-top: 5em;
+	margin-bottom: 3em;
+}
+
+.Knowledge-Partner {
+	height: 200px;
+	margin-left: 0.7em;
+	margin-right: 0.7em;
+	margin-top: 5em;
+	margin-bottom: 3em;
+}
+
+.Society {
+	height: 200px;
+	margin-left: 0.7em;
+	margin-right: 0.7em;
+	margin-top: 5em;
+	margin-bottom: 3em;
+}
+
+@media (max-width: 600px) {
+	.Sponsor-img {
+		height: 60px;
+		margin-left: none;
+		margin-right: none;
+	}
+	.Knowledge-Partner {
+		height: 100px;
+		margin-left: none;
+		margin-right: none;
+	}
+	.Society {
+		height: 100px;
+		margin-left: none;
+		margin-right: none;
+	}
 }
