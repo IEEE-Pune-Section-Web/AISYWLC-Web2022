@@ -197,6 +197,26 @@ const SpeakerDetails = [
 			"Board of Governor, Global IEEE AESS",
 		social: "https://www.linkedin.com/in/puneet-kumar-mishra-252aba5",
 	},
+	{
+		name: "Mr. John Day",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=138AgJADys7lgxVe6iezdSG2DBLmN7_0Z",
+			alt: "Mr. John Day",
+		},
+		details:
+			"Director, Member Products & Programs at IEEE",
+		social: "https://www.linkedin.com/in/johnday/",
+	},
+	{
+		name: "Ms. Ramya Narendra",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=12nKVXziMM7zKfoO1_gQZhoL_FU8jErin",
+			alt: "Ms. Ramya Narendra",
+		},
+		details:
+			"Chair Young Professionals AG IEEE Hyderabad Section, Lead Ambassdor of IEEE Collabratec",
+		social: "https://www.linkedin.com/in/narendra-ramya/",
+	},
 	
 ];
 
