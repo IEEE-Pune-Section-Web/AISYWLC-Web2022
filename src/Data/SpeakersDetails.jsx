@@ -194,7 +194,7 @@ const SpeakerDetails = [
 			alt: "Mr. Puneet Mishra",
 		},
 		details:
-			"Chair, IEEE APS And MTT-S Joint Chapter, IEEE Bangalore Section",
+			"Board of Governor, Global IEEE AESS",
 		social: "https://www.linkedin.com/in/puneet-kumar-mishra-252aba5",
 	},
 	
