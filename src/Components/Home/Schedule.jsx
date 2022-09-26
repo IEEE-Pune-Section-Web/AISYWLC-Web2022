@@ -142,7 +142,7 @@ export default function Schedule() {
 									</tr>
 									<tr>
 										<td>11:15-11:35am</td>
-										<td colSpan="2">Open slot for networking/chapter sponsors</td>
+										<td colSpan="2">Networking Session</td>
 									</tr>
 									<tr>
 										<td>11:35-1:00pm</td>
