@@ -34,7 +34,7 @@ const CommiteeDetails = [
 				name: "Mr. Puneet Mishra",
 				img: "https://drive.google.com/uc?export=view&id=1uaBhCFReYmX1W6ykEXZjxZkxN5dAFZbK",
 				title:
-					"Chair, IEEE APS and MTT-S Joint Chapter, IEEE Bangalore Section",
+					"Board of Governor, Global IEEE AESS",
 			},
 		],
 	},
