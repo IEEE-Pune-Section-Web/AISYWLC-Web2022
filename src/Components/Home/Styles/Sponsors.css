@@ -74,13 +74,6 @@
 	margin-bottom: 3em;
 }
 
-.Society {
-	height: 200px;
-	margin-left: 0.7em;
-	margin-right: 0.7em;
-	margin-top: 5em;
-	margin-bottom: 3em;
-}
 
 @media (max-width: 600px) {
 	.Sponsor-img {
@@ -93,9 +86,12 @@
 		margin-left: none;
 		margin-right: none;
 	}
-	.Society {
-		height: 100px;
-		margin-left: none;
-		margin-right: none;
-	}
+}
+
+.AESS {
+	height: 110px;
+	margin-left: 0.7em;
+	margin-right: 0.7em;
+	margin-top: 5em;
+	margin-bottom: 3em;
 }
