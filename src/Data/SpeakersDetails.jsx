@@ -1,223 +1,443 @@
-// For Images refer this https://stackoverflow.com/questions/15557392/how-do-i-display-images-from-google-drive-on-a-website
+import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
+import Container from "../../Layout/Container";
+import "./Styles/Schedule.css";
+export default function Schedule() {
+	const tableToggle = (target) => {
+		const item = target.nextElementSibling;
+		if (item.style.display === "block") {
+			item.style.display = "none";
+		} else {
+			item.style.display = "block";
+		}
+	};
 
-const SpeakerDetails = [
-	{
-		name: "Major Vandana Sharma",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1BW5IGmYQgXgesadF_Ch5vRXysTiHvxgo",
-			alt: "Major Vandana Sharma",
-		},
-		details:
-			"TEDx Speaker, International Woman Icon, Military Veteran, Adj Faculty IIM Kashipur",
-		social: "https://www.linkedin.com/in/majorvansharma/",
-	},
-	{
-		name: "Dr. Ramalatha Marimuthu",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1Ka44ngayxT05viSMvezq_VE0Pu1b73B_",
-			alt: "Dr. Ramalatha Marimuthu",
-		},
-		details: "Director at iExplore Foundation for Sustainable Development",
-		social: "https://www.linkedin.com/in/ramalatha-marimuthu-995b4a15/",
-	},
-	{
-		name: "Lt.Col.Rohit Mishra",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1rOqrs7tdPC_e_AetbTBsvHZY2BL6v8x7",
-			alt: "Lt.Col.Rohit Mishra",
-		},
-		details: "Founder Director-Mission Fight Back,Army Veteran,TEDx Speaker",
-		social: "https://www.linkedin.com/in/rohit-mishra-6981aa108/",
-	},
-	{
-		name: "CA Rachana Ranade",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1bqG_SP-zxLuEXxfyYu6s_2AFEcQw4zQl",
-			alt: "CA Rachana Ranade",
-		},
-		details: "Finance Influencer with 3.7 Million+ Subscribers on YouTube",
-		social: "https://www.linkedin.com/in/carachanaranade/",
-	},
-	{
-		name: "Ms.Shalaka Verma",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=17F_Cmuwk_JwXr9MKg3CPQpNZtBzbEQ7P",
-			alt: "Ms.Shalaka Verma",
-		},
-		details: "Director, Customer Success, Modern Work At Microsoft",
-		social: "https://www.linkedin.com/in/shalakaverma/",
-	},
-	{
-		name: "Ms.Nirali Bhatia",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1YqrqPdi6aUT6O_VpC93T643QEExEknYg",
-			alt: "Ms.Nirali Bhatia",
-		},
-		details:
-			"Director @ V4WEB Technologies, TEDx Speaker,Founder of CyberBAAP",
-		social: "https://www.linkedin.com/in/nirali-bhatia/",
-	},
-	{
-		name: "Dr. Mini Ulanat",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1b22XQn5leFvg-5T06rQ5f02uo8Im7NFf",
-			alt: "Dr. Mini Ulanat",
-		},
-		details:
-			"Chair, IEEE Kerala Section Vice- Chair, WIE, India Council - 2021-22",
-		social: "https://www.linkedin.com/in/mini-ulanat/",
-	},
-	{
-		name: "Prof. Kshitij Patukale",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1KV_cXSKlqWDzryTcKP3fmlWHdI14e7_f",
-			alt: "Prof. Kshitij Patukale",
-		},
-		details:
-			"Founder-Director, Bhishma School of Indic Studies, Pune",
-		social: "https://www.linkedin.com",
-	},
-	{
-		name: "Mr. Dinanath Kholkar",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=16yJ88RmVPKXzwrzmlmMl6aEFpNGVS9su",
-			alt: "Mr. Dinanath Kholkar",
-		},
-		details:
-			"Senior Vice President and Global Head of Partner Ecosystems & Alliances at TCS",
-		social: "https://www.linkedin.com/in/dinanathkholkar/",
-	},
-	{
-		name: "Ms. Ishika Nirula",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1Xw9bR92rbRva4FaVsMDSkhozJ9c9v03h",
-			alt: "Ms. Ishika Nirula",
-		},
-		details:
-			"Founder & CEO of Women In Business Network Organization",
-		social: "https://www.linkedin.com/in/ishika-nirula-546b34191/",
-	},
-	{
-		name: "Dr. Ravindra Dey",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1ImcvSez-j6W7PBMETINm1e0rGiq4646d",
-			alt: "Dr. Ravindra Dey",
-		},
-		details:
-			"Professor (Head of OB and HR) at Xavier Institute of Management and Research, Mumbai",
-		social: "https://www.linkedin.com/in/dr-ravindra-dey-4702625/",
-	},
-	{
-		name: "Mr. Suraj Chaurasiya",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=16cG7_wfv0xVWB6exk2bXgKlni0dKMn9B",
-			alt: "Mr. Suraj Chaurasiya",
-		},
-		details:
-			"SCM at Bayer AG, Ex. Co-founder EcoBugy (TU Berlin Alumni)",
-		social: "https://www.linkedin.com/in/suraj-mani-chaurasiya-2056a51a/",
-	},
-	{
-		name: "Mr. Shahim Baker",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1qVPiA9qoFeYUr01H9YKtYbhxvfhzAR2O",
-			alt: "Mr. Shahim Baker",
-		},
-		details:
-			"CEO at Baker & Grey, Vice Chair(YP), IEEE India Council",
-		social: "https://www.linkedin.com/in/shahimbaker/",
-	},
-	{
-		name: "Dr. Dasmit Singh",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1DLjfLfZDpuJWq5EnrLvSTsN4bcno4C1r",
-			alt: "Dr. Dasmit Singh",
-		},
-		details:
-			"Professor and Head, Dept. of Paediatric Surgery, B.J. Govt. Medical College and Sassoon Hospital",
-		social: "https://www.linkedin.com",
-	},
-	{
-		name: "Mr. Harbans L Bajaj",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1LG29Veng2N4vZgHQOayQe2MRaA4q9hAN",
-			alt: "Mr. Harbans L Bajaj",
-		},
-		details:
-			"Advisory Board of and Indian Energy Exchange & Joint Electricity Regulatory Commission",
-		social: "https://www.linkedin.com",
-	},
-	{
-		name: "Mr. R Muralidharan",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1OZ4psp2Rzvl4Z9ulIGtrEFsNpb2uLdQ0",
-			alt: "Mr. R Muralidharan",
-		},
-		details:
-			"Chair, LMAG, Bombay Section, CTO at Tata Advanced Systems, Mumbai, INDIA",
-		social: "https://www.linkedin.com",
-	},
-	{
-		name: "Mr.G.S. Mani",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=13Slvau_Xpa_xP9sRNiMVWHeHXYssOOFi",
-			alt: "Mr. G.S. Mani",
-		},
-		details:
-			"Former Chair, IEEE Pune Section",
-		social: "https://www.linkedin.com",
-	},
-	{
-		name: "Er. R.K. Asthana",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1rv_AiL3i_p2f87xv_17DgZU19vH_DnjM",
-			alt: "Er. R.K. Asthana",
-		},
-		details:
-			"Chair, IEEE Region 10 Life Members Committee",
-		social: "https://www.linkedin.com",
-	},
-	{
-		name: "Mr. Koruthu Varughese",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1m69Ek-S3a1Yy21ghSAhig6F9ycoNpT4X",
-			alt: "Mr. Koruthu Varughese",
-		},
-		details:
-			"Chair of IEEE LMAG Kerala, Immediate past Chair of IEEE EMBS Kerala Chapter",
-		social: "https://www.linkedin.com",
-	},
-	{
-		name: "Mr. Puneet Mishra",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1W0mgHQSHLavQKxKy5U_qhL8aMW2zatka",
-			alt: "Mr. Puneet Mishra",
-		},
-		details:
-			"Board of Governor, Global IEEE AESS",
-		social: "https://www.linkedin.com/in/puneet-kumar-mishra-252aba5",
-	},
-	{
-		name: "Mr. John Day",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=138AgJADys7lgxVe6iezdSG2DBLmN7_0Z",
-			alt: "Mr. John Day",
-		},
-		details:
-			"Director, Member Products & Programs at IEEE",
-		social: "https://www.linkedin.com/in/johnday/",
-	},
-	{
-		name: "Ms. Ramya Narendra",
-		image: {
-			src: "https://drive.google.com/uc?export=view&id=1EEObVsjRnqVO0W2i0U01TSewF2ictcwo",
-			alt: "Ms. Ramya Narendra",
-		},
-		details:
-			"Chair YP AG IEEE Hyderabad Section, Lead Ambassdor of IEEE Collabratec",
-		social: "https://www.linkedin.com/in/narendra-ramya/",
-	},
-	
-];
+	const day1 = (
+		<div className="tabs-active" id="oct7">
+			<table cellspacing="0px">
+				<tbody>
+					<tr>
+						<td className="table-title" colspan="3">
+							Friday - October 7<sup>th</sup>, 2022
+						</td>
+					</tr>
+					<tr>
+						<th>Timing</th>
+						<th>Session</th>
+						<th>Speaker</th>
+					</tr>
+					<tr>
+						<td>02:00-4:00pm</td>
+						<td colspan="2">Developing Technical projects for humanity- HTA Workshop</td>
+					</tr>
+					<tr>
+						<td>04:00-05:30pm</td>
+						<td colspan="2">Opening Ceremony</td>
+					</tr>
+					<tr>
+						<td>05:30-06:00pm</td>
+						<td>Investing the Right Way</td>
+						<td>CA Rachana Ranade</td>
+					</tr>
+					<tr>
+						<td>06:00-06:30pm</td>
+						<td className="break" colspan="2">
+							<strong>COFFEE BREAK</strong>
+						</td>
+					</tr>
+					<tr>
+						<td>06:30- 7:10pm</td>
+						<td>Indian Knowledge System</td>
+						<td>Prof. Kshitij Patukale</td>
+					</tr>
+					<tr>
+						<td>07:10- 7:30pm</td>
+						<td>IEEE AESS India Membership Initiatives and Opportunities</td>
+						<td>Mr. Puneet Mishra</td>
+					</tr>
+					<tr>
+						<td>7:30-8:30pm</td>
+						<td colspan="2">Cultural Performance</td>
+					</tr>
+					<tr>
+						<td>8:30pm onwards</td>
+						<td className="break" colspan="2">
+							<strong>DINNER</strong>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	);
 
-export default SpeakerDetails;
+	const day2 = (
+		<div className="tabs" id="oct8">
+			<table cellspacing="0px">
+				<tbody>
+					<tr>
+						<td className="table-title" colspan="3">
+							Saturday - October 8<sup>th</sup>, 2022
+						</td>
+					</tr>
+					<tr>
+						<th>Timing</th>
+						<th>Session</th>
+						<th>Speaker</th>
+					</tr>
+					<tr>
+						<td>8:30-9:00am</td>
+						<td className="break" colspan="2">
+							<strong>BREAKFAST</strong>
+						</td>
+					</tr>
+					<tr>
+						<td rowSpan="2">9:00-9:30am</td>
+						<td rowSpan="2">IEEE Collabratec - Collaborate to Accelerate</td>
+						<td>Mr. John Day</td>
+					</tr>
+					<tr>
+						<td>Ms. Ramya Narendra</td>
+					</tr>
+					<tr>
+						<td rowspan="4">9:30-10:00am</td>
+						<td rowspan="4">Inspiration Station with IEEE Volunteers</td>
+						<td>Mr. Akarsh Ashok</td>
+					</tr>
+					<tr>
+						<td>Mr. Sai Prashanth</td>
+					</tr>
+					<tr>
+						<td>Mr. Niranjan Kumar</td>
+					</tr>
+					<tr>
+						<td>Mr. Rishabh Raj</td>
+					</tr>
+					<tr>
+						<td>10:00-10:30am</td>
+						<td className="break" colspan="2">
+							<strong>COFFEE BREAK</strong>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="4">10:30-1:00pm</td>
+						<td colspan="2">
+							<div
+								className="toggle-table-heading"
+								onClick={(e) => tableToggle(e.target)}
+							>
+								Parallel Session: <strong>IEEE Students</strong>
+							</div>
+							<div className="toggle-table" id="SAC">
+								<table cellspacing="0px">
+									<tr>
+										<th>Timing</th>
+										<th>Session</th>
+										<th>Speaker</th>
+									</tr>
+									<tr>
+										<td>10:30-11:15am</td>
+										<td>Technology for a Sustainable Future</td>
+										<td>Mr. Dinanath Kholkar</td>
+									</tr>
+									<tr>
+										<td>11:15-11:35am</td>
+										<td colSpan="2">Networking Session</td>
+									</tr>
+									<tr>
+										<td>11:35-1:00pm</td>
+										<td>Leadership as a Driver for Entrepreneurship</td>
+										<td>Ms. Ishika Nirula</td>
+									</tr>
+								</table>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div
+								className="toggle-table-heading"
+								onClick={(e) => tableToggle(e.target)}
+							>
+								Parallel Session: <strong>IEEE Young Professionals</strong>
+							</div>
+							<div className="toggle-table" id="YP">
+								<table cellspacing="0px">
+									<tr>
+										<th>Timing</th>
+										<th>Session</th>
+										<th>Speaker</th>
+									</tr>
+									<tr>
+										<td>10:30-11:45am</td>
+										<td>The Skill Drill</td>
+										<td>Dr. Ravindra Dey</td>
+									</tr>
+									<tr>
+										<td>11:45-12:15pm</td>
+										<td>Benefits of being a YP</td>
+										<td>Mr. Shahim Baker</td>
+									</tr>
+									<tr>
+										<td>12:15-1:00pm</td>
+										<td>Systematic Inventive Thinking</td>
+										<td>Mr. Suraj Chaurasiya</td>
+									</tr>
+								</table>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div
+								className="toggle-table-heading"
+								onClick={(e) => tableToggle(e.target)}
+							>
+								Parallel Session: <strong>IEEE Women in Engineering</strong>
+							</div>
+							<div className="toggle-table" id="WIE">
+								<table cellspacing="0px">
+									<tr>
+										<th>Timing</th>
+										<th>Session</th>
+										<th>Speaker</th>
+									</tr>
+									<tr>
+										<td>10:30-11:15pm</td>
+										<td>The Exceptional Go-getter's Tale</td>
+										<td>Ms. Shalaka Verma</td>
+									</tr>
+									<tr>
+										<td>11:15-12:00pm</td>
+										<td>Introduction to Cyber Psychology</td>
+										<td>Ms. Nirali Bhatia</td>
+									</tr>
+									<tr>
+										<td rowspan="4">12:00-1:00pm</td>
+										<td rowspan="4">Hack the Career Break</td>
+										<td>Dr. Mini Ulanat (Moderator)</td>
+									</tr>
+									<tr>
+										<td>Dr. Ramalatha Marimuthu</td>
+									</tr>
+									<tr>
+										<td>Lt. Col. Rohit Mishra</td>
+									</tr>
+									<tr>
+										<td>Major Vandana Sharma</td>
+									</tr>
+								</table>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<div>
+								<div
+									className="toggle-table-heading"
+									onClick={(e) => tableToggle(e.target)}
+								>
+									Parallel Session: <strong>IEEE Life Members</strong>
+								</div>
+								<div className="toggle-table" id="LM">
+									<table cellspacing="0px">
+										<tr>
+											<th>Timing</th>
+											<th>Session</th>
+											<th>Speaker</th>
+										</tr>
+										<tr>
+											<td>10:30 - 11:00am</td>
+											<td>Engineering in Medicine Transforming Health Care</td>
+											<td>Mr. Koruthu Varughese</td>
+										</tr>
+										<tr>
+											<td>11:00 - 11:30am</td>
+											<td>Engineering Strategic Systems</td>
+											<td>Mr. R Muralidharan</td>
+										</tr>
+										<tr>
+											<td>11:30-12:00pm</td>
+											<td>Age is just a Number</td>
+											<td>Mr. G. S. Mani</td>
+										</tr>
+										<tr>
+											<td>12:00 - 12:30pm</td>
+											<td>Climate Change</td>
+											<td>Mr. Harbans L Bajaj</td>
+										</tr>
+										<tr>
+											<td rowspan="3">12:30 - 01:30pm</td>
+											<td rowspan="3">Panel Discussion</td>
+											<td>Mr. Rajendra K. Asthana (Moderator)</td>
+										</tr>
+										<tr>
+											<td>Mr. G. S. Mani</td>
+										</tr>
+										<tr>
+											<td>Mr. Harbans L Bajaj</td>
+										</tr>
+										<tr>
+											<td>03:00 - 07:00pm</td>
+											<td colspan="2">Kelkar Museum Visit</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>01:00-02:00pm</td>
+						<td className="break" colspan="2">
+							<strong>LUNCH</strong>
+						</td>
+					</tr>
+					<tr>
+						<td rowSpan="4">02:00-02:45pm</td>
+						<td rowSpan="4">Chronicles of Eu-Reka</td>
+						<td>Mr. Aniketh Shenoy</td>
+					</tr>
+					<tr>
+						<td>Ms. Khushi Desarda</td>
+					</tr>
+					<tr>
+						<td>Ms. Priyanka Jayakumar</td>
+					</tr>
+					<tr>
+						<td>Mr. G.S. Mani</td>
+					</tr>
+					<tr>
+						<td>02:45-03:15pm</td>
+						<td colspan="2">GMRT Session</td>
+					</tr>
+					<tr>
+						<td>03:15-03:45pm</td>
+						<td>StandUp Comedy</td>
+						<td>Mr. Anil Ventro</td>
+					</tr>
+					<tr>
+						<td>03:45-05:00pm</td>
+						<td colspan="2">Networking Session</td>
+					</tr>
+					<tr>
+						<td>05:30-07:00pm</td>
+						<td colspan="2">Tea Break and National Integrity Exhibition</td>
+					</tr>
+					<tr>
+						<td>07:00-08:00pm</td>
+						<td colspan="2">Cultural Performance</td>
+					</tr>
+					<tr>
+						<td>08:00-08:30pm</td>
+						<td colspan="2">Musical Night</td>
+					</tr>
+					<tr>
+						<td>08:30pm onwards</td>
+						<td className="break" colspan="2">
+							<strong>DINNER</strong>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	);
+
+	const day3 = (
+		<div className="tabs" id="oct9">
+			<table cellspacing="0px">
+				<tr>
+					<td className="table-title" colspan="3">
+						Sunday - October 9<sup>th</sup>, 2022
+					</td>
+				</tr>
+				<tr>
+					<th>Timing</th>
+					<th>Session</th>
+					<th>Speaker</th>
+				</tr>
+				<tr>
+					<td>8:30-9:30am</td>
+					<td className="break" colspan="2">
+						<strong>BREAKFAST</strong>
+					</td>
+				</tr>
+				<tr>
+					<td>09:30-10:10am</td>
+					<td>Instill a Growth Mindset</td>
+					<td>Dr. Dasmit Singh</td>
+				</tr>
+				<tr>
+					<td>10:10- 10:40am</td>
+					<td colspan="2">HTA Session</td>
+				</tr>
+				<tr>
+					<td rowspan="2">10:45-11:30am</td>
+					<td rowspan="2">Music Performance</td>
+					<td>Nishad Mahagaonkar</td>
+				</tr>
+				<tr>
+					<td>Atharva Vaishampayan</td>
+				</tr>
+				<tr>
+					<td>11:30-12:15pm</td>
+					<td colspan="2">Closing Ceremony</td>
+				</tr>
+				<tr>
+					<td>12:30pm onwards</td>
+					<td className="break" colspan="2">
+						<strong>LUNCH & CHECKOUT</strong>
+					</td>
+				</tr>
+			</table>
+		</div>
+	);
+
+	const [day, setDate] = useState(1);
+
+	const [table, setTable] = useState(day1);
+	useEffect(() => {
+		switch (day) {
+			case 1:
+				setTable(day1);
+				break;
+			case 2:
+				setTable(day2);
+				break;
+			case 3:
+				setTable(day3);
+				break;
+
+			default:
+				setTable(day1);
+				break;
+		}
+	}, [day]);
+
+	return (
+		<Container className="schedule"  >
+			<div>
+				<h1 className="Schedule_title">Event Schedule</h1>
+			</div>
+			<center>
+				<div className="tab-action">
+					<button className="action-button" onClick={() => setDate(1)}>
+						<strong>
+							October 7<sup>th</sup>, 2022
+						</strong>
+					</button>
+					<button className="action-button" onClick={() => setDate(2)}>
+						<strong>
+							October 8<sup>th</sup>, 2022
+						</strong>
+					</button>
+					<button className="action-button" onClick={() => setDate(3)}>
+						<strong>
+							October 9<sup>th</sup>, 2022
+						</strong>
+					</button>
+				</div>
+			</center>
+			<div className="schedule">{table}</div>
+		</Container>
+	);
+}
