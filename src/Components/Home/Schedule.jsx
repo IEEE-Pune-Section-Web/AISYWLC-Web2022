@@ -47,12 +47,17 @@ export default function Schedule() {
 						</td>
 					</tr>
 					<tr>
-						<td>06:30- 7:15pm</td>
+						<td>06:30- 7:10pm</td>
 						<td>Indian Knowledge System</td>
 						<td>Prof. Kshitij Patukale</td>
 					</tr>
 					<tr>
-						<td>7:15-8:30pm</td>
+						<td>07:10- 7:30pm</td>
+						<td>IEEE AESS India Membership Initiatives and Opportunities</td>
+						<td>Mr. Puneet Mishra</td>
+					</tr>
+					<tr>
+						<td>7:30-8:30pm</td>
 						<td colspan="2">Cultural Performance</td>
 					</tr>
 					<tr>
@@ -87,12 +92,26 @@ export default function Schedule() {
 						</td>
 					</tr>
 					<tr>
-						<td>9:00-9:30am</td>
-						<td colspan="2">IEEE Collabratec - Collaborate to Accelerate</td>
+						<td rowSpan="2">9:00-9:30am</td>
+						<td rowSpan="2">IEEE Collabratec - Collaborate to Accelerate</td>
+						<td>Mr. John Day</td>
 					</tr>
 					<tr>
-						<td>9:30-10:00am</td>
-						<td colspan="2">Diversity Hiring</td>
+						<td>Ms. Ramya Narendra</td>
+					</tr>
+					<tr>
+						<td rowspan="4">9:30-10:00am</td>
+						<td rowspan="4">Inspiration Station with IEEE Volunteers</td>
+						<td>Mr. Akarsh Ashok</td>
+					</tr>
+					<tr>
+						<td>Mr. Sai Prashanth</td>
+					</tr>
+					<tr>
+						<td>Mr. Niranjan Kumar</td>
+					</tr>
+					<tr>
+						<td>Mr. Rishabh Raj</td>
 					</tr>
 					<tr>
 						<td>10:00-10:30am</td>
@@ -117,12 +136,16 @@ export default function Schedule() {
 										<th>Speaker</th>
 									</tr>
 									<tr>
-										<td>10:30-11:30am</td>
+										<td>10:30-11:15am</td>
 										<td>Technology for a Sustainable Future</td>
 										<td>Mr. Dinanath Kholkar</td>
 									</tr>
 									<tr>
-										<td>11:30-1:00pm</td>
+										<td>11:15-11:35am</td>
+										<td colSpan="2">Networking Session</td>
+									</tr>
+									<tr>
+										<td>11:35-1:00pm</td>
 										<td>Leadership as a Driver for Entrepreneurship</td>
 										<td>Ms. Ishika Nirula</td>
 									</tr>
@@ -230,7 +253,8 @@ export default function Schedule() {
 										</tr>
 										<tr>
 											<td>11:00 - 11:30am</td>
-											<td colspan="2">Networking Session</td>
+											<td>Engineering Strategic Systems</td>
+											<td>Mr. R Muralidharan</td>
 										</tr>
 										<tr>
 											<td>11:30-12:00pm</td>
@@ -269,8 +293,18 @@ export default function Schedule() {
 						</td>
 					</tr>
 					<tr>
-						<td>02:00-02:45pm</td>
-						<td colspan="2">Chronicles of Eu-Reka</td>
+						<td rowSpan="4">02:00-02:45pm</td>
+						<td rowSpan="4">Chronicles of Eu-Reka</td>
+						<td>Mr. Aniketh Shenoy</td>
+					</tr>
+					<tr>
+						<td>Ms. Khushi Desarda</td>
+					</tr>
+					<tr>
+						<td>Ms. Priyanka Jayakumar</td>
+					</tr>
+					<tr>
+						<td>Mr. G.S. Mani</td>
 					</tr>
 					<tr>
 						<td>02:45-03:15pm</td>
@@ -278,14 +312,15 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td>03:15-03:45pm</td>
-						<td colspan="2">Inspiration Station with IEEE Volunteers</td>
+						<td>StandUp Comedy</td>
+						<td>Mr. Anil Ventro</td>
 					</tr>
 					<tr>
-						<td>03:45-05:15pm</td>
+						<td>03:45-05:00pm</td>
 						<td colspan="2">Networking Session</td>
 					</tr>
 					<tr>
-						<td>05:15-07:00pm</td>
+						<td>05:30-07:00pm</td>
 						<td colspan="2">Tea Break and National Integrity Exhibition</td>
 					</tr>
 					<tr>
@@ -327,20 +362,21 @@ export default function Schedule() {
 					</td>
 				</tr>
 				<tr>
-					<td>09:30-10:15am</td>
+					<td>09:30-10:10am</td>
 					<td>Instill a Growth Mindset</td>
 					<td>Dr. Dasmit Singh</td>
 				</tr>
 				<tr>
-					<td>10:15- 10:45am</td>
-					<td className="break" colspan="2">
-						<strong>BREAK</strong>
-					</td>
+					<td>10:10- 10:40am</td>
+					<td colspan="2">HTA Session</td>
 				</tr>
 				<tr>
-					<td>10:45-11:30am</td>
-					<td>Music Performance</td>
+					<td rowspan="2">10:45-11:30am</td>
+					<td rowspan="2">Music Performance</td>
 					<td>Nishad Mahagaonkar</td>
+				</tr>
+				<tr>
+					<td>Atharva Vaishampayan</td>
 				</tr>
 				<tr>
 					<td>11:30-12:15pm</td>

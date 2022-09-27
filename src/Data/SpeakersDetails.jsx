@@ -1,5 +1,4 @@
 // For Images refer this https://stackoverflow.com/questions/15557392/how-do-i-display-images-from-google-drive-on-a-website
-
 const SpeakerDetails = [
 	{
 		name: "Major Vandana Sharma",
@@ -197,7 +196,26 @@ const SpeakerDetails = [
 			"Board of Governor, Global IEEE AESS",
 		social: "https://www.linkedin.com/in/puneet-kumar-mishra-252aba5",
 	},
+	{
+		name: "Mr. John Day",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=138AgJADys7lgxVe6iezdSG2DBLmN7_0Z",
+			alt: "Mr. John Day",
+		},
+		details:
+			"Director, Member Products & Programs at IEEE",
+		social: "https://www.linkedin.com/in/johnday/",
+	},
+	{
+		name: "Ms. Ramya Narendra",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1EEObVsjRnqVO0W2i0U01TSewF2ictcwo",
+			alt: "Ms. Ramya Narendra",
+		},
+		details:
+			"Chair YP AG IEEE Hyderabad Section, Lead Ambassdor of IEEE Collabratec",
+		social: "https://www.linkedin.com/in/narendra-ramya/",
+	},
 	
 ];
-
 export default SpeakerDetails;
