@@ -199,7 +199,7 @@ const SpeakerDetails = [
 	{
 		name: "Mr. John Day",
 		image: {
-			src: "https://drive.google.com/uc?export=view&id=138AgJADys7lgxVe6iezdSG2DBLmN7_0Z",
+			src: "https://drive.google.com/uc?export=view&id=12-hd0-1Oz7wsKl99KS3qfbXyvwsqBCJI",
 			alt: "Mr. John Day",
 		},
 		details:
