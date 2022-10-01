@@ -14,7 +14,11 @@ const CommiteeDetails = [
 				img: "https://drive.google.com/uc?export=view&id=1Ycu0REqEkGOyyI5kOvr48Bo428IevOH-",
 				title: "Secretary, IEEE India Council",
 			},
-
+			{
+				name: "Dr Suresh Nair",
+				img: "https://drive.google.com/uc?export=view&id=1R9FSn8TAku5seiG--lpx8N0WwiJuWAxJ",
+				title: "Chair, IEEE India Council",
+			},
 			{
 				name: "Prof. G.S. Mani",
 				img: "https://drive.google.com/uc?export=view&id=13Slvau_Xpa_xP9sRNiMVWHeHXYssOOFi",
@@ -149,7 +153,7 @@ const CommiteeDetails = [
 		],
 	},
 	{
-		name: "Event Management Leads",
+		name: "AISYWLC'22 Team",
 		members: [
 			{
 				name: "Vaishnavi Nair",
@@ -179,97 +183,317 @@ const CommiteeDetails = [
 			{
 				name: "Saraja Rambole",
 				img: "https://drive.google.com/uc?export=view&id=1MPWQJQwl1qTQEoWcKaqspCqMX1JYHDIo",
-				title: "YP, Speaker Management Team Lead",
+				title: "Speaker Management, YP Track",
 			},
 			{
 				name: "Meghna Das",
 				img: "https://drive.google.com/uc?export=view&id=1Z_yOS4jAHrfhFIV4jMzzlcXtESZas3t8",
-				title: "WIE Track Lead",
+				title: "Speaker Management, WIE Track",
 			},
 			{
 				name: "Akalbir Singh Chadda",
 				img: "https://drive.google.com/uc?export=view&id=1-T8cdmMG04XS4UHVivWqx8-F9qXLT6wP",
-				title: "Student Track Lead",
+				title: "Speaker Management, SAC Track",
 			},
 			{
-				name: "Shreya Ekande",
-				img: "https://drive.google.com/uc?export=view&id=19JD-0YeCUePIqp4wcW-N2qeEiL6ZSgcj",
-				title: "Marketing and Publicity Team Lead",
-			},
-			{
-				name: "Abirami Chandramouli",
-				img: "https://drive.google.com/uc?export=view&id=1dFWY-tzoSRB2Xmg5gELsOn8rIJjdjyBb",
-				title: "Marketing and Publicity Team Lead",
-			},
-			{
-				name: "Parv Gupta",
-				img: "https://drive.google.com/uc?export=view&id=1YS4FDe1pt4pz7ea2q_RnCVwfvdEbKSGn",
-				title: "Website Team Lead",
-			},
-			{
-				name: "Akarsh Ashok",
-				img: "https://drive.google.com/uc?export=view&id=1iDrAI6iWIOXmIiNZh87ARH7b0wgFeraI",
-				title: "Website Team Lead",
-			},
-			{
-				name: "Vaishnavi Gurav",
-				img: "https://drive.google.com/uc?export=view&id=1RAxd-uZ_yuu1sCVkp7VsNXcQBnFCYmXK",
-				title: "Content Team Lead",
-			},
-			{
-				name: "Isha Dasharathe",
-				img: "https://drive.google.com/uc?export=view&id=1vXUXVmpWNhwBAZFIXaCHeHJerSV5HZlq",
-				title: "Content Team Lead",
-			},
-			{
-				name: "Yash Pisey",
-				img: "https://drive.google.com/uc?export=view&id=1Rf-WqD2QxPUCQO_Ul2YjGMvVna-Q51JM",
-				title: "Sponsorship Team Lead",
+				name: "Khushi Bansal",
+				img: "https://drive.google.com/uc?export=view&id=1-T8cdmMG04XS4UHVivWqx8-F9qXLT6wP",
+				title: "Speaker Management Team",
 			},
 			{
 				name: "Aniketh Shenoy",
 				img: "https://drive.google.com/uc?export=view&id=1VhoN43paEOJ9ZO5VOPlScVkG4SEVn_le",
-				title: "Sponsorship Team Lead",
+				title: "Speaker Management & Sponsorship Team",
+			},
+			{
+				name: "Shreya Ekande",
+				img: "https://drive.google.com/uc?export=view&id=19JD-0YeCUePIqp4wcW-N2qeEiL6ZSgcj",
+				title: "Marketing and Publicity Team",
+			},
+			{
+				name: "Rashi Shrivastava",
+				img: "https://drive.google.com/uc?export=view&id=1bJ3Hl1ng6exzJZWSfr-xwiYkLyUPYcF2",
+				title: "Marketing and Publicity Team",
+			},
+			{
+				name: "Abirami Chandramouli",
+				img: "https://drive.google.com/uc?export=view&id=1dFWY-tzoSRB2Xmg5gELsOn8rIJjdjyBb",
+				title: "Marketing and Publicity Team",
+			},
+			{
+				name: "Shivam Grover",
+				img: "https://drive.google.com/uc?export=view&id=1imPdTFgwvAIHujwfCIWUGbqcyCZqWJSR",
+				title: "Marketing and Publicity Team",
+			},
+			{
+				name: "Arushi Bhope",
+				img: "https://drive.google.com/uc?export=view&id=1W3JMwvHlarIvjNH6ylmddHmWiTA82EnS",
+				title: "Marketing and Publicity Team",
+			},
+			{
+				name: "Ruchita Patil",
+				img: "https://drive.google.com/uc?export=view&id=1jIAJd2IflLfP2mszqT4x9NUABhtjs8rT",
+				title: "Marketing and Publicity Team",
+			},
+			{
+				name: "Prasad Babar",
+				img: "https://drive.google.com/uc?export=view&id=1RfQ_rzIaIpcQu10ViV64svfko0UyDktB",
+				title: "Marketing and Publicity Team",
+			},
+			{
+				name: "Parv Gupta",
+				img: "https://drive.google.com/uc?export=view&id=1YS4FDe1pt4pz7ea2q_RnCVwfvdEbKSGn",
+				title: "Website Team",
+			},
+			{
+				name: "Akarsh Ashok",
+				img: "https://drive.google.com/uc?export=view&id=1iDrAI6iWIOXmIiNZh87ARH7b0wgFeraI",
+				title: "Website Team",
+			},
+			{
+				name: "Yash Chavan",
+				img: "https://drive.google.com/uc?export=view&id=1_Cbk0TThVGuR4bLM1ebWON-etGiLn3rh",
+				title: "Website Team",
+			},
+			{
+				name: "Gaurav Boob",
+				img: "https://drive.google.com/uc?export=view&id=1AlghHxhR6PuISKP6BNdgX70Cer7IdYnp",
+				title: "Website Team",
+			},
+			{
+				name: "Mayuri Thorat",
+				img: "https://drive.google.com/uc?export=view&id=1xSa37c_rsPjfAxrqNhcv_AncAfnRJKKg",
+				title: "Website Team",
+			},
+			{
+				name: "Harshwardhan Lokhande",
+				img: "https://drive.google.com/uc?export=view&id=1yrvMxYuwFDwEnouK2Z8h9BsHHNNPwO1K",
+				title: "Website Team",
+			},
+			{
+				name: "Abishlal N S",
+				img: "https://drive.google.com/uc?export=view&id=1L3sx5KRTLI29s-PQpe4BuW92Q5O3PNW4",
+				title: "Website Team",
+			},
+			{
+				name: "Divyansh Bansal",
+				img: "https://drive.google.com/uc?export=view&id=1onxMMffAQHvhlr-InYqpoQRmzDzRXqWi",
+				title: "Website Team",
+			},
+			{
+				name: "Yash Pisey",
+				img: "https://drive.google.com/uc?export=view&id=1Rf-WqD2QxPUCQO_Ul2YjGMvVna-Q51JM",
+				title: "Sponsorship Team",
+			},
+			{
+				name: "Mohit Raj Bhurat",
+				img: "https://drive.google.com/uc?export=view&id=1-vvd8AfIh_qwVqvgfzKa8dtBE4JmCWpP",
+				title: "Sponsorship Team",
+			},
+			{
+				name: "Atul Jha",
+				img: "https://drive.google.com/uc?export=view&id=1zDo3doLBjZd74Fe0FQhEwBcx2oMmVkgN",
+				title: "Sponsorship Team",
+			},
+			{
+				name: "Aarjav Vajpayee",
+				img: "https://drive.google.com/uc?export=view&id=1RuPLXzxoHbg1H_RtxZH8H8Tw5DHbFwik",
+				title: "Sponsorship Team",
 			},
 			{
 				name: "Shatakshi Vishwakarma",
 				img: "https://drive.google.com/uc?export=view&id=1kZF3S4ZPYn_6At13B2ykfPSufeV9AxNU",
-				title: "Design Team Lead",
+				title: "Design Team",
 			},
 			{
 				name: "Joel John Kandathil",
 				img: "https://drive.google.com/uc?export=view&id=1ZAvH_GMEfRAK6Zw5NOwj3RzUIIGjHDgw",
-				title: "Design Team Lead",
+				title: "Design Team",
 			},
 			{
 				name: "Krishna Varshney",
 				img: "https://drive.google.com/uc?export=view&id=1mciX28QKZHxfpvvdCeGb5ezJBmrbrl28",
-				title: "Videography Team Lead",
+				title: "Design Team",
+			},
+			{
+				name: "Prajwal Wakhare",
+				img: "https://drive.google.com/uc?export=view&id=1_mmlaqyEuFH1v-xvWuUM5pxKji0mzZSv",
+				title: "Design Team",
+			},
+			{
+				name: "Gopisetty Haritha",
+				img: "https://drive.google.com/uc?export=view&id=1VTXJgn1ONU_HLeaCjWqqoXSoVF7WRUQZ",
+				title: "Design Team",
+			},
+			{
+				name: "Dev Jadav",
+				img: "https://drive.google.com/uc?export=view&id=1S2qJ8PxeBH9pmzlZQHHJlDDaobntUJ-M",
+				title: "Design Team",
+			},
+			{
+				name: "Mohammed Aashik",
+				img: "https://drive.google.com/uc?export=view&id=17Cc20Q2hGSyQwqDJtp6h-p5SBW1PUJrF",
+				title: "Design Team",
 			},
 			{
 				name: "Shivraj Patil",
 				img: "https://drive.google.com/uc?export=view&id=1YHXoGWBoDhcBHgimLe7ImL0KeZoZ_fLN",
-				title: "Technical Team Lead",
+				title: "Technical Team",
+			},
+			/*{
+				name: "K Thomas Mathew",
+				img: "https://drive.google.com/uc?export=",
+				title: "Technical Team",
+			},*/
+			{
+				name: "Gaurav Duhlani",
+				img: "https://drive.google.com/uc?export=view&id=1VrK1GpxPqlmdclUP1MFXAKd7KqrsmK09",
+				title: "Logistics and Hospitality Team",
 			},
 			{
-				name: "Gaurav Nanak Duhlani",
-				img: "https://drive.google.com/uc?export=view&id=1VrK1GpxPqlmdclUP1MFXAKd7KqrsmK09",
-				title: "Traveling and Logistics Team Lead",
+				name: "Gopal Tanpure",
+				img: "https://drive.google.com/uc?export=view&id=1isVszcCX-Otg2eNFNX3SMQhuvPeN5gIn",
+				title: "Logistics and Hospitality Team",
+			},
+			{
+				name: "Iqra Khan",
+				img: "https://drive.google.com/uc?export=1iqPrIWQNqBtuLia0Ouk6W0WdcXel-cq-",
+				title: "Logistics and Hospitality Team",
 			},
 			{
 				name: "Mohammed Khalid",
 				img: "https://drive.google.com/uc?export=view&id=1kTk06B-QR6utfcX3ch5gnJOXbYsOrs0J",
-				title: "Traveling and Logistics Team Lead",
+				title: "Logistics and Hospitality & Anchoring Team",
 			},
 			{
 				name: "Nishita Pali",
 				img: "https://drive.google.com/uc?export=view&id=1iM6MlP2mLZRlJFI7AtEbi5DNIeKtT88D",
-				title: "Registration Team Lead",
+				title: "Registration Team",
+			},
+			{
+				name: "Samruddhi Naukudkar",
+				img: "https://drive.google.com/uc?export=view&id=1l3spkHevWNLSAIBW8418PXJgSvbZbBZa",
+				title: "Registration Team",
+			},
+			{
+				name: "Dikshita S Aladakatti",
+				img: "https://drive.google.com/uc?export=view&id=1e4svaIWLkxz6Ue5cM9BciovprkWMfQ2M",
+				title: "Registration Team",
+			},
+			/*
+				name: "Shantosh Cumarasurier",
+				img: "https://drive.google.com/uc?export=view&id=",
+				title: "Registration Team",
+			},*/
+			{
+				name: "Adil Shaikh",
+				img: "https://drive.google.com/uc?export=view&id=1dep5vK1x-dkaw3NwcsNDO1vgEeXb5_Im",
+				title: "Networking Team",
+			},
+			{
+				name: "Ridham Chitre",
+				img: "https://drive.google.com/uc?export=view&id=1PtCOJQDltBEIeuiiK4VUSkvqcJJyGQEv",
+				title: "Networking Team",
+			},
+			{
+				name: "Aparna Ganesh",
+				img: "https://drive.google.com/uc?export=view&id=1uu5tQUVhP-JXvOOegwQgwYa10mQ9tK2m",
+				title: "Networking Team",
+			},
+			{
+				name: "Akhilesh Sobilla",
+				img: "https://drive.google.com/uc?export=view&id=1XSKjQFY8cnuOb6aQ2YsX7scOcxqXYwGc",
+				title: "Networking Team",
 			},
 			{
 				name: "Priya Sirsat",
 				img: "https://drive.google.com/uc?export=view&id=1huLz9BqKesqR01gqTZK8MOpbe8VW6DHb",
-				title: "Anchoring Team Lead",
+				title: "Anchoring Team",
+			},
+			{
+				name: "Sohan Joshi",
+				img: "https://drive.google.com/uc?export=view&id=1_FTnlJFm6kgT_gOh775ckfon8bEZRI3J",
+				title: "Anchoring Team",
+			},
+			{
+				name: "Samiksha Mulik",
+				img: "https://drive.google.com/uc?export=view&id=1gD3dUNbUgIXGxU2HdxJmtsX-jJ-cO_y5",
+				title: "Anchoring Team",
+			},
+			{
+				name: "Vaishnavi Arora",
+				img: "https://drive.google.com/uc?export=view&id=17ZJ5qQI0AsjnEXzLMVCGK199bS4tYD-b",
+				title: "Anchoring Team & WIE Track",
+			},
+			{
+				name: "Soumil Khanna",
+				img: "https://drive.google.com/uc?export=view&id=1FAtaups6n_SWmK1o8miQ5RNOShObP2UC",
+				title: "Anchoring Team",
+			},
+			{
+				name: "Sheryl Thoppil",
+				img: "https://drive.google.com/uc?export=view&id=1d8tuaFEOjQEk8c-aVz00Lr4mPlFRfTtK",
+				title: "Anchoring Team & YP Track",
+			},
+			{
+				name: "Vaishnavi Gurav",
+				img: "https://drive.google.com/uc?export=view&id=1RAxd-uZ_yuu1sCVkp7VsNXcQBnFCYmXK",
+				title: "Content Team",
+			},
+			{
+				name: "Isha Dasharathe",
+				img: "https://drive.google.com/uc?export=view&id=1vXUXVmpWNhwBAZFIXaCHeHJerSV5HZlq",
+				title: "Content Team",
+			},
+			{
+				name: "Srishti Tiwari",
+				img: "https://drive.google.com/uc?export=view&id=1Z4DNJfF3UcORsCgkEQ3OegeTxV1yO4Ce",
+				title: "Content Team",
+			},
+			{
+				name: "Saurabh Kumar",
+				img: "https://drive.google.com/uc?export=view&id=1pw3gijRXvtgDIDe-uH4WmHThtLTna-7K",
+				title: "Content Team",
+			},
+			{
+				name: "VN Mani Sha",
+				img: "https://drive.google.com/uc?export=view&id=1z5jsqevjdfgJxKqWQhNmVeT9MEPO6IwI",
+				title: "Content Team",
+			},
+			{
+				name: "Manoj Kumar",
+				img: "https://drive.google.com/uc?export=view&id=1x-16_hNxGmc_VPp9oFwlQnf_V7_-Cf35",
+				title: "Content Team",
+			},
+			{
+				name: "Gouri Badiger",
+				img: "https://drive.google.com/uc?export=view&id=1Ue-ydsf1ySGK33RVP3Vl1zo2W43J_--X",
+				title: "Content Team",
+			},
+			{
+				name: "Vedant Dumbhare",
+				img: "https://drive.google.com/uc?export=view&id=1ZE9qNdn8scUvRe_rYOxAfsAY-qrVMA5u",
+				title: "Content Team",
+			},
+			{
+				name: "Hemant Date",
+				img: "https://drive.google.com/uc?export=view&id=1pU5PIZehQWZ4-0iq8fTqzeW6yj8Fx7MI",
+				title: "Content Team",
+			},
+			{
+				name: "Rutuja Jangle",
+				img: "https://drive.google.com/uc?export=view&id=1-bS9tJ-rszKZavge5xgx9nZ-QQJx0uG0",
+				title: "WIE Track",
+			},
+			{
+				name: "Chaitanyasuma Jain",
+				img: "https://drive.google.com/uc?export=view&id=1NSFzaU6Vv_KXxCpmObWXKh_c-7n0DNtX",
+				title: "YP Track",
+			},
+			{
+				name: "Devang Pingle",
+				img: "https://drive.google.com/uc?export=view&id=1_XQe8CwOlNWRmzp43_dcJgQLCsHMZWss",
+				title: "SAC Track, Networking Team",
 			},
 		],
 	},
