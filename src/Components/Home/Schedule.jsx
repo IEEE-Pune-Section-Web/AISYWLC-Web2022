@@ -101,7 +101,7 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td rowspan="4">9:30-10:00am</td>
-						<td rowspan="4">Inspiration Station with IEEE Volunteers</td>
+						<td rowspan="3">Inspiration Station with IEEE Volunteers</td>
 						<td>Mr. Akarsh Ashok</td>
 					</tr>
 					<tr>
@@ -109,9 +109,6 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td>Mr. Niranjan Kumar</td>
-					</tr>
-					<tr>
-						<td>Mr. Rishabh Raj</td>
 					</tr>
 					<tr>
 						<td>10:00-10:30am</td>
