@@ -31,6 +31,11 @@ export default function Sponsors() {
 							className="Sponsor-img"
 						/>
 						<img
+							src="https://drive.google.com/uc?export=view&id=14DZMpJT0C5c4X0aJABt1uaVhxxBIaGqF"
+							alt="R10-HTA"
+							className="Sponsor-img"
+						/>
+						<img
 							src="https://drive.google.com/uc?export=view&id=1K2KzYqmMgKzuxgjGVghPKdkpwXsBDP6N"
 							alt="Student"
 							className="Sponsor-img"
