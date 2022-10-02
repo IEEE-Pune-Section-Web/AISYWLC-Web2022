@@ -203,7 +203,7 @@ const CommiteeDetails = [
 			{
 				name: "Aniketh Shenoy",
 				img: "https://drive.google.com/uc?export=view&id=1VhoN43paEOJ9ZO5VOPlScVkG4SEVn_le",
-				title: "Speaker Management & Sponsorship Team",
+				title: "Speaker Management, Sponsorship & Anchoring Team",
 			},
 			{
 				name: "Shreya Ekande",
