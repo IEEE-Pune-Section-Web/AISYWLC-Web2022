@@ -197,7 +197,7 @@ const CommiteeDetails = [
 			},
 			{
 				name: "Khushi Bansal",
-				img: "https://drive.google.com/uc?export=view&id=1-T8cdmMG04XS4UHVivWqx8-F9qXLT6wP",
+				img: "https://drive.google.com/uc?export=view&id=1KTJcGrwxW2aQK5vbHYIPBDGau5RX1gFN",
 				title: "Speaker Management Team",
 			},
 			{
