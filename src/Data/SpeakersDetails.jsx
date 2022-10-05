@@ -304,5 +304,59 @@ const SpeakerDetails = [
 		details: "Reader-F at NCRA-TIFR",
 		social: "https://www.linkedin.com/",
 	},
+	{
+		name: "Dr. Prerna Gaur",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1q4kk7Pi1IkQTDu2PL15vu5w_0umfUaXI",
+			alt: "Dr. Prerna Gaur",
+		},
+		details: "Treasurer, IEEE India Council",
+		social: "https://www.linkedin.com/",
+	},
+	{
+		name: "Dr. Sri Niwas Singh",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1EcRICJhw2NHIRWWS1lKVIvrPqnFnO7YQ",
+			alt: "Dr. Sri Niwas Singh",
+		},
+		details: "Immediate Past Chair, IEEE India Council",
+		social: "https://www.linkedin.com/",
+	},
+	{
+		name: "Dr. R. B. Jadeja",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1GbzVcgsEu50fBfNrXaOWCvb_gTqUN6Ta",
+			alt: "Dr. R. B. Jadeja",
+		},
+		details: "Vice Chair – Branding & Member Benefits, IEEE India Council",
+		social: "https://www.linkedin.com/",
+	},
+	{
+		name: "Dr. B. Satyanarayana",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1CJ3WYphKQYEfL25KhwG94oEL5aTUPB4Y",
+			alt: "Dr. B. Satyanarayana",
+		},
+		details: "Chair, IEEE Bombay Section",
+		social: "https://www.linkedin.com/",
+	},
+	{
+		name: "Dr. K. Porkumaran",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1Sb8CYUHtDPJkCMZjBEVOQ-WtSKw5eTX0",
+			alt: "Dr. K. Porkumaran",
+		},
+		details: "Chair, IEEE Madras Section",
+		social: "https://www.linkedin.com/",
+	},
+	{
+		name: "Dr. Satish Singh",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1uNKOJ8devlAy6nkElzvxzcobNhq-mx7a",
+			alt: "Dr. Satish Singh",
+		},
+		details: "Chair, IEEE Uttar Pradesh Section",
+		social: "https://www.linkedin.com/",
+	},
 ];
 export default SpeakerDetails;
