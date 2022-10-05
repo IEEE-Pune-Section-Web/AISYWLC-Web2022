@@ -90,7 +90,7 @@ export default function Schedule() {
 						<th>Speaker</th>
 					</tr>
 					<tr>
-						<td>07:30-09:00am</td>
+						<td>07:30-08:00am</td>
 						<td className="break" colspan="2">
 							<strong>BREAKFAST</strong>
 						</td>
@@ -374,22 +374,22 @@ export default function Schedule() {
 					<th>Speaker</th>
 				</tr>
 				<tr>
-					<td>8:30-9:30am</td>
+					<td>07:00-08:00am</td>
 					<td className="break" colspan="2">
 						<strong>BREAKFAST</strong>
 					</td>
 				</tr>
 				<tr>
-					<td>09:30-10:10am</td>
+					<td>09:30-10:15am</td>
 					<td>Instill a Growth Mindset</td>
 					<td>Dr. Dasmit Singh</td>
 				</tr>
 				<tr>
-					<td>10:10- 10:40am</td>
+					<td>10:15-10:30am</td>
 					<td colspan="2">IEEE Pune SPS</td>
 				</tr>
 				<tr>
-					<td rowspan="2">10:45-11:30am</td>
+					<td rowspan="2">10:30-11:00am</td>
 					<td rowspan="2">Music Performance</td>
 					<td>Nishad Mahagaonkar</td>
 				</tr>
@@ -397,16 +397,22 @@ export default function Schedule() {
 					<td>Atharva Vaishampayan</td>
 				</tr>
 				<tr>
-					<td>11:15-11:45am</td>
+					<td>11:00-11:30am</td>
+					<td className="break" colspan="2">
+						<strong>BREAK</strong>
+					</td>
+				</tr>
+				<tr>
+					<td>11:30-11:45am</td>
 					<td>IEEE Computer Society: Membership & Opportunities</td>
 					<td>Dr. Mohamed Rawidean Mohd Kassim</td>
 				</tr>
 				<tr>
-					<td>11:45-01:00pm</td>
+					<td>11:45-12:30pm</td>
 					<td colspan="2">Closing Ceremony</td>
 				</tr>
 				<tr>
-					<td>01:00pm onwards</td>
+					<td>12:30pm onwards</td>
 					<td className="break" colspan="2">
 						<strong>LUNCH & CHECKOUT</strong>
 					</td>
