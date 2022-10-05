@@ -33,7 +33,7 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td>04:00-05:30pm</td>
-						<td colspan="2">Opening Ceremony</td>
+						<td colspan="2">Inauguration Ceremony</td>
 					</tr>
 					<tr>
 						<td>05:30-06:00pm</td>
@@ -57,8 +57,12 @@ export default function Schedule() {
 						<td>Mr. Puneet Mishra</td>
 					</tr>
 					<tr>
-						<td>7:30-8:30pm</td>
-						<td colspan="2">Cultural Performance</td>
+						<td rowspan="2">7:30-8:30pm</td>
+						<td rowspan="2">Music Performance</td>
+						<td>Swapnaja Lele</td>
+					</tr>
+					<tr>
+						<td>Rohit Mhaskar</td>
 					</tr>
 					<tr>
 						<td>8:30pm onwards</td>
@@ -86,7 +90,7 @@ export default function Schedule() {
 						<th>Speaker</th>
 					</tr>
 					<tr>
-						<td>8:30-9:00am</td>
+						<td>07:30-08:00am</td>
 						<td className="break" colspan="2">
 							<strong>BREAKFAST</strong>
 						</td>
@@ -100,7 +104,7 @@ export default function Schedule() {
 						<td>Ms. Ramya Narendra</td>
 					</tr>
 					<tr>
-						<td rowspan="4">9:30-10:00am</td>
+						<td rowspan="3">9:30-10:00am</td>
 						<td rowspan="3">Inspiration Station with IEEE Volunteers</td>
 						<td>Mr. Akarsh Ashok</td>
 					</tr>
@@ -138,11 +142,27 @@ export default function Schedule() {
 										<td>Mr. Dinanath Kholkar</td>
 									</tr>
 									<tr>
-										<td>11:15-11:35am</td>
-										<td colSpan="2">Networking Session</td>
+										<td rowspan="6">11:15-11:45am</td>
+										<td rowspan="6">Unraveling the IEEE Potential</td>
+										<td>Dr. Prerna Gaur</td>
 									</tr>
 									<tr>
-										<td>11:35-1:00pm</td>
+										<td>Dr. Sri Niwas Singh</td>
+									</tr>
+									<tr>
+										<td>Dr. R. B. Jadeja</td>
+									</tr>
+									<tr>
+										<td>Dr. B. Satyanarayana</td>
+									</tr>
+									<tr>
+										<td>Dr. K. Porkumaran</td>
+									</tr>
+									<tr>
+										<td>Dr. Satish Singh</td>
+									</tr>
+									<tr>
+										<td>11:45-1:00pm</td>
 										<td>Leadership as a Driver for Entrepreneurship</td>
 										<td>Ms. Ishika Nirula</td>
 									</tr>
@@ -166,17 +186,17 @@ export default function Schedule() {
 										<th>Speaker</th>
 									</tr>
 									<tr>
-										<td>10:30-11:45am</td>
+										<td>10:30-11:30am</td>
 										<td>The Skill Drill</td>
 										<td>Dr. Ravindra Dey</td>
 									</tr>
 									<tr>
-										<td>11:45-12:15pm</td>
+										<td>11:30-12:00pm</td>
 										<td>Benefits of being a YP</td>
 										<td>Mr. Shahim Baker</td>
 									</tr>
 									<tr>
-										<td>12:15-1:00pm</td>
+										<td>12:00-1:00pm</td>
 										<td>Systematic Inventive Thinking</td>
 										<td>Mr. Suraj Chaurasiya</td>
 									</tr>
@@ -264,9 +284,12 @@ export default function Schedule() {
 											<td>Mr. Harbans L Bajaj</td>
 										</tr>
 										<tr>
-											<td rowspan="3">12:30 - 01:30pm</td>
-											<td rowspan="3">Panel Discussion</td>
+											<td rowspan="4">12:30 - 01:30pm</td>
+											<td rowspan="4">Panel Discussion</td>
 											<td>Mr. Rajendra K. Asthana (Moderator)</td>
+										</tr>
+										<tr>
+											<td>Mr. Sundaresh S.</td>
 										</tr>
 										<tr>
 											<td>Mr. G. S. Mani</td>
@@ -305,7 +328,8 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td>02:45-03:15pm</td>
-						<td colspan="2">GMRT Session</td>
+						<td>The GMRT: A technology gateway to reveal the mystery of the universe</td>
+						<td>Dr. Jayanta Roy</td>
 					</tr>
 					<tr>
 						<td>03:15-03:45pm</td>
@@ -326,7 +350,7 @@ export default function Schedule() {
 					</tr>
 					<tr>
 						<td>08:00-08:30pm</td>
-						<td colspan="2">Musical Night</td>
+						<td colspan="2">Dance Night</td>
 					</tr>
 					<tr>
 						<td>08:30pm onwards</td>
@@ -353,22 +377,22 @@ export default function Schedule() {
 					<th>Speaker</th>
 				</tr>
 				<tr>
-					<td>8:30-9:30am</td>
+					<td>07:00-08:00am</td>
 					<td className="break" colspan="2">
 						<strong>BREAKFAST</strong>
 					</td>
 				</tr>
 				<tr>
-					<td>09:30-10:10am</td>
+					<td>09:30-10:15am</td>
 					<td>Instill a Growth Mindset</td>
 					<td>Dr. Dasmit Singh</td>
 				</tr>
 				<tr>
-					<td>10:10- 10:40am</td>
-					<td colspan="2">HTA Session</td>
+					<td>10:15-10:30am</td>
+					<td colspan="2">IEEE Pune SPS</td>
 				</tr>
 				<tr>
-					<td rowspan="2">10:45-11:30am</td>
+					<td rowspan="2">10:30-11:00am</td>
 					<td rowspan="2">Music Performance</td>
 					<td>Nishad Mahagaonkar</td>
 				</tr>
@@ -376,7 +400,18 @@ export default function Schedule() {
 					<td>Atharva Vaishampayan</td>
 				</tr>
 				<tr>
-					<td>11:30-12:15pm</td>
+					<td>11:00-11:30am</td>
+					<td className="break" colspan="2">
+						<strong>BREAK</strong>
+					</td>
+				</tr>
+				<tr>
+					<td>11:30-11:45am</td>
+					<td>IEEE Computer Society: Membership & Opportunities</td>
+					<td>Dr. Mohamed Rawidean Mohd Kassim</td>
+				</tr>
+				<tr>
+					<td>11:45-12:30pm</td>
 					<td colspan="2">Closing Ceremony</td>
 				</tr>
 				<tr>

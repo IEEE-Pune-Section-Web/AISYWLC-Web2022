@@ -20,7 +20,7 @@ const SpeakerDetails = [
 		social: "https://www.linkedin.com/in/ramalatha-marimuthu-995b4a15/",
 	},
 	{
-		name: "Lt.Col.Rohit Mishra",
+		name: "Lt.Col. Rohit Mishra",
 		image: {
 			src: "https://drive.google.com/uc?export=view&id=1rOqrs7tdPC_e_AetbTBsvHZY2BL6v8x7",
 			alt: "Lt.Col.Rohit Mishra",
@@ -38,7 +38,7 @@ const SpeakerDetails = [
 		social: "https://www.linkedin.com/in/carachanaranade/",
 	},
 	{
-		name: "Ms.Shalaka Verma",
+		name: "Ms. Shalaka Verma",
 		image: {
 			src: "https://drive.google.com/uc?export=view&id=17F_Cmuwk_JwXr9MKg3CPQpNZtBzbEQ7P",
 			alt: "Ms.Shalaka Verma",
@@ -47,7 +47,7 @@ const SpeakerDetails = [
 		social: "https://www.linkedin.com/in/shalakaverma/",
 	},
 	{
-		name: "Ms.Nirali Bhatia",
+		name: "Ms. Nirali Bhatia",
 		image: {
 			src: "https://drive.google.com/uc?export=view&id=1YqrqPdi6aUT6O_VpC93T643QEExEknYg",
 			alt: "Ms.Nirali Bhatia",
@@ -157,7 +157,7 @@ const SpeakerDetails = [
 		social: "https://www.linkedin.com",
 	},
 	{
-		name: "Mr.G.S. Mani",
+		name: "Mr. G.S. Mani",
 		image: {
 			src: "https://drive.google.com/uc?export=view&id=13Slvau_Xpa_xP9sRNiMVWHeHXYssOOFi",
 			alt: "Mr. G.S. Mani",
@@ -184,6 +184,16 @@ const SpeakerDetails = [
 		},
 		details:
 			"Chair of IEEE LMAG Kerala, Immediate past Chair of IEEE EMBS Kerala Chapter",
+		social: "https://www.linkedin.com",
+	},
+	{
+		name: "Mr. Sundaresh Subramaniam",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1kIEsNjxf36IWu4CjEAdw8XKFOCBSf17K",
+			alt: "Mr. Sundaresh Subramaniam",
+		},
+		details:
+			"Chair, LMAG Madras Section",
 		social: "https://www.linkedin.com",
 	},
 	{
@@ -216,6 +226,83 @@ const SpeakerDetails = [
 			"Chair YP AG IEEE Hyderabad Section, Lead Ambassdor of IEEE Collabratec",
 		social: "https://www.linkedin.com/in/narendra-ramya/",
 	},
-	
+	{
+		name: "Mr. Sai Prashanth Mallellu",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1I60XrJ6UZ1ZF37N7YG6iaAYAk2BLJDi3",
+			alt: "Mr. Sai Prashanth Mallellu",
+		},
+		details:
+			"YP Representative, IEEE Education Society BOG, IEEE Computer Society REM Scholar",
+		social: "https://www.linkedin.com/in/sai-prashanth-mallellu-bab491196/",
+	},
+	{
+		name: "Mr. Niranjan Kumar S",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1Il2xAJ8p7l351OCAuxiwQVsb-5bUO6aK",
+			alt: "Mr. Niranjan Kumar S",
+		},
+		details:
+			"Richard E Merwin Scholar, Chair - IEEE Computer Society SB Chapter, Chair - IEEE SAC",
+		social: "https://www.linkedin.com/in/niranjan-kumar-s-a9205b183/",
+	},
+	{
+		name: "Mr. Akarsh Ashok",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1tdjsUzfpZJoIi7haace3I_3PN2cwPqBq",
+			alt: "Mr. Akarsh Ashok",
+		},
+		details:
+			"Webmaster, IEEE PELS SAC, Webmaster, IEEE R10 IMC, Webmaster, IEEE India Council SCT",
+		social: "https://www.linkedin.com/in/akarsh-ashok/",
+	},
+	{
+		name: "Mr. Aniketh Shenoy",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1VhoN43paEOJ9ZO5VOPlScVkG4SEVn_le",
+			alt: "Mr. Aniketh Shenoy",
+		},
+		details:
+			"Webinar, Online Training and Industry Relations Team Coordinator, IEEE India Council",
+		social: "https://www.linkedin.com/in/anikethshenoy/",
+	},
+	{
+		name: "Ms. Khushi Desarda",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1JjgNRFG7aPfk8R1B22gtoXZgaviQtzqw",
+			alt: "Ms. Khushi Desarda",
+		},
+		details:
+			"Former TIAA Intern, Pursuing IT Engineering from PCCOE, Pune",
+		social: "https://www.linkedin.com/in/khushi-desarda-3b14531aa/",
+	},
+	{
+		name: "Ms. Priyanka Jayakumar",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=12HKQ4P0FdYSjYc83y1fiqsr19pNAXK7D",
+			alt: "Ms. Priyanka Jayakumar",
+		},
+		details:
+			"Section Student Representative, IEEE Madras Section",
+		social: "https://www.linkedin.com/in/priyanka-jayakumar-8949441b0/",
+	},
+	{
+		name: "Dr. Mohamed Rawidean Mohd Kassim",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1x7A6rqbmRHd78YttUYqxinRBcgmCmW1Q",
+			alt: "Dr. Mohamed Rawidean Mohd Kassim",
+		},
+		details: "R10, Regional Coordinator IEEE Computer Society",
+		social: "https://www.linkedin.com/in/mohamed-rawidean-mohd-kassim-977580200/",
+	},
+	{
+		name: "Dr. Jayanta Roy",
+		image: {
+			src: "https://drive.google.com/uc?export=view&id=1yvS9gZKSDSjqBFQlkohyMlE6ehcSG9rk",
+			alt: "Dr. Jayanta Roy",
+		},
+		details: "Reader-F at NCRA-TIFR",
+		social: "https://www.linkedin.com/",
+	},
 ];
 export default SpeakerDetails;
