@@ -284,9 +284,12 @@ export default function Schedule() {
 											<td>Mr. Harbans L Bajaj</td>
 										</tr>
 										<tr>
-											<td rowspan="3">12:30 - 01:30pm</td>
-											<td rowspan="3">Panel Discussion</td>
+											<td rowspan="4">12:30 - 01:30pm</td>
+											<td rowspan="4">Panel Discussion</td>
 											<td>Mr. Rajendra K. Asthana (Moderator)</td>
+										</tr>
+										<tr>
+											<td>Mr. Sundaresh S.</td>
 										</tr>
 										<tr>
 											<td>Mr. G. S. Mani</td>
